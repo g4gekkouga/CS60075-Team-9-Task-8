@@ -10,7 +10,6 @@ from pprint import pprint
 
 nlp = spacy.load("en_core_web_sm")
 
-
 # training data
 train_raw_files = glob.glob("train/text/*.txt")
 train_tsv_files = glob.glob("train/tsv/*.tsv")
@@ -23,7 +22,6 @@ typemap = {
     "MP": "MeasuredProperty",
     "QUAL": "Qualifier",
 }
-
 
 def convert_raw_to_df(train_raw_files):
     """Converts the training raw files into dataframes"""
@@ -69,32 +67,33 @@ def convert_raw_to_df(train_raw_files):
             "noun_phrases",
         ],
     )
+    # pprint(dataframe)
     return dataframe
 
 
 def main():
     # convert training raw files to dataframes for easier usage
     train_text_dataframe = convert_raw_to_df(train_raw_files)
-    train_text_dataframe.to_csv("./train_text_dataframe.csv")
+    train_text_dataframe.to_csv("./csvs/train_text_dataframe.csv")
     exit()
     # convert training tsv files into dataframe for easier usage
     individual_file_df = []
     for tsv_file in train_tsv_files:
         individual_file_df.append(pd.read_csv(tsv_file, sep="\t", header=0))
     train_tsv_dataframe = pd.concat(individual_file_df)
-    train_tsv_dataframe.to_csv("./train_tsv_dataframe.csv")
-    # exit()
+    train_tsv_dataframe.to_csv("./csvs/train_tsv_dataframe.csv")
 
     # do the above for test set
     test_text_dataframe = convert_raw_to_df(test_raw_files)
-    test_text_dataframe.to_csv("./test_text_dataframe.csv")
-
-    #xtrain
-    #ytrain
-    #xtest
-    #ypred
+    test_text_dataframe.to_csv("./csvs/test_text_dataframe.csv")
 
     exit()
+    # xtrain
+    # ytrain
+    # xtest
+    # ypred
+
+    # exit()
 
 
 if __name__ == "__main__":
