@@ -1,0 +1,5 @@
+T1	Quantity 594 609	34 °C and 38 °C
+A1	QuantityQualifier T1 IsList
+T3	Unit 607 609	°C
+T4	MeasuredEntity 107 128	reservoir temperature
+R1	HasQuantity Arg1:T4 Arg2:T1	
