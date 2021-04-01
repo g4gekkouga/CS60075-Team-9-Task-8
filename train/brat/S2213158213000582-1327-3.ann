@@ -1,4 +1,0 @@
-T1	Quantity 701 703	21
-T2	MeasuredEntity 704 724	sub-cortical regions
-R1	HasQuantity Arg1:T2 Arg2:T1	
-A1	IsCount T1
