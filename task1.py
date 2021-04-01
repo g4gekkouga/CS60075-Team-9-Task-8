@@ -10,8 +10,6 @@ from pprint import pprint
 
 nlp = spacy.load("en_core_web_sm")
 
-# # the units to be extracted
-# units = []
 
 # training data
 train_raw_files = glob.glob("train/text/*.txt")
@@ -44,10 +42,7 @@ def convert_raw_to_df(train_raw_files):
                 if "CD" in sentence_pos_tags:
                     documents_of_interest["document_name"].append(doc_name)
                     documents_of_interest["sentence"].append(sentence)
-
                     potential_measurements = []
-                    # print(sentence)
-                    # pprint(sentence.ents)
                     for measurement in sentence.ents:
                         potential_measurements.append(
                             [
@@ -56,18 +51,15 @@ def convert_raw_to_df(train_raw_files):
                                 measurement.end,
                             ]
                         )
-
                     noun_phrases = []
                     for chunk in sentence.noun_chunks:
                         noun_phrases.append(
                             [chunk.text, chunk.start, chunk.end]
                         )
-
                     documents_of_interest["potential_measurements"].append(
                         potential_measurements
                     )
                     documents_of_interest["noun_phrases"].append(noun_phrases)
-        break
     dataframe = pd.DataFrame(
         documents_of_interest,
         columns=[
@@ -77,7 +69,6 @@ def convert_raw_to_df(train_raw_files):
             "noun_phrases",
         ],
     )
-    pprint(dataframe)
     return dataframe
 
 
@@ -92,7 +83,6 @@ def main():
         individual_file_df.append(pd.read_csv(tsv_file, sep="\t", header=0))
     train_tsv_dataframe = pd.concat(individual_file_df)
     train_tsv_dataframe.to_csv("./train_tsv_dataframe.csv")
-    # pprint(train_tsv_dataframe)
     # exit()
 
     # do the above for test set
