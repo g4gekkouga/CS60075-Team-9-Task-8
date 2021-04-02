@@ -1,0 +1,6 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103512003533-5211	1	Quantity	332	341	1	10−5 mbar	
+S0019103512003533-5211	2	Quantity	347	364	2	latitude 78° from	
+S0019103512003533-5211	3	Quantity	451	457	3	10 keV	
+S0019103512003533-5211	4	Quantity	623	633	4	within ±50	
+S0019103512003533-5211	5	Quantity	863	869	5	10 keV	

@@ -1,0 +1,5 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0927024813001955-812	1	Quantity	194	206	1	41.73 mg/mL.	
+S0927024813001955-812	2	Quantity	233	247	2	2 h at 800 rpm	
+S0927024813001955-812	3	Quantity	252	257	3	60 °C	
+S0927024813001955-812	4	Quantity	275	278	4	two	

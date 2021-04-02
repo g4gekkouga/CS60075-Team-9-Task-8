@@ -1,0 +1,9 @@
+spacy==3.0.3
+quantities==0.12.4
+scipy==1.6.1
+sklearn_crfsuite==0.3.6
+pandas==1.2.2
+scikit_learn==0.24.1
+pandasql
+vladiate
+# pandas >= 1.0.0

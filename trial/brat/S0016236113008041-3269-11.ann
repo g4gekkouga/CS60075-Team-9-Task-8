@@ -1,0 +1,9 @@
+T1611	Quantity 996 1000	14.1
+#111	AnnotatorNotes T1611	ppm
+T2111	MeasuredProperty 949 962	concentration
+R31	HasQuantity Arg1:T2111 Arg2:T1611
+T4011	MeasuredEntity 892 894	Zn
+R32	HasProperty Arg1:T4011 Arg2:T2111
+T1311	Unit 1009 1012	ppm
+T2411	Qualifier 1042 1046	1000
+R34	Qualifies Arg1:T2411 Arg2:T1611

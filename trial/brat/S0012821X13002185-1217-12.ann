@@ -1,0 +1,8 @@
+T2413	Quantity 1022 1048	mean and 2SD of 1.23±0.25‰
+#113	AnnotatorNotes T2413	‰
+A113	QuantityQualifier T2413 IsMeanHasSD
+T2513	MeasuredEntity 884 891	Samples
+T2713	Qualifier 949 976	external diatomite standard
+R3	Qualifies Arg1:T2713 Arg2:T2413	
+T2	Unit 1047 1048	‰
+R1	HasQuantity Arg1:T2513 Arg2:T2413	
