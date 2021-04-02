@@ -1,57 +1,31 @@
-#!/usr/bin/env python -W ignore::DeprecationWarning
-# coding: utf-8
-
-# In[132]:
-
-
 import glob
-import re
 from collections import Counter
-
 from quantities.units.area import D
 import pandas as pd
 import sklearn_crfsuite
 import spacy
-import quantities
 from quantities import units
 from quantities.unitquantity import UnitQuantity as UQ
 from sklearn_crfsuite import metrics
-from pprint import pprint
-
 import scipy
 from sklearn.model_selection import RandomizedSearchCV
 from sklearn.metrics import make_scorer
 from sklearn.model_selection import cross_val_score
 from sklearn_crfsuite import scorers
-
-# from sklearn_crfsuite import metrics
-
 import warnings
 
 warnings.filterwarnings("ignore", category=FutureWarning)
 warnings.filterwarnings("ignore", category=DeprecationWarning)
 
-
-# In[133]:
-
-
 tags = {"QUANT": "Quantity"}
 lang_model = spacy.load("en_core_web_sm")
-
-
-# In[197]:
-
 
 units_list = []
 
 train_raw_files = glob.glob("train/text/*.txt")
 train_tsv_files = glob.glob("train/tsv/*.tsv")
-# test_raw_files = glob.glob("trial/txt/*.txt")
 test_raw_files = glob.glob("test/text/*.txt")
-# test_tsv_files = glob.glob("trial/tsv/*.tsv")
-
-
-# In[181]:
+gold_tsv_files = glob.glob("gold/tsv/*.tsv")
 
 
 def raw_text_to_df(raw_files):
@@ -72,7 +46,6 @@ def raw_text_to_df(raw_files):
             file_content = lang_model(file.read())
             for sentence in file_content.sents:
                 sentence_pos_tags = [word.tag_ for word in sentence]
-#                 if "CD" in sentence_pos_tags:
                 documents_of_interest["document_name"].append(doc_name)
                 documents_of_interest["sentence"].append(sentence)
                 entities = []
@@ -88,21 +61,14 @@ def raw_text_to_df(raw_files):
                 noun_phrases = []
 
                 for chunk in sentence.noun_chunks:
-                    noun_phrases.append(
-                        (chunk.text, (chunk.start, chunk.end))
-                    )
+                    noun_phrases.append((chunk.text, (chunk.start, chunk.end)))
                 documents_of_interest["np"].append(noun_phrases)
 
-        # break
     dataframe = pd.DataFrame(
         documents_of_interest,
         columns=["document_name", "sentence", "entities", "np"],
     )
-    # pprint(dataframe)
     return dataframe
-
-
-# In[188]:
 
 
 def get_text_labels(text_dataframe, tsv_dataframe):
@@ -118,6 +84,7 @@ def get_text_labels(text_dataframe, tsv_dataframe):
         doc_id = tsv_dataframe["docId"] == document_name
         for _, annot_row in tsv_dataframe[doc_id].iterrows():
             annotType = annot_row["annotType"]
+
             if annotType == "Qualifier":
                 continue
 
@@ -147,11 +114,8 @@ def get_text_labels(text_dataframe, tsv_dataframe):
     return labels
 
 
-# In[137]:
-
-
 def get_units():
-    units_list = ['%']  # Add possible unit symbols
+    units_list = ["%"]  # Add possible unit symbols % not in the predefined list
     for key, value in units.__dict__.items():
         if isinstance(value, UQ):
             if key not in units_list:
@@ -162,14 +126,8 @@ def get_units():
     return units_list
 
 
-# In[138]:
-
-
 def is_unit(token):
     return token.lower_ in units_list or token.lemma_ in units_list
-
-
-# In[139]:
 
 
 def features_word(word, entities, nouns, length, pos):
@@ -232,9 +190,6 @@ def features_word(word, entities, nouns, length, pos):
     return features
 
 
-# In[140]:
-
-
 def features_sentence(sentence, entities, nouns):
     sentence_features = []
     for i in range(0, len(sentence)):
@@ -245,8 +200,6 @@ def features_sentence(sentence, entities, nouns):
     return sentence_features
 
 
-# In[198]:
-
 def write_predictions_to_tsv(text_dataframe, y_pred):
     tsv_columns = [
         "docId",
@@ -256,7 +209,7 @@ def write_predictions_to_tsv(text_dataframe, y_pred):
         "endOffset",
         "annotId",
         "text",
-        "other"
+        "other",
     ]
     # save the results in appropriate format in a new dataframe
     row_id = 0
@@ -265,83 +218,76 @@ def write_predictions_to_tsv(text_dataframe, y_pred):
     annot_set_index = 1
     annot_index = 1
     for i, text_row in text_dataframe.iterrows():
-        file_name = text_row['document_name']
+        file_name = text_row["document_name"]
         if i > 0 and file_name != prev_file:
             result_df = pd.DataFrame(output_list, columns=tsv_columns)
-            result_df.to_csv('results/' + prev_file + '.tsv', sep="\t", index=False)
+            result_df.to_csv(
+                "results/" + prev_file + ".tsv", sep="\t", index=False
+            )
             output_list = []
             annot_set_index = 1
             annot_index = 1
 
         pred_pos = y_pred[row_id]
         row_id += 1
-        sentence = text_row['sentence']
+        sentence = text_row["sentence"]
         word_ind = 0
 
-        while word_ind < len(pred_pos) :
-            if pred_pos[word_ind] == 'O':
+        while word_ind < len(pred_pos):
+            if pred_pos[word_ind] == "O":
                 word_ind += 1
                 continue
-            
+
             start_ind = word_ind
-            while word_ind < len(pred_pos) and pred_pos[word_ind] == 'QUANT':
+            while word_ind < len(pred_pos) and pred_pos[word_ind] == "QUANT":
                 word_ind += 1
             end_ind = word_ind - 1
-            
-#             quant_text = ""
-#             for x in range(start_ind, end_ind + 1):
-#                 quant_text += sentence[x].text
-#                 if x != end_ind : 
-#                     quant_text += " "
-#             result_df.append([file_name, annot_set_index, tags['QUANT'], sentence[start_ind].i, sentence[end_ind].i + len(sentence[end_ind]), annot_index, quant_text, ""])
-#             result_df.append({
-#                 'docId' : file_name,
-#                 'annotSet' : annot_set_index,
-#                 'annotType' : tags['QUANT'],
-#                 'startOffset' : sentence[start_ind].i,
-#                 'endOffset' : sentence[end_ind].i + len(sentence[end_ind]),
-#                 'annotId' : annot_index,
-#                 'text' : quant_text,
-#                 'other' : "Empty"
-#             }, ignore_index=True)
-            
-            quant_text = sentence.doc[sentence[start_ind].i : sentence[end_ind].i + 1]
-            output_list.append([file_name, annot_set_index, tags['QUANT'], sentence[start_ind].idx, sentence[end_ind].idx + len(sentence[end_ind]), annot_index, quant_text, ""])
+            quant_text = sentence.doc[
+                sentence[start_ind].i : sentence[end_ind].i + 1
+            ]
+            output_list.append(
+                [
+                    file_name,
+                    annot_set_index,
+                    tags["QUANT"],
+                    sentence[start_ind].idx,
+                    sentence[end_ind].idx + len(sentence[end_ind]),
+                    annot_index,
+                    quant_text,
+                    "",
+                ]
+            )
             annot_set_index += 1
             annot_index += 1
-        
+
         prev_file = file_name
-        
+
     result_df = pd.DataFrame(output_list, columns=tsv_columns)
-    result_df.to_csv('results/' + prev_file + '.tsv', sep="\t", index=False)
+    result_df.to_csv("results/" + prev_file + ".tsv", sep="\t", index=False)
     return
 
 
 units_list = get_units()
 
 train_text_dataframe = raw_text_to_df(train_raw_files)
-train_text_dataframe.to_csv("./CSV/train_text_dataframe.csv")
+# train_text_dataframe.to_csv("./CSV/train_text_dataframe.csv")
 
 each_file_df = []
 for tsv_file in train_tsv_files:
     each_file_df.append(pd.read_csv(tsv_file, sep="\t", header=0))
 
 train_tsv_dataframe = pd.concat(each_file_df)
-train_tsv_dataframe.to_csv("./CSV/train_tsv_dataframe.csv")
+# train_tsv_dataframe.to_csv("./CSV/train_tsv_dataframe.csv")
 
 test_text_dataframe = raw_text_to_df(test_raw_files)
-test_text_dataframe.to_csv("./CSV/test_text_dataframe.csv")
+# test_text_dataframe.to_csv("./CSV/test_text_dataframe.csv")
 
-# now operating on the actual test data instead of the trial data hence commenting out.
-# each_file_test = []
-# for tsv_file in test_tsv_files:
-#     each_file_test.append(pd.read_csv(tsv_file, sep="\t", header=0))
+# for analysis purposes
+each_file_df = []
+for tsv_file in gold_tsv_files:
+    each_file_df.append(pd.read_csv(tsv_file, sep="\t", header=0))
 
-# test_tsv_dataframe = pd.concat(each_file_test)
-# test_tsv_dataframe.to_csv("./CSV/test_tsv_dataframe.csv")
-
-
-# In[199]:
+gold_tsv_dataframe = pd.concat(each_file_df)
 
 
 X_train = []
@@ -350,13 +296,7 @@ for _, row in train_text_dataframe.iterrows():
     X_train.append(features)
 
 
-# In[200]:
-
-
 y_train = get_text_labels(train_text_dataframe, train_tsv_dataframe)
-
-
-# In[201]:
 
 
 X_test = []
@@ -365,99 +305,80 @@ for _, row in test_text_dataframe.iterrows():
     X_test.append(features)
 
 
-# In[202]:
-
-
-# y_test = get_text_labels(test_text_dataframe, test_tsv_dataframe)
-
-
-# In[204]:
-
-
-crf = sklearn_crfsuite.CRF(
-    algorithm="lbfgs",
-    c1=0.1,
-    c2=0.1,
-    max_iterations=100,
-    all_possible_transitions=True,
-)
-crf.fit(X_train, y_train)
+# crf = sklearn_crfsuite.CRF(
+#     algorithm="lbfgs",
+#     c1=0.1,
+#     c2=0.1,
+#     max_iterations=100,
+#     all_possible_transitions=True,
+# )
+# crf.fit(X_train, y_train)
 
 
 # In[162]:
 
 
-labels = list(crf.classes_)
-labels.remove("O")
+# labels = list(crf.classes_)
+# labels.remove("O")
 
 
 # In[163]:
 
 
-y_pred = crf.predict(X_test)
+# y_pred = crf.predict(X_test)
 
-sorted_labels = sorted(labels, key=lambda name: (name[1:], name[0]))
+# sorted_labels = sorted(labels, key=lambda name: (name[1:], name[0]))
 
-print("Here")
+# print("Here")
 
 # print(
 #     metrics.flat_classification_report(
 #         y_test, y_pred, labels=sorted_labels, digits=3
 #     )
 # )
-
-
-# In[48]:
-
 
 # Training the model
 
-# crf = sklearn_crfsuite.CRF(
-#     algorithm="lbfgs", max_iterations=100, all_possible_transitions=True
-# )
+crf = sklearn_crfsuite.CRF(
+    algorithm="lbfgs", max_iterations=100, all_possible_transitions=True
+)
 
-# params_space = {
-#     "c1": scipy.stats.expon(scale=0.5),
-#     "c2": scipy.stats.expon(scale=0.05),
-# }
+params_space = {
+    "c1": scipy.stats.expon(scale=0.5),
+    "c2": scipy.stats.expon(scale=0.05),
+}
 
-# labels = ["QUANT"]
-# sorted_labels = sorted(labels, key=lambda name: (name[1:], name[0]))
-
-
-# f1_scorer = make_scorer(
-#     metrics.flat_f1_score, average="weighted", labels=labels
-# )
-
-# rs = RandomizedSearchCV(
-#     crf, params_space, cv=3, verbose=1, n_jobs=-1, n_iter=50, scoring=f1_scorer
-# )
-
-# rs.fit(X_train, y_train)
+labels = ["QUANT"]
+sorted_labels = sorted(labels, key=lambda name: (name[1:], name[0]))
 
 
-# In[52]:
+f1_scorer = make_scorer(
+    metrics.flat_f1_score, average="weighted", labels=labels
+)
+
+rs = RandomizedSearchCV(
+    crf, params_space, cv=3, verbose=1, n_jobs=-1, n_iter=50, scoring=f1_scorer
+)
+
+rs.fit(X_train, y_train)
+
+crf = rs.best_estimator_
+y_pred = crf.predict(X_test)
+
+documents_of_interest = {
+    "document_name": [],
+    "sentence": [],
+    "entities": [],
+    "np": [],
+}
 
 
-# crf = rs.best_estimator_
-# y_pred = crf.predict(X_test)
-
-# documents_of_interest = {
-#     "document_name": [],
-#     "sentence": [],
-#     "entities": [],
-#     "np": [],
-# }
-
-# for i, row in test_text_dataframe.iterrows():
-#     print(row["document_name"])
-#     print(row["sentence"])
-#     print(y_pred[i])
+y_test = get_text_labels(test_text_dataframe, gold_tsv_dataframe)
 
 write_predictions_to_tsv(test_text_dataframe, y_pred)
 
-# print(
-#     metrics.flat_classification_report(
-#         y_test, y_pred, labels=sorted_labels, digits=3
-#     )
-# )
+print(
+    metrics.flat_classification_report(
+        y_test, y_pred, labels=sorted_labels, digits=3
+    )
+)
