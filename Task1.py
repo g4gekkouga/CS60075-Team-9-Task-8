@@ -23,7 +23,13 @@ from sklearn.model_selection import RandomizedSearchCV
 from sklearn.metrics import make_scorer
 from sklearn.model_selection import cross_val_score
 from sklearn_crfsuite import scorers
-from sklearn_crfsuite import metrics
+
+# from sklearn_crfsuite import metrics
+
+import warnings
+
+warnings.filterwarnings("ignore", category=FutureWarning)
+warnings.filterwarnings("ignore", category=DeprecationWarning)
 
 
 # In[133]:
@@ -40,8 +46,9 @@ units_list = []
 
 train_raw_files = glob.glob("train/text/*.txt")
 train_tsv_files = glob.glob("train/tsv/*.tsv")
-test_raw_files = glob.glob("trial/txt/*.txt")
-test_tsv_files = glob.glob("trial/tsv/*.tsv")
+# test_raw_files = glob.glob("trial/txt/*.txt")
+test_raw_files = glob.glob("test/text/*.txt")
+# test_tsv_files = glob.glob("trial/tsv/*.tsv")
 
 
 # In[181]:
@@ -240,6 +247,9 @@ def features_sentence(sentence, entities, nouns):
 
 # In[198]:
 
+def write_predictions_to_tsv(test_text_dataframe, y_pred):
+    pass
+
 
 units_list = get_units()
 
@@ -256,12 +266,13 @@ train_tsv_dataframe.to_csv("./CSV/train_tsv_dataframe.csv")
 test_text_dataframe = raw_text_to_df(test_raw_files)
 test_text_dataframe.to_csv("./CSV/test_text_dataframe.csv")
 
-each_file_test = []
-for tsv_file in test_tsv_files:
-    each_file_test.append(pd.read_csv(tsv_file, sep="\t", header=0))
+# now operating on the actual test data instead of the trial data hence commenting out.
+# each_file_test = []
+# for tsv_file in test_tsv_files:
+#     each_file_test.append(pd.read_csv(tsv_file, sep="\t", header=0))
 
-test_tsv_dataframe = pd.concat(each_file_test)
-test_tsv_dataframe.to_csv("./CSV/test_tsv_dataframe.csv")
+# test_tsv_dataframe = pd.concat(each_file_test)
+# test_tsv_dataframe.to_csv("./CSV/test_tsv_dataframe.csv")
 
 
 # In[199]:
@@ -291,7 +302,7 @@ for _, row in test_text_dataframe.iterrows():
 # In[202]:
 
 
-y_test = get_text_labels(test_text_dataframe, test_tsv_dataframe)
+# y_test = get_text_labels(test_text_dataframe, test_tsv_dataframe)
 
 
 # In[204]:
@@ -363,13 +374,22 @@ rs.fit(X_train, y_train)
 crf = rs.best_estimator_
 y_pred = crf.predict(X_test)
 
-for i, row in test_text_dataframe.iterrows():
-    print(row)
-    print(y_pred[i])
-    # print("feature predicted for the corresponding sentence get the offsets from this")
+# documents_of_interest = {
+#     "document_name": [],
+#     "sentence": [],
+#     "entities": [],
+#     "np": [],
+# }
 
-print(
-    metrics.flat_classification_report(
-        y_test, y_pred, labels=sorted_labels, digits=3
-    )
-)
+# for i, row in test_text_dataframe.iterrows():
+#     print(row["document_name"])
+#     print(row["sentence"])
+#     print(y_pred[i])
+
+write_predictions_to_tsv(test_text_dataframe, y_pred)
+
+# print(
+#     metrics.flat_classification_report(
+#         y_test, y_pred, labels=sorted_labels, digits=3
+#     )
+# )
