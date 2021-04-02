@@ -1,5 +1,6 @@
 import glob
 from collections import Counter
+from numpy import string_
 from quantities.units.area import D
 import pandas as pd
 import sklearn_crfsuite
@@ -43,7 +44,8 @@ def raw_text_to_df(raw_files):
             # print(file.name.split('/')[2])
             doc_name = file.name.split("/")[2]
             doc_name = doc_name.split(".")[0]
-            file_content = lang_model(file.read())
+            file_data = file.read().encode(encoding="UTF-8")
+            file_content = lang_model(file_data)
             for sentence in file_content.sents:
                 sentence_pos_tags = [word.tag_ for word in sentence]
                 documents_of_interest["document_name"].append(doc_name)

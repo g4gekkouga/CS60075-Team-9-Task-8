@@ -1,3 +1,4 @@
 docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
-S0012821X13007309-1649	1	Quantity	542	548	1	−23.7‰	
-S0012821X13007309-1649	2	Quantity	817	829	2	1035.75 mbsf	
+S0012821X13007309-1649	1	Quantity	510	512	1	4‰	
+S0012821X13007309-1649	2	Quantity	533	548	2	−27.7 to −23.7‰	
+S0012821X13007309-1649	3	Quantity	817	829	3	1035.75 mbsf	
