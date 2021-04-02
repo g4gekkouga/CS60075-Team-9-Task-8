@@ -1,0 +1,10 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S2213671113000738-435	1	Quantity	108	109	1	3	
+S2213671113000738-435	1	MeasuredProperty	104	105	2	n	
+S2213671113000738-435	1	MeasuredEntity	70	74	3	Data	
+S2213671113000738-435	2	Quantity	194	200	4	200 μm	
+S2213671113000738-435	2	MeasuredProperty	182	192	7	Scale bars	
+S2213671113000738-435	3	Quantity	213	218	5	50 μm	
+S2213671113000738-435	3	MeasuredEntity	204	211	8	(A)–(H)	
+S2213671113000738-435	4	Quantity	241	247	6	100 μm	
+S2213671113000738-435	4	MeasuredEntity	251	266	10	(J)–(M) and (Q)	

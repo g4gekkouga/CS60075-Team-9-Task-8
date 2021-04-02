@@ -1,0 +1,4 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103512003995-1767	1	Quantity	240	247	1	1083 nm	
+S0019103512003995-1767	1	MeasuredProperty	248	252	2	line	
+S0019103512003995-1767	1	MeasuredEntity	237	239	3	He	

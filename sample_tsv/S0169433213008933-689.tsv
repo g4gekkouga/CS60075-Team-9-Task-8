@@ -1,0 +1,12 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0169433213008933-689	1	Quantity	184	190	1	(80/20	
+S0169433213008933-689	1	MeasuredProperty	169	183	2	gold/palladium	
+S0169433213008933-689	1	MeasuredEntity	192	197	3	alloy	
+S0169433213008933-689	2	Quantity	257	271	4	0.06–0.07 mBar	
+S0169433213008933-689	2	MeasuredProperty	272	280	5	pressure	
+S0169433213008933-689	2	MeasuredEntity	284	289	6	Argon	
+S0169433213008933-689	3	Quantity	323	328	7	240 s	
+S0169433213008933-689	3	MeasuredProperty	309	318	9	processed	
+S0169433213008933-689	3	MeasuredEntity	291	298	11	Samples	
+S0169433213008933-689	4	Quantity	332	337	8	30 mA	
+S0169433213008933-689	4	MeasuredProperty	338	345	10	current	

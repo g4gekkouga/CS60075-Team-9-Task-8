@@ -1,0 +1,15 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0012821X12004384-1249	1	Quantity	19	45	1	57°44’8.47”N; 1°50’26.59”E	
+S0012821X12004384-1249	1	MeasuredEntity	0	17	2	Borehole 22/10a-4	
+S0012821X12004384-1249	2	Quantity	502	523	3	from 2605 m to 2634 m	
+S0012821X12004384-1249	2	MeasuredProperty	525	535	4	core depth	
+S0012821X12004384-1249	2	MeasuredEntity	456	475	5	section of 22/10a-4	
+S0012821X12004384-1249	3	Quantity	698	709	6	2609–2613 m	
+S0012821X12004384-1249	3	MeasuredProperty	724	748	8	becomes finely laminated	
+S0012821X12004384-1249	3	MeasuredEntity	710	723	9	the claystone	
+S0012821X12004384-1249	4	Quantity	797	824	7	ranging from 1 to 25 per mm	
+S0012821X12004384-1249	4	MeasuredEntity	754	796	10	alternately pale and dark laminae couplets	
+S0012821X12004384-1249	5	Quantity	974	985	11	26 horizons	
+S0012821X12004384-1249	5	MeasuredEntity	950	957	13	Laminae	
+S0012821X12004384-1249	6	Quantity	1010	1039	12	approximately 13 pairs per mm	
+S0012821X12004384-1249	6	MeasuredEntity	1001	1005	14	core	

@@ -1,0 +1,5 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0032063312003054-2483	1	Quantity	48	81	1	between ∼01:25:00 UT and 01:25:40	
+S0032063312003054-2483	1	MeasuredProperty	21	33	2	acceleration	
+S0032063312003054-2483	1	MeasuredEntity	37	47	3	heavy-ions	
+S0032063312003054-2483	2	Quantity	82	84	4	UT	

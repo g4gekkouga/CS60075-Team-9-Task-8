@@ -1,0 +1,7 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0378383911001669-1112	1	Quantity	25	28	1	six	
+S0378383911001669-1112	1	MeasuredEntity	29	50	5	measurement locations	
+S0378383911001669-1112	2	Quantity	59	65	2	1.3 mm	
+S0378383911001669-1112	3	Quantity	86	92	3	5.4 mm	
+S0378383911001669-1112	4	Quantity	119	125	4	8.4 mm	
+S0378383911001669-1112	4	MeasuredEntity	146	153	6	beaches	

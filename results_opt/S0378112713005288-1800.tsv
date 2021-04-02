@@ -1,0 +1,9 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0378112713005288-1800	1	Quantity	26	33	1	2 × 2 m	
+S0378112713005288-1800	2	Quantity	525	538	2	height ⩽50 cm	
+S0378112713005288-1800	3	Quantity	558	571	3	height >50 cm	
+S0378112713005288-1800	4	Quantity	714	718	4	<2 m	
+S0378112713005288-1800	5	Quantity	960	965	5	250 m	
+S0378112713005288-1800	6	Quantity	1109	1118	6	2 or more	
+S0378112713005288-1800	7	Quantity	1187	1201	7	more than 100%	
+S0378112713005288-1800	8	Quantity	1774	1795	8	more than a few years	

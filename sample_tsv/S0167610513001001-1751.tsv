@@ -1,0 +1,11 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0167610513001001-1751	1	Quantity	161	168	1	1 m s−1	
+S0167610513001001-1751	1	MeasuredEntity	153	157	2	bins	
+S0167610513001001-1751	2	Quantity	266	269	3	two	
+S0167610513001001-1751	2	MeasuredEntity	270	281	6	instruments	
+S0167610513001001-1751	3	Quantity	355	378	4	between 0 and 0.5 m s−1	
+S0167610513001001-1751	3	MeasuredProperty	346	351	5	speed	
+S0167610513001001-1751	3	MeasuredEntity	341	345	7	wind	
+S0167610513001001-1751	4	Quantity	395	416	8	greater than 20 m s−1	
+S0167610513001001-1751	4	MeasuredProperty	388	394	9	speeds	
+S0167610513001001-1751	4	MeasuredEntity	383	387	10	wind	

@@ -1,0 +1,8 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S175058361300203X-1483	1	Quantity	765	769	1	33 m	
+S175058361300203X-1483	1	MeasuredEntity	753	763	2	upper part	
+S175058361300203X-1483	2	Quantity	1050	1056	3	20–25%	
+S175058361300203X-1483	2	MeasuredProperty	1013	1033	4	effective porosities	
+S175058361300203X-1483	2	MeasuredEntity	918	936	5	channel sandstones	
+S175058361300203X-1483	3	Quantity	1226	1229	6	two	
+S175058361300203X-1483	3	MeasuredEntity	1230	1260	7	high porosity sandstone layers	

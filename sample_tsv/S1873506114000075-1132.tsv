@@ -1,0 +1,4 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S1873506114000075-1132	1	Quantity	55	59	1	48 h	
+S1873506114000075-1132	1	MeasuredProperty	31	38	2	changed	
+S1873506114000075-1132	1	MeasuredEntity	4	26	3	differentiation medium	

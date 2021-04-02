@@ -1,0 +1,22 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0038071712001010-918	1	Quantity	57	64	1	< 0.001	
+S0038071712001010-918	1	MeasuredProperty	55	56	2	P	
+S0038071712001010-918	1	MeasuredEntity	0	37	3	AM fungal inoculum as a single factor	
+S0038071712001010-918	2	Quantity	220	230	4	9.9%–16.2%	
+S0038071712001010-918	2	MeasuredEntity	196	218	7	levels of colonisation	
+S0038071712001010-918	3	Quantity	238	242	5	7.01	
+S0038071712001010-918	3	MeasuredProperty	232	235	6	LSD	
+S0038071712001010-918	4	Quantity	456	461	8	25.4%	
+S0038071712001010-918	4	MeasuredProperty	359	382	10	percentage colonisation	
+S0038071712001010-918	4	MeasuredEntity	403	454	11	two-species mixture of G. geosporum plus G. mosseae	
+S0038071712001010-918	5	Quantity	514	519	9	23.8%	
+S0038071712001010-918	5	MeasuredEntity	480	512	12	combination of all three species	
+S0038071712001010-918	6	Quantity	672	677	13	16.2%	
+S0038071712001010-918	6	MeasuredProperty	522	545	15	Percentage colonisation	
+S0038071712001010-918	7	Quantity	693	697	14	9.9%	
+S0038071712001010-918	7	MeasuredEntity	698	708	17	G. mosseae	
+S0038071712001010-918	8	Quantity	794	798	18	7.5%	
+S0038071712001010-918	8	MeasuredProperty	711	723	20	Colonisation	
+S0038071712001010-918	8	MeasuredEntity	750	780	21	G. mosseae and G. intraradices	
+S0038071712001010-918	9	Quantity	875	880	19	14.2%	
+S0038071712001010-918	9	MeasuredEntity	845	860	22	G. intraradices	

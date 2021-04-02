@@ -1,0 +1,13 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0167610512002292-3305	1	Quantity	17	22	1	three	
+S0167610512002292-3305	1	MeasuredEntity	23	44	5	different simulations	
+S0167610512002292-3305	2	Quantity	75	81	2	1.0 kg	
+S0167610512002292-3305	2	MeasuredEntity	82	87	6	plate	
+S0167610512002292-3305	3	Quantity	105	112	3	6.35 kg	
+S0167610512002292-3305	3	MeasuredEntity	113	118	7	plate	
+S0167610512002292-3305	4	Quantity	172	177	4	12 kg	
+S0167610512002292-3305	4	MeasuredEntity	178	183	8	plate	
+S0167610512002292-3305	5	Quantity	358	364	9	35 m/s	
+S0167610512002292-3305	5	MeasuredProperty	344	354	11	wind speed	
+S0167610512002292-3305	5	MeasuredEntity	309	325	12	inflow condition	
+S0167610512002292-3305	6	Quantity	366	374	10	126 km/h	

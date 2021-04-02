@@ -1,0 +1,8 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S1359835X13001875-1359	1	Quantity	87	90	1	1 m	
+S1359835X13001875-1359	1	MeasuredProperty	68	79	3	side length	
+S1359835X13001875-1359	1	MeasuredEntity	24	53	4	two-dimensional square system	
+S1359835X13001875-1359	2	Quantity	107	130	2	1000 discrete particles	
+S1359835X13001875-1359	3	Quantity	233	241	5	1000 m−2	
+S1359835X13001875-1359	3	MeasuredProperty	205	212	6	density	
+S1359835X13001875-1359	3	MeasuredEntity	198	204	7	number	

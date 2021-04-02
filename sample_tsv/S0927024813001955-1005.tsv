@@ -1,0 +1,7 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0927024813001955-1005	1	Quantity	623	629	1	150 °C	
+S0927024813001955-1005	1	MeasuredProperty	591	605	2	post-annealing	
+S0927024813001955-1005	1	MeasuredEntity	610	619	3	ZnO films	
+S0927024813001955-1005	2	Quantity	766	776	4	up to 100%	
+S0927024813001955-1005	2	MeasuredProperty	777	804	5	visible light transmittance	
+S0927024813001955-1005	2	MeasuredEntity	711	716	6	films	

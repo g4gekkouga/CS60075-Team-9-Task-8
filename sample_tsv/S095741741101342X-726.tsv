@@ -1,0 +1,4 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S095741741101342X-726	1	Quantity	20	26	1	85/15%	
+S095741741101342X-726	1	MeasuredProperty	36	57	2	good/bad observations	
+S095741741101342X-726	1	MeasuredEntity	0	13	3	AR comparison	

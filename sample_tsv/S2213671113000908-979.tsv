@@ -1,0 +1,4 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S2213671113000908-979	1	Quantity	398	403	1	12 hr	
+S2213671113000908-979	1	MeasuredProperty	379	397	2	visually inspected	
+S2213671113000908-979	1	MeasuredEntity	368	373	3	Wells	

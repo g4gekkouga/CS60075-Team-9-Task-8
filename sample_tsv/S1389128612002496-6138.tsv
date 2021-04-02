@@ -1,0 +1,4 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S1389128612002496-6138	1	Quantity	202	229	1	from 0.25 Mbps to 0.01 Mbps	
+S1389128612002496-6138	1	MeasuredProperty	191	200	2	decreases	
+S1389128612002496-6138	1	MeasuredEntity	188	190	3	Rb	

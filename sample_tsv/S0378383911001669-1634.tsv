@@ -1,0 +1,10 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0378383911001669-1634	1	Quantity	149	171	1	approximately 0.1 mg/l	
+S0378383911001669-1634	1	MeasuredProperty	85	100	2	Fluorescent dye	
+S0378383911001669-1634	1	MeasuredEntity	118	123	3	water	
+S0378383911001669-1634	2	Quantity	330	335	4	50 mm	
+S0378383911001669-1634	2	MeasuredProperty	336	354	5	fixed focal length	
+S0378383911001669-1634	2	MeasuredEntity	355	359	6	lens	
+S0378383911001669-1634	3	Quantity	424	428	7	1:10	
+S0378383911001669-1634	3	MeasuredProperty	429	434	8	slope	
+S0378383911001669-1634	3	MeasuredEntity	442	447	9	beach	

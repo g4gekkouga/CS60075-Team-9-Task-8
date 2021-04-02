@@ -1,0 +1,7 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0378112713005288-1916	1	Quantity	434	445	2	up to 100 m	
+S0378112713005288-1916	1	MeasuredProperty	424	433	3	distances	
+S0378112713005288-1916	1	MeasuredEntity	358	418	4	No significant correlation between distance from seed source	
+S0378112713005288-1916	2	Quantity	624	637	5	0.23 and 0.28	
+S0378112713005288-1916	2	MeasuredProperty	620	621	7	R	
+S0378112713005288-1916	3	Quantity	657	667	6	p < 0.0001	

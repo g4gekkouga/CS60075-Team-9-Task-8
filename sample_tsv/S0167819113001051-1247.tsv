@@ -1,0 +1,6 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0167819113001051-1247	1	Quantity	23	31	1	18 cores	
+S0167819113001051-1247	1	MeasuredEntity	14	18	2	node	
+S0167819113001051-1247	2	Quantity	327	349	3	from 50% to around 80%	
+S0167819113001051-1247	2	MeasuredProperty	284	305	4	improve the usability	
+S0167819113001051-1247	2	MeasuredEntity	309	326	5	manufactured dice	

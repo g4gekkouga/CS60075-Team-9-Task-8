@@ -1,0 +1,10 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S1359645413009816-2243	1	Quantity	152	158	1	1.5 nm	
+S1359645413009816-2243	1	MeasuredProperty	130	148	3	nominal resolution	
+S1359645413009816-2243	1	MeasuredEntity	69	121	4	LEO 1525 field emission scanning electron microscope	
+S1359645413009816-2243	2	Quantity	162	167	2	20 kV	
+S1359645413009816-2243	3	Quantity	515	522	5	5 K/min	
+S1359645413009816-2243	3	MeasuredProperty	499	511	7	heating rate	
+S1359645413009816-2243	3	MeasuredEntity	296	314	9	microscopy samples	
+S1359645413009816-2243	4	Quantity	586	600	6	about 30 K/min	
+S1359645413009816-2243	4	MeasuredProperty	536	582	8	rapid cooling to ambient temperature at a rate	

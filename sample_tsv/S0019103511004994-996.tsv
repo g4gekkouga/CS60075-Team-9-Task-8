@@ -1,0 +1,6 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103511004994-996	1	Quantity	289	292	1	0.1	
+S0019103511004994-996	1	MeasuredEntity	275	286	4	parameter a	
+S0019103511004994-996	2	Quantity	328	331	2	10%	
+S0019103511004994-996	2	MeasuredProperty	300	324	3	assumed surface velocity	
+S0019103511004994-996	2	MeasuredEntity	348	365	5	upstream velocity	

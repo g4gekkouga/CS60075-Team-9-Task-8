@@ -1,0 +1,7 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0378383912000130-3745	1	Quantity	8	14	1	8.5 mm	
+S0378383912000130-3745	1	MeasuredEntity	25	34	7	modelling	
+S0378383912000130-3745	2	Quantity	79	86	2	1980 mm	
+S0378383912000130-3745	2	MeasuredProperty	75	76	4	x	
+S0378383912000130-3745	3	Quantity	101	108	3	2780 mm	
+S0378383912000130-3745	3	MeasuredProperty	97	98	5	x	

@@ -1,0 +1,7 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103513005058-4098	1	Quantity	418	437	1	from 211 K to 284 K	
+S0019103513005058-4098	1	MeasuredProperty	408	417	3	increased	
+S0019103513005058-4098	1	MeasuredEntity	385	404	5	surface temperature	
+S0019103513005058-4098	2	Quantity	465	469	2	∼35%	
+S0019103513005058-4098	2	MeasuredProperty	453	461	4	increase	
+S0019103513005058-4098	2	MeasuredEntity	441	452	6	temperature	

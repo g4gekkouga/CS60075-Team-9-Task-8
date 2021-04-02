@@ -1,0 +1,8 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0378383911001669-1088	1	Quantity	78	85	1	0.072 m	
+S0378383911001669-1088	1	MeasuredProperty	74	75	4	x	
+S0378383911001669-1088	1	MeasuredEntity	0	70	5	Depth time-series and depth-averaged bed-parallel velocity time-series	
+S0378383911001669-1088	2	Quantity	94	100	2	1.3 mm	
+S0378383911001669-1088	2	MeasuredEntity	101	117	6	sand-rough beach	
+S0378383911001669-1088	3	Quantity	132	134	3	50	
+S0378383911001669-1088	3	MeasuredEntity	135	152	7	individual events	

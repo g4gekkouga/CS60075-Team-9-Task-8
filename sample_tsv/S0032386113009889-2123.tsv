@@ -1,0 +1,9 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0032386113009889-2123	1	Quantity	1001	1013	1	about 70 MPa	
+S0032386113009889-2123	1	MeasuredProperty	974	997	3	applied uniaxial stress	
+S0032386113009889-2123	1	MeasuredEntity	946	955	5	debonding	
+S0032386113009889-2123	2	Quantity	1073	1086	2	about 210 MPa	
+S0032386113009889-2123	2	MeasuredProperty	1034	1052	4	hydrostatic stress	
+S0032386113009889-2123	3	Quantity	1185	1192	6	210 MPa	
+S0032386113009889-2123	3	MeasuredProperty	1155	1181	7	applied hydrostatic stress	
+S0032386113009889-2123	3	MeasuredEntity	1098	1133	8	finite-element analysis simulations	

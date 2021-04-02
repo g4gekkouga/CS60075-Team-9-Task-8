@@ -1,0 +1,6 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103512004009-4350	1	Quantity	515	522	1	∼1000 K	
+S0019103512004009-4350	1	MeasuredProperty	466	485	3	maximum temperature	
+S0019103512004009-4350	1	MeasuredEntity	493	501	4	C3 model	
+S0019103512004009-4350	2	Quantity	571	583	2	1000–2000 K.	
+S0019103512004009-4350	2	MeasuredEntity	549	557	5	C3 model	

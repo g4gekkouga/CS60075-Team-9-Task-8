@@ -1,0 +1,15 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0012821X13002185-994	1	Quantity	81	89	1	∼33.7 Ma	
+S0012821X13002185-994	1	MeasuredEntity	91	94	2	Oi1	
+S0012821X13002185-994	2	Quantity	368	377	3	up to 40%	
+S0012821X13002185-994	2	MeasuredProperty	316	343	4	siliceous walled autotrophs	
+S0012821X13002185-994	2	MeasuredEntity	381	399	5	primary production	
+S0012821X13002185-994	3	Quantity	895	899	6	0.6‰	
+S0012821X13002185-994	3	MeasuredProperty	900	904	7	rise	
+S0012821X13002185-994	3	MeasuredEntity	908	920	8	diatom δ30Si	
+S0012821X13002185-994	4	Quantity	1078	1082	9	1.5‰	
+S0012821X13002185-994	4	MeasuredProperty	1083	1090	10	decline	
+S0012821X13002185-994	4	MeasuredEntity	1094	1106	11	sponge δ30Si	
+S0012821X13002185-994	5	Quantity	1308	1316	12	∼31.5 Ma	
+S0012821X13002185-994	5	MeasuredProperty	1298	1304	13	peaked	
+S0012821X13002185-994	5	MeasuredEntity	1252	1297	14	Intermediate depth silicic acid concentration	

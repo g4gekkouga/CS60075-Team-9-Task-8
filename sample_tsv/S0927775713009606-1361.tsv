@@ -1,0 +1,11 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0927775713009606-1361	1	Quantity	77	85	1	0.097 nm	
+S0927775713009606-1361	1	MeasuredProperty	61	73	2	ionic radius	
+S0927775713009606-1361	1	MeasuredEntity	33	53	3	divalent cation Cd2+	
+S0927775713009606-1361	2	Quantity	246	249	4	ca.	
+S0927775713009606-1361	2	MeasuredProperty	190	205	5	internal cavity	
+S0927775713009606-1361	2	MeasuredEntity	213	226	6	amylose helix	
+S0927775713009606-1361	3	Quantity	250	260	7	0.4–1.0 nm	
+S0927775713009606-1361	4	Quantity	532	544	8	0.19–0.21 nm	
+S0927775713009606-1361	4	MeasuredProperty	516	525	9	distances	
+S0927775713009606-1361	4	MeasuredEntity	506	515	10	H-bonding	

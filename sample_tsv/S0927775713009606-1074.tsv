@@ -1,0 +1,14 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0927775713009606-1074	1	Quantity	849	856	1	> 10 nm	
+S0927775713009606-1074	1	MeasuredProperty	834	848	4	pore diameters	
+S0927775713009606-1074	1	MeasuredEntity	798	814	7	mesopore domains	
+S0927775713009606-1074	2	Quantity	864	877	2	> 0.5 cm3 g−1	
+S0927775713009606-1074	2	MeasuredProperty	858	863	5	Vmeso	
+S0927775713009606-1074	3	Quantity	903	915	3	> 170 m2 g−1	
+S0927775713009606-1074	3	MeasuredProperty	898	902	6	SBET	
+S0927775713009606-1074	4	Quantity	1033	1046	8	5–40 nm range	
+S0927775713009606-1074	4	MeasuredProperty	1012	1025	9	characterised	
+S0927775713009606-1074	4	MeasuredEntity	977	1006	10	synthesised CdS nanoparticles	
+S0927775713009606-1074	5	Quantity	1201	1208	11	1 (w/w)	
+S0927775713009606-1074	5	MeasuredProperty	1193	1198	12	ratio	
+S0927775713009606-1074	5	MeasuredEntity	1182	1192	13	CdS/starch	

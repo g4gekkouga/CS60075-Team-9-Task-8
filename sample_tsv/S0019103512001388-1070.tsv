@@ -1,0 +1,8 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103512001388-1070	1	Quantity	40	58	1	6 November 2011 UT	
+S0019103512001388-1070	1	MeasuredProperty	31	36	3	taken	
+S0019103512001388-1070	1	MeasuredEntity	0	30	4	H-band slit-viewing VLT images	
+S0019103512001388-1070	2	Quantity	65	73	2	two days	
+S0019103512001388-1070	3	Quantity	596	602	5	30 min	
+S0019103512001388-1070	3	MeasuredProperty	549	589	6	should have crossed the central meridian	
+S0019103512001388-1070	3	MeasuredEntity	523	541	7	deeper BS2 feature	

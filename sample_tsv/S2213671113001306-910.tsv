@@ -1,0 +1,9 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S2213671113001306-910	1	Quantity	901	908	1	10,500×	
+S2213671113001306-910	1	MeasuredProperty	909	922	5	magnification	
+S2213671113001306-910	1	MeasuredEntity	924	941	8	right micrographs	
+S2213671113001306-910	2	Quantity	974	981	2	25,000×	
+S2213671113001306-910	3	Quantity	1004	1008	3	2 μm	
+S2213671113001306-910	3	MeasuredEntity	983	993	9	scale bars	
+S2213671113001306-910	4	Quantity	1015	1021	4	0.2 μm	
+S2213671113001306-910	4	MeasuredProperty	1022	1030	6	distance	

@@ -1,0 +1,6 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0006322312001096-1278	1	Quantity	449	451	1	65	
+S0006322312001096-1278	1	MeasuredProperty	442	445	3	age	
+S0006322312001096-1278	1	MeasuredEntity	411	430	4	depressive symptoms	
+S0006322312001096-1278	2	Quantity	635	643	2	65 years	
+S0006322312001096-1278	2	MeasuredEntity	598	617	5	depressive symptoms	

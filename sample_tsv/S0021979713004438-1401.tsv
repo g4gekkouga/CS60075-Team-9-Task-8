@@ -1,0 +1,10 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0021979713004438-1401	1	Quantity	111	118	1	10 wt.%	
+S0021979713004438-1401	1	MeasuredProperty	119	123	3	NaOH	
+S0021979713004438-1401	1	MeasuredEntity	124	132	4	solution	
+S0021979713004438-1401	2	Quantity	207	212	2	99.5%	
+S0021979713004438-1401	2	MeasuredEntity	213	225	5	pure ethanol	
+S0021979713004438-1401	3	Quantity	825	832	6	69 ± 3°	
+S0021979713004438-1401	3	MeasuredProperty	842	864	9	open circuit potential	
+S0021979713004438-1401	3	MeasuredEntity	805	821	11	hematite surface	
+S0021979713004438-1401	4	Quantity	888	895	7	−0.72 V	

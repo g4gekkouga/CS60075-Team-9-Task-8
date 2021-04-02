@@ -1,0 +1,9 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0012821X12004384-952	1	Quantity	249	253	1	<30%	
+S0012821X12004384-952	1	MeasuredProperty	254	271	3	wood/plant tissue	
+S0012821X12004384-952	1	MeasuredEntity	236	243	5	samples	
+S0012821X12004384-952	2	Quantity	380	384	2	>30%	
+S0012821X12004384-952	2	MeasuredProperty	385	402	4	wood/plant tissue	
+S0012821X12004384-952	2	MeasuredEntity	367	374	6	samples	
+S0012821X12004384-952	3	Quantity	658	677	7	2614.7 and 2619.6 m	
+S0012821X12004384-952	3	MeasuredEntity	641	654	8	Values shaded	

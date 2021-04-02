@@ -1,0 +1,9 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0927775713009606-1216	1	Quantity	119	139	1	range from 5° to 85°	
+S0927775713009606-1216	1	MeasuredEntity	116	118	9	2θ	
+S0927775713009606-1216	2	Quantity	162	166	2	0.1°	
+S0927775713009606-1216	2	MeasuredProperty	173	186	6	counting time	
+S0927775713009606-1216	3	Quantity	199	203	3	4 s.	
+S0927775713009606-1216	3	MeasuredEntity	247	264	11	Scherrer equation	
+S0927775713009606-1216	4	Quantity	383	386	4	0.9	
+S0927775713009606-1216	4	MeasuredProperty	379	380	7	K	

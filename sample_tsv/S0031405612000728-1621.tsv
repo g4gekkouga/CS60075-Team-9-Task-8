@@ -1,0 +1,11 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0031405612000728-1621	1	Quantity	200	214	1	over a 7-month	
+S0031405612000728-1621	1	MeasuredProperty	215	221	2	period	
+S0031405612000728-1621	1	MeasuredEntity	15	36	3	current investigation	
+S0031405612000728-1621	2	Quantity	656	663	4	7 month	
+S0031405612000728-1621	2	MeasuredProperty	642	648	5	course	
+S0031405612000728-1621	2	MeasuredEntity	664	674	6	experiment	
+S0031405612000728-1621	3	Quantity	932	933	7	9	
+S0031405612000728-1621	3	MeasuredProperty	912	921	9	incubated	
+S0031405612000728-1621	3	MeasuredEntity	922	927	10	soils	
+S0031405612000728-1621	4	Quantity	937	947	8	4.8 months	

@@ -1,0 +1,6 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0006322312001096-1271	1	Quantity	783	807	1	274 elderly participants	
+S0006322312001096-1271	1	MeasuredProperty	825	852	4	sensitivity and specificity	
+S0006322312001096-1271	1	MeasuredEntity	856	882	6	the questionnaire measures	
+S0006322312001096-1271	2	Quantity	978	988	2	almost 90%	
+S0006322312001096-1271	3	Quantity	1023	1040	3	approximately 80%	

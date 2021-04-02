@@ -1,0 +1,8 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0168945213001805-5026	1	Quantity	0	13	1	Four-year-old	
+S0168945213001805-5026	1	MeasuredEntity	14	34	2	wild-type cottonwood	
+S0168945213001805-5026	2	Quantity	201	204	3	13%	
+S0168945213001805-5026	2	MeasuredProperty	181	191	4	net growth	
+S0168945213001805-5026	2	MeasuredEntity	159	174	5	wild-type trees	
+S0168945213001805-5026	3	Quantity	431	436	6	three	
+S0168945213001805-5026	3	MeasuredEntity	437	451	7	beetle species	

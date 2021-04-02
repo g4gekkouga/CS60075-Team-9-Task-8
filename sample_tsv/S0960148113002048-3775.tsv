@@ -1,0 +1,11 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0960148113002048-3775	1	Quantity	131	134	1	two	
+S0960148113002048-3775	1	MeasuredEntity	135	147	2	major trends	
+S0960148113002048-3775	2	Quantity	713	722	3	0.01–0.03	
+S0960148113002048-3775	2	MeasuredProperty	698	709	4	frequencies	
+S0960148113002048-3775	2	MeasuredEntity	693	697	5	wind	
+S0960148113002048-3775	3	Quantity	723	725	6	Hz	
+S0960148113002048-3775	4	Quantity	985	996	7	above 0.003	
+S0960148113002048-3775	4	MeasuredProperty	973	984	8	frequencies	
+S0960148113002048-3775	4	MeasuredEntity	968	972	9	wind	
+S0960148113002048-3775	5	Quantity	997	999	10	Hz	

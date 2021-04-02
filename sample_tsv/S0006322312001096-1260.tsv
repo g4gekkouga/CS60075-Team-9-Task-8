@@ -1,0 +1,12 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0006322312001096-1260	1	Quantity	233	245	1	70 or higher	
+S0006322312001096-1260	1	MeasuredProperty	228	232	3	aged	
+S0006322312001096-1260	1	MeasuredEntity	221	227	5	adults	
+S0006322312001096-1260	2	Quantity	403	409	2	2-year	
+S0006322312001096-1260	2	MeasuredProperty	410	419	4	incidence	
+S0006322312001096-1260	2	MeasuredEntity	423	451	6	elevated depressive symptoms	
+S0006322312001096-1260	3	Quantity	649	660	7	for 6 years	
+S0006322312001096-1260	3	MeasuredProperty	637	648	9	followed up	
+S0006322312001096-1260	3	MeasuredEntity	624	636	10	older adults	
+S0006322312001096-1260	4	Quantity	667	671	8	none	
+S0006322312001096-1260	4	MeasuredEntity	679	713	11	objective atherosclerosis measures	

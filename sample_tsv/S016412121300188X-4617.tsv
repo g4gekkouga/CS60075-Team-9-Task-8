@@ -1,0 +1,5 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S016412121300188X-4617	1	Quantity	227	230	1	52%	
+S016412121300188X-4617	1	MeasuredEntity	189	225	3	very large dominant coherent cluster	
+S016412121300188X-4617	2	Quantity	299	302	2	11%	
+S016412121300188X-4617	2	MeasuredEntity	285	292	4	largest	

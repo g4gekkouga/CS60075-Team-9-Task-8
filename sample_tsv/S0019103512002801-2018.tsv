@@ -1,0 +1,6 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103512002801-2018	1	Quantity	495	498	1	One	
+S0019103512002801-2018	1	MeasuredEntity	508	516	2	features	
+S0019103512002801-2018	2	Quantity	1392	1404	3	at least 10%	
+S0019103512002801-2018	2	MeasuredProperty	1304	1350	4	self-pick up process has been shown to lead to	
+S0019103512002801-2018	2	MeasuredEntity	1351	1390	5	enhanced ULF wave activity in the lunar	

@@ -1,0 +1,9 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0378383911001669-2205	1	Quantity	196	203	1	0.772 m	
+S0378383911001669-2205	1	MeasuredEntity	192	193	4	x	
+S0378383911001669-2205	2	Quantity	211	217	2	1.3 mm	
+S0378383911001669-2205	3	Quantity	233	239	3	5.4 mm	
+S0378383911001669-2205	3	MeasuredEntity	240	260	5	gravel-rough beaches	
+S0378383911001669-2205	4	Quantity	283	289	6	1.3 mm	
+S0378383911001669-2205	4	MeasuredEntity	290	306	7	sand-rough beach	
+S0378383911001669-2205	5	Quantity	671	681	8	up to 1 s.	

@@ -1,0 +1,6 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S2211124712002884-705	1	Quantity	39	44	1	24 hr	
+S2211124712002884-705	1	MeasuredEntity	48	110	2	microglia derived from control, sporadic, and PGRN S116X iPSCs	
+S2211124712002884-705	2	Quantity	163	167	3	100%	
+S2211124712002884-705	2	MeasuredProperty	116	133	4	average of values	
+S2211124712002884-705	2	MeasuredEntity	138	151	5	control lines	

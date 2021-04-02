@@ -1,0 +1,4 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0925443913003037-654	1	Quantity	29	38	1	2.5 years	
+S0925443913003037-654	1	MeasuredProperty	25	28	2	age	
+S0925443913003037-654	1	MeasuredEntity	0	21	3	Cranial MRI performed	

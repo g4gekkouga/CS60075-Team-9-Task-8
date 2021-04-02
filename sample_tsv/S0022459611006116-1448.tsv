@@ -1,0 +1,4 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0022459611006116-1448	1	Quantity	159	179	1	between 5 and 300 K.	
+S0022459611006116-1448	1	MeasuredProperty	80	91	2	temperature	
+S0022459611006116-1448	1	MeasuredEntity	51	66	3	samples 1 and 2	

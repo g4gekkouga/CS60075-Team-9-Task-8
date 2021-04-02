@@ -1,0 +1,7 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S016412121300188X-4937	1	Quantity	558	561	1	two	
+S016412121300188X-4937	1	MeasuredEntity	562	579	2	coherent clusters	
+S016412121300188X-4937	2	Quantity	614	624	3	around 10%	
+S016412121300188X-4937	2	MeasuredEntity	632	636	5	code	
+S016412121300188X-4937	3	Quantity	657	667	4	around 40%	
+S016412121300188X-4937	3	MeasuredEntity	675	679	6	code	

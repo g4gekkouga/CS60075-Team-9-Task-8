@@ -1,0 +1,9 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S1161030113001950-923	1	Quantity	1127	1128	1	4	
+S1161030113001950-923	1	MeasuredEntity	1129	1136	2	classes	
+S1161030113001950-923	2	Quantity	1725	1731	3	90–95%	
+S1161030113001950-923	2	MeasuredProperty	1732	1758	5	maximum yield for the year	
+S1161030113001950-923	2	MeasuredEntity	1649	1691	7	nutrient sufficiency recommendation system	
+S1161030113001950-923	3	Quantity	1868	1877	4	4–8 years	
+S1161030113001950-923	3	MeasuredProperty	1844	1858	6	period of time	
+S1161030113001950-923	3	MeasuredEntity	1812	1828	8	soil test values	

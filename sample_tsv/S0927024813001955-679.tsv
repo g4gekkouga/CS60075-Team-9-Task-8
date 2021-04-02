@@ -1,0 +1,12 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0927024813001955-679	1	Quantity	12	19	1	<200 nm	
+S0927024813001955-679	1	MeasuredProperty	2	6	2	thin	
+S0927024813001955-679	1	MeasuredEntity	21	25	3	film	
+S0927024813001955-679	2	Quantity	323	337	4	3.4+0.1 cm2/Vs	
+S0927024813001955-679	2	MeasuredProperty	302	319	6	electron mobility	
+S0927024813001955-679	2	MeasuredEntity	261	276	8	AALD ZnO layers	
+S0927024813001955-679	3	Quantity	343	353	5	up to 100%	
+S0927024813001955-679	3	MeasuredProperty	354	384	7	transmittance to visible light	
+S0927024813001955-679	4	Quantity	637	651	9	after 200 days	
+S0927024813001955-679	4	MeasuredProperty	626	636	10	maintained	
+S0927024813001955-679	4	MeasuredEntity	605	616	11	performance	

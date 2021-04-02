@@ -1,0 +1,10 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0032063312003054-1990	1	Quantity	122	128	1	12 min	
+S0032063312003054-1990	1	MeasuredProperty	82	95	3	time interval	
+S0032063312003054-1990	1	MeasuredEntity	103	118	5	ELS spectrogram	
+S0032063312003054-1990	2	Quantity	178	183	2	2-min	
+S0032063312003054-1990	2	MeasuredProperty	171	175	4	over	
+S0032063312003054-1990	2	MeasuredEntity	142	170	6	clear “inverted-V” structure	
+S0032063312003054-1990	3	Quantity	332	352	7	approximately 60 eV.	
+S0032063312003054-1990	3	MeasuredProperty	300	306	8	energy	
+S0032063312003054-1990	3	MeasuredEntity	314	318	9	peak	

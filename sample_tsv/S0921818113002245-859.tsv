@@ -1,0 +1,4 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0921818113002245-859	1	Quantity	173	191	1	approximately 19 m	
+S0921818113002245-859	1	MeasuredProperty	156	169	2	deepest point	
+S0921818113002245-859	1	MeasuredEntity	150	155	3	lakes	

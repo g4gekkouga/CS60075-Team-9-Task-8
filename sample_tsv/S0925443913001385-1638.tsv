@@ -1,0 +1,17 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0925443913001385-1638	1	Quantity	77	80	1	30%	
+S0925443913001385-1638	1	MeasuredProperty	4	61	2	steady state level of MRPL12 in the subject's fibroblasts	
+S0925443913001385-1638	1	MeasuredEntity	84	97	3	control value	
+S0925443913001385-1638	2	Quantity	159	164	4	~ 30%	
+S0925443913001385-1638	2	MeasuredProperty	119	138	6	mt-LSU protein ICT1	
+S0925443913001385-1638	2	MeasuredEntity	168	182	8	control values	
+S0925443913001385-1638	3	Quantity	201	204	5	37%	
+S0925443913001385-1638	3	MeasuredProperty	191	196	7	MRPL3	
+S0925443913001385-1638	4	Quantity	436	441	9	three	
+S0925443913001385-1638	4	MeasuredProperty	489	513	10	MRPS18B, MRPS25 and DAP3	
+S0925443913001385-1638	4	MeasuredEntity	442	487	11	proteins of the small ribosomal subunit (SSU)	
+S0925443913001385-1638	5	Quantity	560	568	12	~ 60–80%	
+S0925443913001385-1638	5	MeasuredEntity	572	579	13	control	
+S0925443913001385-1638	6	Quantity	656	659	14	35%	
+S0925443913001385-1638	6	MeasuredProperty	622	637	17	12S rRNA levels	
+S0925443913001385-1638	7	Quantity	664	667	15	22%	

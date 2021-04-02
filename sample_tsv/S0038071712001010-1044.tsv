@@ -1,0 +1,6 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0038071712001010-1044	1	Quantity	626	634	1	∼0.4 mm2	
+S0038071712001010-1044	1	MeasuredEntity	613	624	2	small pores	
+S0038071712001010-1044	2	Quantity	2609	2616	3	84 days	
+S0038071712001010-1044	2	MeasuredProperty	2598	2604	4	lasted	
+S0038071712001010-1044	2	MeasuredEntity	2587	2597	5	experiment	

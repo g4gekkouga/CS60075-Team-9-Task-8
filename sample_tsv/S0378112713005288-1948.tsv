@@ -1,0 +1,17 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0378112713005288-1948	1	Quantity	249	252	1	4.1	
+S0378112713005288-1948	1	MeasuredProperty	237	246	3	F(3, 8.9)	
+S0378112713005288-1948	1	MeasuredEntity	182	235	5	significant variation in total regeneration densities	
+S0378112713005288-1948	2	Quantity	258	262	2	0.03	
+S0378112713005288-1948	2	MeasuredProperty	254	255	4	p	
+S0378112713005288-1948	3	Quantity	265	268	6	20%	
+S0378112713005288-1948	3	MeasuredProperty	312	354	7	variation between the different site types	
+S0378112713005288-1948	3	MeasuredEntity	276	300	8	total observed variation	
+S0378112713005288-1948	4	Quantity	483	489	9	< 0.01	
+S0378112713005288-1948	4	MeasuredProperty	481	482	10	p	
+S0378112713005288-1948	4	MeasuredEntity	424	445	11	significantly greater	
+S0378112713005288-1948	5	Quantity	766	770	12	1.75	
+S0378112713005288-1948	5	MeasuredProperty	753	763	14	F(1, 3.95)	
+S0378112713005288-1948	5	MeasuredEntity	649	700	16	No significant difference in regeneration densities	
+S0378112713005288-1948	6	Quantity	776	780	13	n.s.	
+S0378112713005288-1948	6	MeasuredProperty	772	773	15	p	

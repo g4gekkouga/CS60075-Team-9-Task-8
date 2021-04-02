@@ -1,0 +1,7 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0012821X12004384-1221	1	Quantity	662	685	1	between 200 and >1000 m	
+S0012821X12004384-1221	1	MeasuredProperty	692	697	2	depth	
+S0012821X12004384-1221	1	MeasuredEntity	686	691	3	water	
+S0012821X12004384-1221	2	Quantity	1069	1076	4	>0.5 km	
+S0012821X12004384-1221	2	MeasuredProperty	1054	1065	5	paleodepths	
+S0012821X12004384-1221	2	MeasuredEntity	995	1034	6	central parts of the northern North Sea	

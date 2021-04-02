@@ -1,0 +1,6 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0167610513002729-1127	1	Quantity	22	25	1	45°	
+S0167610513002729-1127	1	MeasuredEntity	26	30	2	case	
+S0167610513002729-1127	2	Quantity	146	154	3	z=0.23 H	
+S0167610513002729-1127	3	Quantity	526	534	4	z=0.52 H	
+S0167610513002729-1127	4	Quantity	694	702	5	z=0.80 H	

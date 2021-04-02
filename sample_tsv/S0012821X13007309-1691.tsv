@@ -1,0 +1,14 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0012821X13007309-1691	1	Quantity	147	150	1	1 m	
+S0012821X13007309-1691	1	MeasuredProperty	151	156	2	thick	
+S0012821X13007309-1691	1	MeasuredEntity	124	141	3	Livello Bonarelli	
+S0012821X13007309-1691	2	Quantity	333	343	4	Up to 20 m	
+S0012821X13007309-1691	2	MeasuredProperty	344	365	5	beneath the Bonarelli	
+S0012821X13007309-1691	2	MeasuredEntity	382	433	6	numerous centimetre scale organic-rich shale layers	
+S0012821X13007309-1691	3	Quantity	537	554	7	∼−25.9 to −26.5‰.	
+S0012821X13007309-1691	3	MeasuredProperty	483	535	11	narrow variation in background values prior to OAE 2	
+S0012821X13007309-1691	3	MeasuredEntity	559	603	14	characteristic positive excursion in δ13Corg	
+S0012821X13007309-1691	4	Quantity	609	611	8	4‰	
+S0012821X13007309-1691	4	MeasuredProperty	612	617	12	shift	
+S0012821X13007309-1691	5	Quantity	619	634	9	−27.2 to −23.1‰	
+S0012821X13007309-1691	6	Quantity	646	659	10	within <0.5 m	

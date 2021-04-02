@@ -1,0 +1,11 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S1873506114000075-1242	1	Quantity	943	966	1	approximately 78 ± 0.6%	
+S1873506114000075-1242	1	MeasuredEntity	970	975	7	cells	
+S1873506114000075-1242	2	Quantity	1006	1029	2	approximately 88 ± 1.1%	
+S1873506114000075-1242	2	MeasuredProperty	981	1001	4	Sox17-positive on D5	
+S1873506114000075-1242	2	MeasuredEntity	1033	1038	8	cells	
+S1873506114000075-1242	3	Quantity	1068	1091	3	approximately 29 ± 0.9%	
+S1873506114000075-1242	3	MeasuredProperty	1106	1125	6	ALB-positive on D20	
+S1873506114000075-1242	3	MeasuredEntity	1095	1100	9	cells	
+S1873506114000075-1242	4	Quantity	1220	1242	10	approximately 20 μg/ml	
+S1873506114000075-1242	4	MeasuredEntity	1141	1154	11	ALB secretion	

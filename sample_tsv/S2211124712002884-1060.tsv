@@ -1,0 +1,6 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S2211124712002884-1060	1	Quantity	656	659	1	10%	
+S2211124712002884-1060	1	MeasuredProperty	660	678	3	fetal bovine serum	
+S2211124712002884-1060	1	MeasuredEntity	603	637	5	Dulbecco's modified Eagle's medium	
+S2211124712002884-1060	2	Quantity	738	746	2	100 U/ml	
+S2211124712002884-1060	2	MeasuredProperty	713	736	4	penicillin/streptomycin	

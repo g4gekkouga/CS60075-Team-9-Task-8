@@ -1,0 +1,6 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0167610513001001-739	1	Quantity	43	57	1	midpoint=180 m	
+S0167610513001001-739	1	MeasuredEntity	38	42	2	gate	
+S0167610513001001-739	2	Quantity	81	91	3	7.83 m s−1	
+S0167610513001001-739	2	MeasuredProperty	72	77	4	speed	
+S0167610513001001-739	2	MeasuredEntity	67	71	5	wind	

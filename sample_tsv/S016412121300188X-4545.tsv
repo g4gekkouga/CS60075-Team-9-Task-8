@@ -1,0 +1,11 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S016412121300188X-4545	1	Quantity	37	41	1	five	
+S016412121300188X-4545	1	MeasuredEntity	42	66	2	largest clusters of acct	
+S016412121300188X-4545	2	Quantity	438	462	3	range from 11.4% to 2.4%	
+S016412121300188X-4545	2	MeasuredProperty	432	437	4	sizes	
+S016412121300188X-4545	2	MeasuredEntity	424	431	5	cluster	
+S016412121300188X-4545	3	Quantity	470	474	6	five	
+S016412121300188X-4545	3	MeasuredEntity	475	483	7	clusters	
+S016412121300188X-4545	4	Quantity	605	617	8	less than 2%	
+S016412121300188X-4545	4	MeasuredEntity	568	588	10	rest of the clusters	
+S016412121300188X-4545	5	Quantity	621	632	9	30 vertices	

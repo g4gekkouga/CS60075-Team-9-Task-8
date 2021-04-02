@@ -1,0 +1,8 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0950705113001895-23682	1	Quantity	358	361	1	six	
+S0950705113001895-23682	1	MeasuredEntity	362	371	2	data sets	
+S0950705113001895-23682	2	Quantity	564	566	3	5%	
+S0950705113001895-23682	3	Quantity	657	660	4	two	
+S0950705113001895-23682	3	MeasuredEntity	661	671	5	algorithms	
+S0950705113001895-23682	4	Quantity	950	953	6	two	
+S0950705113001895-23682	4	MeasuredEntity	954	964	7	algorithms	

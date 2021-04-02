@@ -1,0 +1,9 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0167880913001229-1021	1	Quantity	25	30	1	12.4%	
+S0167880913001229-1021	1	MeasuredProperty	12	21	6	decreased	
+S0167880913001229-1021	1	MeasuredEntity	0	11	7	•SOC stocks	
+S0167880913001229-1021	2	Quantity	49	54	2	0.13%	
+S0167880913001229-1021	3	Quantity	131	140	3	top 10 cm	
+S0167880913001229-1021	3	MeasuredEntity	144	148	8	soil	
+S0167880913001229-1021	4	Quantity	180	197	4	20–40 cm.•Organic	
+S0167880913001229-1021	5	Quantity	238	245	5	0–10 cm	

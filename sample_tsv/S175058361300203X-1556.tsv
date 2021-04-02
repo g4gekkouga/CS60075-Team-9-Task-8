@@ -1,0 +1,13 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S175058361300203X-1556	1	Quantity	65	70	1	34 °C	
+S175058361300203X-1556	2	Quantity	75	80	2	38 °C	
+S175058361300203X-1556	2	MeasuredEntity	81	88	3	options	
+S175058361300203X-1556	3	Quantity	628	633	4	38 °C	
+S175058361300203X-1556	3	MeasuredProperty	586	627	7	Seismic amplitude differences between the	
+S175058361300203X-1556	4	Quantity	638	643	5	34 °C	
+S175058361300203X-1556	4	MeasuredProperty	634	637	8	and	
+S175058361300203X-1556	4	MeasuredEntity	644	653	9	scenarios	
+S175058361300203X-1556	5	Quantity	668	680	6	less than 1%	
+S175058361300203X-1556	5	MeasuredEntity	688	720	10	amplitude values of the baseline	
+S175058361300203X-1556	6	Quantity	818	834	11	greater than 10%	
+S175058361300203X-1556	6	MeasuredEntity	741	787	12	normalized root mean square (NRMS) differences	

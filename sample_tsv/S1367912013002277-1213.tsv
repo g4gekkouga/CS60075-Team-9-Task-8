@@ -1,0 +1,4 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S1367912013002277-1213	1	Quantity	223	232	1	2.5–10 μm	
+S1367912013002277-1213	1	MeasuredEntity	195	214	3	collected particles	
+S1367912013002277-1213	2	Quantity	244	260	2	less than 2.5 μm	

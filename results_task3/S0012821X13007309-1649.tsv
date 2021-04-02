@@ -1,0 +1,7 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0012821X13007309-1649	1	Quantity	510	512	2	4‰	
+S0012821X13007309-1649	1	MeasuredProperty	513	531	5	positive excursion	
+S0012821X13007309-1649	1	MeasuredEntity	334	348	6	δ13Corg record	
+S0012821X13007309-1649	2	Quantity	533	548	3	−27.7 to −23.7‰	
+S0012821X13007309-1649	3	Quantity	817	829	7	1035.75 mbsf	
+S0012821X13007309-1649	3	MeasuredEntity	803	810	9	δ13Corg	

@@ -1,0 +1,12 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0031405612000728-1639	1	Quantity	786	787	1	7	
+S0031405612000728-1639	1	MeasuredEntity	788	794	2	months	
+S0031405612000728-1639	2	Quantity	1303	1326	3	range from 4 to 88 days	
+S0031405612000728-1639	2	MeasuredProperty	1297	1302	4	rates	
+S0031405612000728-1639	2	MeasuredEntity	1278	1296	5	Aggregate turnover	
+S0031405612000728-1639	3	Quantity	1406	1419	6	over a 60 day	
+S0031405612000728-1639	3	MeasuredProperty	1420	1426	8	period	
+S0031405612000728-1639	3	MeasuredEntity	1372	1391	10	aggregate stability	
+S0031405612000728-1639	4	Quantity	1513	1527	7	over a 120 day	
+S0031405612000728-1639	4	MeasuredProperty	1528	1534	9	period	
+S0031405612000728-1639	4	MeasuredEntity	1486	1512	11	aggregate water repellency	

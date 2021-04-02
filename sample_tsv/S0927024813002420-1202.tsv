@@ -1,0 +1,7 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0927024813002420-1202	1	Quantity	273	283	1	60% higher	
+S0927024813002420-1202	1	MeasuredProperty	284	297	2	photocurrents	
+S0927024813002420-1202	1	MeasuredEntity	230	263	3	co-deposition of blended mixtures	
+S0927024813002420-1202	2	Quantity	472	486	4	as much as 80%	
+S0927024813002420-1202	2	MeasuredProperty	441	468	5	power conversion efficiency	
+S0927024813002420-1202	2	MeasuredEntity	405	412	6	devices	

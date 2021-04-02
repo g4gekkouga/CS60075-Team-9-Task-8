@@ -1,0 +1,14 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S2213671113000738-738	1	Quantity	425	428	1	two	
+S2213671113000738-738	1	MeasuredEntity	429	457	4	double-blind clinical trials	
+S2213671113000738-738	2	Quantity	544	552	2	6 months	
+S2213671113000738-738	2	MeasuredProperty	528	537	3	withdrawn	
+S2213671113000738-738	3	Quantity	867	871	5	1/10	
+S2213671113000738-738	3	MeasuredProperty	780	799	6	expression of MHC-I	
+S2213671113000738-738	3	MeasuredEntity	880	919	7	untreated monkey peripheral blood cells	
+S2213671113000738-738	4	Quantity	1005	1013	8	2 months	
+S2213671113000738-738	4	MeasuredEntity	1019	1030	12	CD45+ cells	
+S2213671113000738-738	5	Quantity	1084	1096	9	3.5–4 months	
+S2213671113000738-738	5	MeasuredProperty	1054	1083	10	accumulated in the allografts	
+S2213671113000738-738	6	Quantity	1903	1908	14	1/100	
+S2213671113000738-738	6	MeasuredEntity	1931	1983	15	human peripheral blood cells in both hESCs and iPSCs	
