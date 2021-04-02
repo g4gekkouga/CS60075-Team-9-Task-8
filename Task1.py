@@ -72,26 +72,26 @@ def raw_text_to_df(raw_files):
             file_content = lang_model(file.read())
             for sentence in file_content.sents:
                 sentence_pos_tags = [word.tag_ for word in sentence]
-                if "CD" in sentence_pos_tags:
-                    documents_of_interest["document_name"].append(doc_name)
-                    documents_of_interest["sentence"].append(sentence)
-                    entities = []
-                    for measurement in sentence.ents:
-                        entities.append(
-                            (
-                                measurement.label_,
-                                (measurement.start, measurement.end),
-                            )
+#                 if "CD" in sentence_pos_tags:
+                documents_of_interest["document_name"].append(doc_name)
+                documents_of_interest["sentence"].append(sentence)
+                entities = []
+                for measurement in sentence.ents:
+                    entities.append(
+                        (
+                            measurement.label_,
+                            (measurement.start, measurement.end),
                         )
-                    documents_of_interest["entities"].append(entities)
+                    )
+                documents_of_interest["entities"].append(entities)
 
-                    noun_phrases = []
+                noun_phrases = []
 
-                    for chunk in sentence.noun_chunks:
-                        noun_phrases.append(
-                            (chunk.text, (chunk.start, chunk.end))
-                        )
-                    documents_of_interest["np"].append(noun_phrases)
+                for chunk in sentence.noun_chunks:
+                    noun_phrases.append(
+                        (chunk.text, (chunk.start, chunk.end))
+                    )
+                documents_of_interest["np"].append(noun_phrases)
 
         # break
     dataframe = pd.DataFrame(
@@ -151,7 +151,7 @@ def get_text_labels(text_dataframe, tsv_dataframe):
 
 
 def get_units():
-    units_list = []  # Add possible unit symbols
+    units_list = ['%']  # Add possible unit symbols
     for key, value in units.__dict__.items():
         if isinstance(value, UQ):
             if key not in units_list:
@@ -247,8 +247,74 @@ def features_sentence(sentence, entities, nouns):
 
 # In[198]:
 
-def write_predictions_to_tsv(test_text_dataframe, y_pred):
-    pass
+def write_predictions_to_tsv(text_dataframe, y_pred):
+    tsv_columns = [
+        "docId",
+        "annotSet",
+        "annotType",
+        "startOffset",
+        "endOffset",
+        "annotId",
+        "text",
+        "other"
+    ]
+    # save the results in appropriate format in a new dataframe
+    row_id = 0
+    output_list = []
+    prev_file = ""
+    annot_set_index = 1
+    annot_index = 1
+    for i, text_row in text_dataframe.iterrows():
+        file_name = text_row['document_name']
+        if i > 0 and file_name != prev_file:
+            result_df = pd.DataFrame(output_list, columns=tsv_columns)
+            result_df.to_csv('results/' + prev_file + '.tsv', sep="\t", index=False)
+            output_list = []
+            annot_set_index = 1
+            annot_index = 1
+
+        pred_pos = y_pred[row_id]
+        row_id += 1
+        sentence = text_row['sentence']
+        word_ind = 0
+
+        while word_ind < len(pred_pos) :
+            if pred_pos[word_ind] == 'O':
+                word_ind += 1
+                continue
+            
+            start_ind = word_ind
+            while word_ind < len(pred_pos) and pred_pos[word_ind] == 'QUANT':
+                word_ind += 1
+            end_ind = word_ind - 1
+            
+#             quant_text = ""
+#             for x in range(start_ind, end_ind + 1):
+#                 quant_text += sentence[x].text
+#                 if x != end_ind : 
+#                     quant_text += " "
+#             result_df.append([file_name, annot_set_index, tags['QUANT'], sentence[start_ind].i, sentence[end_ind].i + len(sentence[end_ind]), annot_index, quant_text, ""])
+#             result_df.append({
+#                 'docId' : file_name,
+#                 'annotSet' : annot_set_index,
+#                 'annotType' : tags['QUANT'],
+#                 'startOffset' : sentence[start_ind].i,
+#                 'endOffset' : sentence[end_ind].i + len(sentence[end_ind]),
+#                 'annotId' : annot_index,
+#                 'text' : quant_text,
+#                 'other' : "Empty"
+#             }, ignore_index=True)
+            
+            quant_text = sentence.doc[sentence[start_ind].i : sentence[end_ind].i + 1]
+            output_list.append([file_name, annot_set_index, tags['QUANT'], sentence[start_ind].idx, sentence[end_ind].idx + len(sentence[end_ind]), annot_index, quant_text, ""])
+            annot_set_index += 1
+            annot_index += 1
+        
+        prev_file = file_name
+        
+    result_df = pd.DataFrame(output_list, columns=tsv_columns)
+    result_df.to_csv('results/' + prev_file + '.tsv', sep="\t", index=False)
+    return
 
 
 units_list = get_units()
@@ -308,29 +374,31 @@ for _, row in test_text_dataframe.iterrows():
 # In[204]:
 
 
-# crf = sklearn_crfsuite.CRF(
-#     algorithm="lbfgs",
-#     c1=0.1,
-#     c2=0.1,
-#     max_iterations=100,
-#     all_possible_transitions=True,
-# )
-# crf.fit(X_train, y_train)
+crf = sklearn_crfsuite.CRF(
+    algorithm="lbfgs",
+    c1=0.1,
+    c2=0.1,
+    max_iterations=100,
+    all_possible_transitions=True,
+)
+crf.fit(X_train, y_train)
 
 
 # In[162]:
 
 
-# labels = list(crf.classes_)
-# labels.remove("O")
+labels = list(crf.classes_)
+labels.remove("O")
 
 
 # In[163]:
 
 
-# y_pred = crf.predict(X_test)
+y_pred = crf.predict(X_test)
 
-# sorted_labels = sorted(labels, key=lambda name: (name[1:], name[0]))
+sorted_labels = sorted(labels, key=lambda name: (name[1:], name[0]))
+
+print("Here")
 
 # print(
 #     metrics.flat_classification_report(
@@ -344,35 +412,35 @@ for _, row in test_text_dataframe.iterrows():
 
 # Training the model
 
-crf = sklearn_crfsuite.CRF(
-    algorithm="lbfgs", max_iterations=100, all_possible_transitions=True
-)
+# crf = sklearn_crfsuite.CRF(
+#     algorithm="lbfgs", max_iterations=100, all_possible_transitions=True
+# )
 
-params_space = {
-    "c1": scipy.stats.expon(scale=0.5),
-    "c2": scipy.stats.expon(scale=0.05),
-}
+# params_space = {
+#     "c1": scipy.stats.expon(scale=0.5),
+#     "c2": scipy.stats.expon(scale=0.05),
+# }
 
-labels = ["QUANT"]
-sorted_labels = sorted(labels, key=lambda name: (name[1:], name[0]))
+# labels = ["QUANT"]
+# sorted_labels = sorted(labels, key=lambda name: (name[1:], name[0]))
 
 
-f1_scorer = make_scorer(
-    metrics.flat_f1_score, average="weighted", labels=labels
-)
+# f1_scorer = make_scorer(
+#     metrics.flat_f1_score, average="weighted", labels=labels
+# )
 
-rs = RandomizedSearchCV(
-    crf, params_space, cv=3, verbose=1, n_jobs=-1, n_iter=50, scoring=f1_scorer
-)
+# rs = RandomizedSearchCV(
+#     crf, params_space, cv=3, verbose=1, n_jobs=-1, n_iter=50, scoring=f1_scorer
+# )
 
-rs.fit(X_train, y_train)
+# rs.fit(X_train, y_train)
 
 
 # In[52]:
 
 
-crf = rs.best_estimator_
-y_pred = crf.predict(X_test)
+# crf = rs.best_estimator_
+# y_pred = crf.predict(X_test)
 
 # documents_of_interest = {
 #     "document_name": [],
