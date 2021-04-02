@@ -1,0 +1,6 @@
+T51	Quantity 842 854	74°S to 90°S
+#11	AnnotatorNotes T51	°S
+A11	QuantityQualifier T51 IsRange
+T61	MeasuredEntity 856 879	the summer polar region
+R1	HasQuantity Arg1:T61 Arg2:T51
+T1	Unit 852 854	°S
