@@ -1,0 +1,6 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0378383913001567-2462	1	Quantity	68	74	1	0.5 Hz	
+S0378383913001567-2462	1	MeasuredProperty	63	65	3	fp	
+S0378383913001567-2462	1	MeasuredEntity	41	57	5	JONSWAP spectrum	
+S0378383913001567-2462	2	Quantity	84	90	2	1.8 cm	
+S0378383913001567-2462	2	MeasuredProperty	79	81	4	Hp	

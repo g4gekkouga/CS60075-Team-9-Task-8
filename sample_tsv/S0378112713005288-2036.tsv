@@ -1,0 +1,4 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0378112713005288-2036	1	Quantity	665	677	1	within 100 m	
+S0378112713005288-2036	1	MeasuredProperty	629	657	2	majority of oak regeneration	
+S0378112713005288-2036	1	MeasuredEntity	683	694	3	seed source	

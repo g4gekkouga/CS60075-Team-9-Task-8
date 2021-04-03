@@ -1,0 +1,6 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S027737911400050X-2401	1	Quantity	641	691	1	several hundred or even more than a thousand years	
+S027737911400050X-2401	1	MeasuredProperty	593	604	2	offset from	
+S027737911400050X-2401	1	MeasuredEntity	609	617	3	real age	
+S027737911400050X-2401	2	Quantity	1392	1404	4	3.00–3.05 ka	
+S027737911400050X-2401	2	MeasuredEntity	1405	1442	5	cal BP Alpehué Pumice (So-A) eruption	

@@ -1,0 +1,6 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0038071711004354-755	1	Quantity	162	180	2	approximately −14‰	
+S0038071711004354-755	2	Quantity	596	615	4	approximately 2.5 h	
+S0038071711004354-755	3	Quantity	619	632	5	−28.5 ± 0.33‰	
+S0038071711004354-755	4	Quantity	649	651	6	60	
+S0038071711004354-755	4	MeasuredProperty	645	646	7	n	

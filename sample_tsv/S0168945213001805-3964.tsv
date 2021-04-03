@@ -1,0 +1,7 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0168945213001805-3964	1	Quantity	290	295	1	51-bp	
+S0168945213001805-3964	1	MeasuredProperty	296	313	2	in-frame deletion	
+S0168945213001805-3964	1	MeasuredEntity	271	282	3	mutant gene	
+S0168945213001805-3964	2	Quantity	969	978	4	about 40%	
+S0168945213001805-3964	2	MeasuredProperty	979	985	5	taller	
+S0168945213001805-3964	2	MeasuredEntity	900	963	6	Hybrid aspen (P. tremula × P. tremuloides) over-expressing GID1	

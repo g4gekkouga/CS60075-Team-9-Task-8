@@ -1,0 +1,6 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S2211124712002884-649	1	Quantity	117	121	2	100%	
+S2211124712002884-649	1	MeasuredEntity	79	104	5	Values of control line 20	
+S2211124712002884-649	2	Quantity	127	130	3	3–4	
+S2211124712002884-649	2	MeasuredProperty	123	124	4	n	
+S2211124712002884-649	2	MeasuredEntity	131	151	6	independent cultures	

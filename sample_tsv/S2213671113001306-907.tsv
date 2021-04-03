@@ -1,0 +1,5 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S2213671113001306-907	1	Quantity	55	60	1	50 μm	
+S2213671113001306-907	1	MeasuredEntity	44	53	3	scale bar	
+S2213671113001306-907	2	Quantity	135	141	2	200 μm	
+S2213671113001306-907	2	MeasuredEntity	124	133	4	scale bar	

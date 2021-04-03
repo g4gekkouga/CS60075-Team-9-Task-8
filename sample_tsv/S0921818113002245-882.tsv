@@ -1,0 +1,8 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0921818113002245-882	1	Quantity	186	196	1	873 varves	
+S0921818113002245-882	1	MeasuredEntity	176	182	2	series	
+S0921818113002245-882	2	Quantity	549	556	3	AD 1850	
+S0921818113002245-882	2	MeasuredEntity	557	579	4	lead pollution horizon	
+S0921818113002245-882	3	Quantity	694	706	5	above 10.5 m	
+S0921818113002245-882	3	MeasuredProperty	707	712	6	depth	
+S0921818113002245-882	3	MeasuredEntity	684	693	7	sediments	

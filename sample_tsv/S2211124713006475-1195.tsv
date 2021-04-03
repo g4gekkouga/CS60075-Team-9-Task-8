@@ -1,0 +1,6 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S2211124713006475-1195	1	Quantity	429	437	1	Two days	
+S2211124713006475-1195	1	MeasuredProperty	500	509	2	dispersed	
+S2211124713006475-1195	1	MeasuredEntity	468	488	3	surviving GFP+ cells	
+S2211124713006475-1195	2	Quantity	812	818	4	2 days	
+S2211124713006475-1195	2	MeasuredEntity	788	811	5	in vivo fiber outgrowth	

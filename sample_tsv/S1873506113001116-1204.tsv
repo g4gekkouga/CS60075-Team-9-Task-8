@@ -1,0 +1,22 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S1873506113001116-1204	1	Quantity	391	410	1	at least 3 passages	
+S1873506113001116-1204	1	MeasuredProperty	323	360	2	cultured on E8 feeder-free conditions	
+S1873506113001116-1204	1	MeasuredEntity	313	322	3	BC1 cells	
+S1873506113001116-1204	2	Quantity	591	602	4	within 24 h	
+S1873506113001116-1204	2	MeasuredProperty	541	590	5	survived and formed convex dish-shaped aggregates	
+S1873506113001116-1204	2	MeasuredEntity	535	540	6	cells	
+S1873506113001116-1204	3	Quantity	827	853	7	3.7 ± 0.9 fold per passage	
+S1873506113001116-1204	3	MeasuredProperty	819	823	11	rate	
+S1873506113001116-1204	3	MeasuredEntity	750	759	13	BC1 cells	
+S1873506113001116-1204	4	Quantity	855	869	8	3.7 × 106 fold	
+S1873506113001116-1204	5	Quantity	893	898	9	> 99%	
+S1873506113001116-1204	5	MeasuredEntity	906	911	14	cells	
+S1873506113001116-1204	6	Quantity	934	936	10	13	
+S1873506113001116-1204	6	MeasuredProperty	918	927	12	TRA-1–60+	
+S1873506113001116-1204	6	MeasuredEntity	937	945	15	passages	
+S1873506113001116-1204	7	Quantity	1208	1220	16	46.8% ± 1.6%	
+S1873506113001116-1204	7	MeasuredProperty	1243	1258	17	CD34+CD45+ HPCs	
+S1873506113001116-1204	7	MeasuredEntity	1228	1233	18	cells	
+S1873506113001116-1204	8	Quantity	1383	1390	19	one-day	
+S1873506113001116-1204	8	MeasuredProperty	1391	1400	20	treatment	
+S1873506113001116-1204	8	MeasuredEntity	1298	1321	21	undifferentiated hiPSCs	

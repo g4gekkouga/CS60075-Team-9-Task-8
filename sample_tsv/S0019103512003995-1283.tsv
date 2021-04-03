@@ -1,0 +1,4 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103512003995-1283	1	Quantity	149	156	1	7200 K.	
+S0019103512003995-1283	1	MeasuredProperty	129	145	2	mean temperature	
+S0019103512003995-1283	1	MeasuredEntity	99	121	3	empirical model of K10	

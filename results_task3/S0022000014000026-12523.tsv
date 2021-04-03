@@ -1,0 +1,4 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0022000014000026-12523	1	Quantity	689	696	3	state s	
+S0022000014000026-12523	2	Quantity	741	744	4	T,s	
+S0022000014000026-12523	3	Quantity	771	780	5	0,t)∈σT,s	

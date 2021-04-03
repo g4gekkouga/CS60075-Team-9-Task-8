@@ -1,0 +1,4 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0167819113001051-1550	1	Quantity	79	89	1	roughly 2%	
+S0167819113001051-1550	1	MeasuredProperty	50	78	2	conventional unit deadlocked	
+S0167819113001051-1550	1	MeasuredEntity	97	124	3	times that a glitch appears	

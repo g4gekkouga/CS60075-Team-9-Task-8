@@ -1,0 +1,7 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0038071712001010-944	1	Quantity	224	228	1	115%	
+S0038071712001010-944	1	MeasuredProperty	133	176	4	G. mosseae plus G. intraradices combination	
+S0038071712001010-944	1	MeasuredEntity	193	220	6	mycorrhizal growth response	
+S0038071712001010-944	2	Quantity	256	260	2	169%	
+S0038071712001010-944	3	Quantity	287	292	3	0.001	
+S0038071712001010-944	3	MeasuredProperty	283	284	5	P	

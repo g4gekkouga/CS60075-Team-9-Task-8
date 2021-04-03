@@ -1,0 +1,4 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S2213158213000582-751	1	Quantity	27	32	1	50 ms	
+S2213158213000582-751	2	Quantity	93	105	2	FDR q < 0.05	
+S2213158213000582-751	3	Quantity	191	203	3	FDR q < 0.05	

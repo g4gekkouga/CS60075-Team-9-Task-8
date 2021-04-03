@@ -1,0 +1,13 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103513005058-4158	1	Quantity	684	687	1	1/e	
+S0019103513005058-4158	1	MeasuredProperty	688	700	6	mixing depth	
+S0019103513005058-4158	1	MeasuredEntity	639	678	8	impactors have churned the soil on Mars	
+S0019103513005058-4158	2	Quantity	704	716	2	0.51–0.85 m.	
+S0019103513005058-4158	3	Quantity	724	729	3	three	
+S0019103513005058-4158	3	MeasuredEntity	730	746	9	e-folding depths	
+S0019103513005058-4158	4	Quantity	767	776	4	1.5–2.6 m	
+S0019103513005058-4158	4	MeasuredProperty	777	782	7	depth	
+S0019103513005058-4158	5	Quantity	796	801	5	∼2 m.	
+S0019103513005058-4158	6	Quantity	858	866	10	1 g cm−3	
+S0019103513005058-4158	6	MeasuredProperty	847	854	11	density	
+S0019103513005058-4158	6	MeasuredEntity	842	846	12	soil	

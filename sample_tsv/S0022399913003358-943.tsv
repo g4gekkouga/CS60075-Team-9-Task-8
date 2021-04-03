@@ -1,0 +1,5 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0022399913003358-943	1	Quantity	1464	1480	1	530 participants	
+S0022399913003358-943	1	MeasuredEntity	1438	1460	4	cross-sectional sample	
+S0022399913003358-943	2	Quantity	1482	1485	2	50%	
+S0022399913003358-943	2	MeasuredProperty	1486	1507	3	with chronic tinnitus	

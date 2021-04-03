@@ -1,0 +1,14 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0032063312003054-2501	1	Quantity	17	20	1	689	
+S0032063312003054-2501	1	MeasuredEntity	21	64	4	events of electron precipitation signatures	
+S0032063312003054-2501	2	Quantity	66	68	2	85	
+S0032063312003054-2501	2	MeasuredProperty	90	127	3	concurrent acceleration of heavy-ions	
+S0032063312003054-2501	3	Quantity	147	150	5	12%	
+S0032063312003054-2501	3	MeasuredEntity	154	209	6	precipitation signatures occurring on ∼5% of MEX orbits	
+S0032063312003054-2501	4	Quantity	216	218	7	37	
+S0032063312003054-2501	4	MeasuredEntity	219	262	8	events of electron precipitation signatures	
+S0032063312003054-2501	5	Quantity	406	408	9	5%	
+S0032063312003054-2501	5	MeasuredProperty	338	375	11	peripheral acceleration of heavy-ions	
+S0032063312003054-2501	5	MeasuredEntity	412	436	12	precipitation signatures	
+S0032063312003054-2501	6	Quantity	444	447	10	∼2%	
+S0032063312003054-2501	6	MeasuredEntity	451	461	13	MEX orbits	

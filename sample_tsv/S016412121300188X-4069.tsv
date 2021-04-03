@@ -1,0 +1,8 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S016412121300188X-4069	1	Quantity	54	72	1	9438 lines of code	
+S016412121300188X-4069	1	MeasuredProperty	73	84	4	represented	
+S016412121300188X-4069	1	MeasuredEntity	19	44	5	open source calculator bc	
+S016412121300188X-4069	2	Quantity	88	105	2	7538 SDG vertices	
+S016412121300188X-4069	3	Quantity	179	189	6	almost 70%	
+S016412121300188X-4069	3	MeasuredProperty	154	167	7	large plateau	
+S016412121300188X-4069	3	MeasuredEntity	197	200	8	MSG	

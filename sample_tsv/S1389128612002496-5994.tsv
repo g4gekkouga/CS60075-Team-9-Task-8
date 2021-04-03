@@ -1,0 +1,6 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S1389128612002496-5994	1	Quantity	302	305	1	25%	
+S1389128612002496-5994	1	MeasuredProperty	292	301	3	RED drops	
+S1389128612002496-5994	1	MeasuredEntity	306	313	5	packets	
+S1389128612002496-5994	2	Quantity	334	338	2	7.6%	
+S1389128612002496-5994	2	MeasuredProperty	344	352	4	DropTail	

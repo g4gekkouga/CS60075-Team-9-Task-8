@@ -1,0 +1,8 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0167577X13006393-787	1	Quantity	112	122	1	ratio=1.37	
+S0167577X13006393-787	1	MeasuredEntity	107	111	2	Ca/P	
+S0167577X13006393-787	2	Quantity	176	190	3	before 1200 °C	
+S0167577X13006393-787	2	MeasuredProperty	169	175	5	occurs	
+S0167577X13006393-787	2	MeasuredEntity	152	168	6	HA decomposition	
+S0167577X13006393-787	3	Quantity	272	282	4	ratio=1.67	
+S0167577X13006393-787	3	MeasuredEntity	197	270	7	deficient HA start their decomposition at temperatures lower than pure HA	

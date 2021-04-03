@@ -1,0 +1,6 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S016412121300188X-4436	1	Quantity	249	252	1	10%	
+S016412121300188X-4436	1	MeasuredEntity	236	245	2	threshold	
+S016412121300188X-4436	2	Quantity	335	338	3	10%	
+S016412121300188X-4436	2	MeasuredProperty	369	434	4	produce the same backward slice as well as the same forward slice	
+S016412121300188X-4436	2	MeasuredEntity	346	368	5	program's SDG vertices	

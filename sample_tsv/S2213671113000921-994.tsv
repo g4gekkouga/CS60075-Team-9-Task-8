@@ -1,0 +1,15 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S2213671113000921-994	1	Quantity	369	378	1	36 clones	
+S2213671113000921-994	1	MeasuredEntity	384	462	2	expanded and screened by Southern blotting for homologous recombination events	
+S2213671113000921-994	2	Quantity	484	486	3	26	
+S2213671113000921-994	2	MeasuredEntity	476	482	6	clones	
+S2213671113000921-994	3	Quantity	488	491	4	72%	
+S2213671113000921-994	3	MeasuredProperty	498	551	5	found to carry the GFP-Neo cassette in the SOX2 locus	
+S2213671113000921-994	4	Quantity	685	688	7	one	
+S2213671113000921-994	4	MeasuredEntity	698	704	8	clones	
+S2213671113000921-994	5	Quantity	1465	1492	9	over more than 20 passages.	
+S2213671113000921-994	5	MeasuredProperty	1400	1439	10	percentage of GFP-positive (GFP+) cells	
+S2213671113000921-994	5	MeasuredEntity	1443	1451	11	hSOX2-23	
+S2213671113000921-994	6	Quantity	1550	1554	12	100%	
+S2213671113000921-994	6	MeasuredProperty	1569	1591	13	expressed SOX2 protein	
+S2213671113000921-994	6	MeasuredEntity	1558	1568	14	GFP+ cells	

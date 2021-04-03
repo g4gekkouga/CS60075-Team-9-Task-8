@@ -1,0 +1,4 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0960148113005727-1181	1	Quantity	141	143	1	2%	
+S0960148113005727-1181	1	MeasuredProperty	131	137	2	output	
+S0960148113005727-1181	1	MeasuredEntity	106	110	3	farm	

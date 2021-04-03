@@ -1,4 +1,9 @@
 docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+<<<<<<< HEAD
 S0032063313003218-7156	1	Quantity	389	394	1	three	
 S0032063313003218-7156	2	Quantity	661	667	2	a ~75%	
+=======
+S0032063313003218-7156	1	Quantity	389	400	1	three times	
+S0032063313003218-7156	2	Quantity	661	676	2	a ~75% decrease	
+>>>>>>> 03a4224c3c4c713fad20e36128eb28673ab12004
 S0032063313003218-7156	3	Quantity	1156	1159	3	30%	

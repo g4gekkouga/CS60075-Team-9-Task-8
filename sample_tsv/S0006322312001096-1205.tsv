@@ -1,0 +1,4 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0006322312001096-1205	1	Quantity	102	114	1	past 14 days	
+S0006322312001096-1205	1	MeasuredProperty	74	94	2	taken any medication	
+S0006322312001096-1205	1	MeasuredEntity	33	45	3	participants	

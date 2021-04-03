@@ -1,0 +1,10 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0012821X12004384-1232	1	Quantity	28	36	1	>0.5 km)	
+S0012821X12004384-1232	1	MeasuredProperty	22	26	2	deep	
+S0012821X12004384-1232	1	MeasuredEntity	37	62	3	central part of the basin	
+S0012821X12004384-1232	2	Quantity	338	344	4	<10 cm	
+S0012821X12004384-1232	2	MeasuredProperty	301	305	5	thin	
+S0012821X12004384-1232	2	MeasuredEntity	306	326	6	turbidite sandstones	
+S0012821X12004384-1232	3	Quantity	515	536	7	in the order of 100 m	
+S0012821X12004384-1232	3	MeasuredProperty	507	514	8	fall in	
+S0012821X12004384-1232	3	MeasuredEntity	471	476	9	basin	

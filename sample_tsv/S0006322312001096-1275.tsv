@@ -1,0 +1,4 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0006322312001096-1275	1	Quantity	39	55	1	range 66% to 88%	
+S0006322312001096-1275	1	MeasuredProperty	15	23	2	response	
+S0006322312001096-1275	1	MeasuredEntity	31	37	3	survey	

@@ -1,0 +1,9 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0927024813001955-576	1	Quantity	81	87	1	125 nm	
+S0927024813001955-576	1	MeasuredProperty	88	93	3	thick	
+S0927024813001955-576	1	MeasuredEntity	94	107	5	AALD ZnO film	
+S0927024813001955-576	2	Quantity	152	156	2	1 h.	
+S0927024813001955-576	2	MeasuredProperty	108	121	4	post-annealed	
+S0927024813001955-576	3	Quantity	303	311	6	one week	
+S0927024813001955-576	3	MeasuredProperty	315	334	7	storage in the dark	
+S0927024813001955-576	3	MeasuredEntity	275	282	8	devices	

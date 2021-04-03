@@ -1,0 +1,4 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S2213671113001306-1286	1	Quantity	105	112	1	4 weeks	
+S2213671113001306-1286	1	MeasuredProperty	96	104	2	survived	
+S2213671113001306-1286	1	MeasuredEntity	75	95	3	hRPE•hRPE monolayers	

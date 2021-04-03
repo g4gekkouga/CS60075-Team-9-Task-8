@@ -1,0 +1,19 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0012821X12004384-1265	1	Quantity	11	13	1	71	
+S0012821X12004384-1265	1	MeasuredEntity	14	32	2	palynology samples	
+S0012821X12004384-1265	2	Quantity	512	519	3	1/100th	
+S0012821X12004384-1265	2	MeasuredProperty	483	506	5	Each slide was produced	
+S0012821X12004384-1265	2	MeasuredEntity	527	551	7	total material processed	
+S0012821X12004384-1265	3	Quantity	594	597	4	5 g	
+S0012821X12004384-1265	3	MeasuredProperty	563	577	6	initial weight	
+S0012821X12004384-1265	3	MeasuredEntity	601	615	8	dried sediment	
+S0012821X12004384-1265	4	Quantity	689	695	9	0.05 g	
+S0012821X12004384-1265	4	MeasuredEntity	699	713	10	dried sediment	
+S0012821X12004384-1265	5	Quantity	1116	1123	11	>250 μm	
+S0012821X12004384-1265	5	MeasuredProperty	1124	1133	15	fractions	
+S0012821X12004384-1265	6	Quantity	1192	1196	12	>90%	
+S0012821X12004384-1265	6	MeasuredProperty	1201	1231	16	amorphous organic matter (AOM)	
+S0012821X12004384-1265	7	Quantity	1283	1302	13	between 20 and 60 g	
+S0012821X12004384-1265	7	MeasuredEntity	1306	1320	17	dried sediment	
+S0012821X12004384-1265	8	Quantity	1357	1362	14	63 μm	
+S0012821X12004384-1265	8	MeasuredEntity	1363	1368	18	sieve	

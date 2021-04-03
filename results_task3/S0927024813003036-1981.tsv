@@ -1,0 +1,7 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0927024813003036-1981	1	Quantity	318	324	1	99.95%	
+S0927024813003036-1981	1	MeasuredProperty	325	331	2	purity	
+S0927024813003036-1981	2	Quantity	442	448	3	798 °C	
+S0927024813003036-1981	2	MeasuredEntity	362	369	4	Samples	
+S0927024813003036-1981	3	Quantity	845	858	5	below ∼100 °C	
+S0927024813003036-1981	4	Quantity	862	868	6	<10 s.	

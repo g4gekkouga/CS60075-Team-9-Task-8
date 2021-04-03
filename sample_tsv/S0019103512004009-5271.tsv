@@ -1,0 +1,11 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103512004009-5271	1	Quantity	160	171	1	below 3.5Rp	
+S0019103512004009-5271	1	MeasuredEntity	78	149	2	collisions with neutral H dominate the transport of heavy neutral atoms	
+S0019103512004009-5271	2	Quantity	294	308	3	6 × 106 kg s−1	
+S0019103512004009-5271	2	MeasuredProperty	281	290	4	loss rate	
+S0019103512004009-5271	2	MeasuredEntity	276	280	5	mass	
+S0019103512004009-5271	3	Quantity	462	473	6	Ṁ>107kgs-1	
+S0019103512004009-5271	3	MeasuredEntity	452	458	7	models	
+S0019103512004009-5271	4	Quantity	643	649	8	≳ 10−4	
+S0019103512004009-5271	4	MeasuredProperty	628	633	9	ratio	
+S0019103512004009-5271	4	MeasuredEntity	634	642	10	[H+]/[H]	

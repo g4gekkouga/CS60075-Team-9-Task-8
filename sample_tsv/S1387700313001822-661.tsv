@@ -1,0 +1,10 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S1387700313001822-661	1	Quantity	456	462	2	260 nm	
+S1387700313001822-661	1	MeasuredProperty	435	448	3	negative band	
+S1387700313001822-661	2	Quantity	599	609	4	215–225 nm	
+S1387700313001822-661	2	MeasuredProperty	582	595	5	negative band	
+S1387700313001822-661	2	MeasuredEntity	550	571	6	spectrum of complex 1	
+S1387700313001822-661	3	Quantity	895	901	7	297 nm	
+S1387700313001822-661	3	MeasuredEntity	864	882	9	strong negative CE	
+S1387700313001822-661	4	Quantity	905	916	8	≈ − 10 mdeg	
+S1387700313001822-661	4	MeasuredEntity	903	904	10	θ	

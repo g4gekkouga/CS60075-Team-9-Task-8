@@ -1,0 +1,7 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0038071711004354-2573	1	Quantity	166	174	1	20–30 cm	
+S0038071711004354-2573	1	MeasuredEntity	182	194	2	soil profile	
+S0038071711004354-2573	2	Quantity	406	409	3	six	
+S0038071711004354-2573	2	MeasuredEntity	410	445	4	Mediterranean forest sites in Italy	
+S0038071711004354-2573	3	Quantity	559	564	5	20 cm	
+S0038071711004354-2573	3	MeasuredEntity	568	580	6	soil profile	

@@ -1,0 +1,8 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103513005058-4349	1	Quantity	194	197	1	35%	
+S0019103513005058-4349	1	MeasuredEntity	171	190	4	temperature profile	
+S0019103513005058-4349	2	Quantity	201	203	2	5%	
+S0019103513005058-4349	2	MeasuredProperty	204	214	3	increments	
+S0019103513005058-4349	3	Quantity	368	398	5	around six orders of magnitude	
+S0019103513005058-4349	3	MeasuredProperty	320	335	6	deposition rate	
+S0019103513005058-4349	3	MeasuredEntity	339	354	7	perchloric acid	

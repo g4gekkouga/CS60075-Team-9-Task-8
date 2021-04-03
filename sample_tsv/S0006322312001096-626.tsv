@@ -1,0 +1,7 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0006322312001096-626	1	Quantity	48	51	1	10%	
+S0006322312001096-626	1	MeasuredProperty	52	60	3	Increase	
+S0006322312001096-626	1	MeasuredEntity	20	42	5	Framingham Risk Scores	
+S0006322312001096-626	2	Quantity	127	129	2	65	
+S0006322312001096-626	2	MeasuredProperty	123	126	4	Age	
+S0006322312001096-626	2	MeasuredEntity	86	105	6	Depressive Symptoms	

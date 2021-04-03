@@ -1,0 +1,13 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103511004994-1607	1	Quantity	183	188	1	50 km	
+S0019103511004994-1607	1	MeasuredProperty	158	174	2	minimum distance	
+S0019103511004994-1607	2	Quantity	331	334	3	two	
+S0019103511004994-1607	2	MeasuredEntity	335	341	4	flybys	
+S0019103511004994-1607	3	Quantity	554	558	5	115°	
+S0019103511004994-1607	4	Quantity	574	583	6	about 75°	
+S0019103511004994-1607	4	MeasuredProperty	679	693	7	magnetic field	
+S0019103511004994-1607	5	Quantity	1084	1104	8	tens to hundreds keV	
+S0019103511004994-1607	5	MeasuredProperty	1105	1113	9	energies	
+S0019103511004994-1607	5	MeasuredEntity	1153	1172	10	step-like depletion	
+S0019103511004994-1607	6	Quantity	1318	1321	11	two	
+S0019103511004994-1607	6	MeasuredEntity	1322	1327	12	steps	

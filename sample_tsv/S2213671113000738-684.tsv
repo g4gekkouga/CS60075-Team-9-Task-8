@@ -1,0 +1,13 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S2213671113000738-684	1	Quantity	75	78	1	one	
+S2213671113000738-684	1	MeasuredEntity	79	88	4	allograft	
+S2213671113000738-684	2	Quantity	108	116	2	3 months	
+S2213671113000738-684	3	Quantity	304	312	5	2 months	
+S2213671113000738-684	3	MeasuredEntity	258	300	7	serum level of IFN-γ temporarily increased	
+S2213671113000738-684	4	Quantity	337	342	6	three	
+S2213671113000738-684	4	MeasuredEntity	343	350	8	animals	
+S2213671113000738-684	5	Quantity	405	417	9	3.5–4 months	
+S2213671113000738-684	5	MeasuredEntity	367	401	10	immunofluorescence study conducted	
+S2213671113000738-684	6	Quantity	1249	1252	11	60%	
+S2213671113000738-684	6	MeasuredProperty	1266	1285	12	CD8+ killer T cells	
+S2213671113000738-684	6	MeasuredEntity	1214	1225	13	CD45+ cells	

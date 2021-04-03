@@ -1,0 +1,8 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0168945213001805-4454	1	Quantity	346	356	1	eight-year	
+S0168945213001805-4454	1	MeasuredEntity	368	384	5	deciduous forest	
+S0168945213001805-4454	2	Quantity	450	456	2	42–48%	
+S0168945213001805-4454	2	MeasuredProperty	418	446	3	increased net photosynthesis	
+S0168945213001805-4454	3	Quantity	578	584	6	15–27%	
+S0168945213001805-4454	3	MeasuredProperty	551	574	7	increased biomass yield	
+S0168945213001805-4454	3	MeasuredEntity	495	550	8	free-air enrichment by supplementary CO2 in field plots	

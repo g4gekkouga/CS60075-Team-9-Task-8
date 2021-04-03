@@ -1,0 +1,6 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103512003533-3306	1	Quantity	214	223	1	320–500 K	
+S0019103512003533-3306	1	MeasuredProperty	160	186	3	thermospheric temperatures	
+S0019103512003533-3306	1	MeasuredEntity	206	212	5	Saturn	
+S0019103512003533-3306	2	Quantity	430	443	2	above ∼500 K.	
+S0019103512003533-3306	2	MeasuredProperty	417	429	4	temperatures	

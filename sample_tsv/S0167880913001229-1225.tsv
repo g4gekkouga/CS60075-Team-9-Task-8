@@ -1,0 +1,13 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0167880913001229-1225	1	Quantity	226	232	1	< 0.01	
+S0167880913001229-1225	1	MeasuredProperty	224	225	4	p	
+S0167880913001229-1225	1	MeasuredEntity	198	203	7	ANOVA	
+S0167880913001229-1225	2	Quantity	288	295	2	0–10 cm	
+S0167880913001229-1225	2	MeasuredEntity	265	284	8	change in SOC stock	
+S0167880913001229-1225	3	Quantity	302	317	3	over the 9-year	
+S0167880913001229-1225	3	MeasuredProperty	318	324	6	period	
+S0167880913001229-1225	4	Quantity	446	452	9	< 0.01	
+S0167880913001229-1225	4	MeasuredProperty	444	445	11	p	
+S0167880913001229-1225	4	MeasuredEntity	454	487	13	effect of initial C concentration	
+S0167880913001229-1225	5	Quantity	495	503	10	20–40 cm	
+S0167880913001229-1225	5	MeasuredProperty	504	509	12	depth	

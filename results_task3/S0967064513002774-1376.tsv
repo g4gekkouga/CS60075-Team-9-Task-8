@@ -1,0 +1,9 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0967064513002774-1376	1	Quantity	75	81	1	220 mL	
+S0967064513002774-1376	1	MeasuredProperty	82	92	2	incubation	
+S0967064513002774-1376	2	Quantity	411	428	3	2 h. Ten chambers	
+S0967064513002774-1376	3	Quantity	656	661	4	48 h.	
+S0967064513002774-1376	4	Quantity	755	761	5	40-min	
+S0967064513002774-1376	4	MeasuredProperty	762	768	7	period	
+S0967064513002774-1376	5	Quantity	832	841	6	below 80%	
+S0967064513002774-1376	6	Quantity	919	925	8	−20 °C	

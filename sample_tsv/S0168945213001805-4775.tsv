@@ -1,0 +1,10 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0168945213001805-4775	1	Quantity	188	191	1	two	
+S0168945213001805-4775	1	MeasuredEntity	192	280	2	endogenous cold-binding factor/drought responsive element binding (CBF/DREB)1-like genes	
+S0168945213001805-4775	2	Quantity	536	539	3	two	
+S0168945213001805-4775	2	MeasuredEntity	560	577	7	Eucalyptus gunnii	
+S0168945213001805-4775	3	Quantity	628	642	4	down to −18 °C	
+S0168945213001805-4775	3	MeasuredProperty	598	627	5	withstand winter temperatures	
+S0168945213001805-4775	4	Quantity	905	910	8	−8 °C	
+S0168945213001805-4775	4	MeasuredProperty	885	901	9	stable tolerance	
+S0168945213001805-4775	4	MeasuredEntity	757	871	10	Tropical E. grandis × E. urophylla expressing a stress-inducible rd29a promoter-CBF2 transcription factor cassette	

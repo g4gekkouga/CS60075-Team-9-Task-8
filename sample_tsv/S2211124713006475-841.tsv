@@ -1,0 +1,4 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S2211124713006475-841	1	Quantity	51	58	1	6 weeks	
+S2211124713006475-841	1	MeasuredProperty	59	80	2	after transplantation	
+S2211124713006475-841	1	MeasuredEntity	4	20	3	GH plasma levels	

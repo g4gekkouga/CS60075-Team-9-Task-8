@@ -1,0 +1,6 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S1359645413009816-2973	1	Quantity	1016	1038	1	eGB=(0.28–0.42)×10-10m	
+S1359645413009816-2973	1	MeasuredEntity	978	1014	5	molecular dynamics simulations on Ni	
+S1359645413009816-2973	2	Quantity	1087	1109	2	eGB=(0.39–0.41)×10-10m	
+S1359645413009816-2973	3	Quantity	1118	1124	3	1200 K	
+S1359645413009816-2973	3	MeasuredProperty	1114	1115	4	T	

@@ -1,0 +1,7 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0960896612001022-1223	1	Quantity	107	133	1	before the age of 20 years	
+S0960896612001022-1223	1	MeasuredProperty	101	106	3	onset	
+S0960896612001022-1223	1	MeasuredEntity	65	95	5	PEO and pigmentary retinopathy	
+S0960896612001022-1223	2	Quantity	230	250	2	greater than 0.1 g/L	
+S0960896612001022-1223	2	MeasuredProperty	208	229	4	protein concentration	
+S0960896612001022-1223	2	MeasuredEntity	182	207	6	cerebrospinal fluid (CSF)	

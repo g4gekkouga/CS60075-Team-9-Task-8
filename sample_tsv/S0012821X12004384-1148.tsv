@@ -1,0 +1,8 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0012821X12004384-1148	1	Quantity	82	88	1	∼56 Ma	
+S0012821X12004384-1148	1	MeasuredEntity	42	80	2	Paleocene–Eocene thermal maximum (PETM	
+S0012821X12004384-1148	2	Quantity	286	291	3	54 °N	
+S0012821X12004384-1148	2	MeasuredProperty	272	285	4	paleolatitude	
+S0012821X12004384-1148	2	MeasuredEntity	187	270	5	North Atlantic igneous province (NAIP), the Kilda Basin, and the northern rain belt	
+S0012821X12004384-1148	3	Quantity	937	953	6	before (103 yrs)	
+S0012821X12004384-1148	3	MeasuredEntity	880	931	7	halocline stratification and terrigenous deposition	

@@ -1,0 +1,11 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0022399913003358-931	1	Quantity	470	478	1	7 to 20%	
+S0022399913003358-931	1	MeasuredProperty	446	456	5	prevalence	
+S0022399913003358-931	2	Quantity	529	536	2	10 year	
+S0022399913003358-931	2	MeasuredEntity	537	551	7	incidence rate	
+S0022399913003358-931	3	Quantity	567	580	3	over 48 years	
+S0022399913003358-931	3	MeasuredEntity	555	566	8	adults aged	
+S0022399913003358-931	4	Quantity	584	587	4	13%	
+S0022399913003358-931	5	Quantity	593	609	9	Approximately 5%	
+S0022399913003358-931	5	MeasuredProperty	631	666	10	severely affected by their tinnitus	
+S0022399913003358-931	5	MeasuredEntity	617	627	11	population	

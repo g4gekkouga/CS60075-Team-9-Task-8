@@ -1,0 +1,5 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0032386113005454-1245	1	Quantity	79	85	1	10 wt%	
+S0032386113005454-1245	2	Quantity	95	101	2	20 wt%	
+S0032386113005454-1245	3	Quantity	124	129	3	20 °C	
+S0032386113005454-1245	3	MeasuredEntity	105	120	4	S-CSR particles	

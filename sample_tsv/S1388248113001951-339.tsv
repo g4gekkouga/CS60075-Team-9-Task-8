@@ -1,0 +1,11 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S1388248113001951-339	1	Quantity	110	115	1	4.0 V	
+S1388248113001951-339	1	MeasuredProperty	99	106	4	charged	
+S1388248113001951-339	1	MeasuredEntity	88	93	7	cells	
+S1388248113001951-339	2	Quantity	129	139	2	12 mA g− 1	
+S1388248113001951-339	2	MeasuredProperty	121	125	5	rate	
+S1388248113001951-339	3	Quantity	180	216	3	1/20 (12 mA g− 1)–30C (7260 mA g− 1)	
+S1388248113001951-339	3	MeasuredProperty	173	178	6	rates	
+S1388248113001951-339	4	Quantity	252	280	8	(a) 1.3 (b) 2.4, and (c) 2.2	
+S1388248113001951-339	4	MeasuredEntity	222	228	9	sample	
+S1388248113001951-339	5	Quantity	281	289	10	mg cm− 2	

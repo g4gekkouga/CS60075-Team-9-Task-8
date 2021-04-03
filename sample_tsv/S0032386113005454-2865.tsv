@@ -1,0 +1,16 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0032386113005454-2865	1	Quantity	3	19	1	room temperature	
+S0032386113005454-2865	1	MeasuredEntity	50	82	2	S-CSR particle-modified polymers	
+S0032386113005454-2865	2	Quantity	278	295	3	10 wt% and 20 wt%	
+S0032386113005454-2865	2	MeasuredEntity	296	325	4	S-CSR-modified epoxy polymers	
+S0032386113005454-2865	3	Quantity	649	657	5	0.296 μm	
+S0032386113005454-2865	3	MeasuredProperty	598	611	6	mean diameter	
+S0032386113005454-2865	3	MeasuredEntity	621	629	7	cavities	
+S0032386113005454-2865	4	Quantity	774	781	8	0.18 μm	
+S0032386113005454-2865	4	MeasuredProperty	697	710	9	mean diameter	
+S0032386113005454-2865	4	MeasuredEntity	718	733	10	S-CSR particles	
+S0032386113005454-2865	5	Quantity	1662	1678	11	room temperature	
+S0032386113005454-2865	5	MeasuredEntity	1644	1651	12	samples	
+S0032386113005454-2865	6	Quantity	1755	1762	13	−109 °C	
+S0032386113005454-2865	6	MeasuredProperty	1736	1745	14	cavitated	
+S0032386113005454-2865	6	MeasuredEntity	1720	1735	15	S-CSR particles	

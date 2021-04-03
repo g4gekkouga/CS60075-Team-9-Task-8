@@ -1,0 +1,5 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0960148113005727-1494	1	Quantity	42	81	1	−0.43 ± 0.05 percentage points per year	
+S0960148113005727-1494	1	MeasuredEntity	30	38	3	measures	
+S0960148113005727-1494	2	Quantity	90	101	2	−1.6 ± 0.2%	
+S0960148113005727-1494	2	MeasuredEntity	102	120	4	annual degradation	

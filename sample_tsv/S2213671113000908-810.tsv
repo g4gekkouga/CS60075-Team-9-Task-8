@@ -1,0 +1,4 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S2213671113000908-810	1	Quantity	694	697	1	80%	
+S2213671113000908-810	1	MeasuredProperty	729	756	2	coexpresses CXCR4 and SOX17	
+S2213671113000908-810	1	MeasuredEntity	705	728	3	resulting DE population	

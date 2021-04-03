@@ -1,0 +1,6 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S1873506113001116-978	1	Quantity	551	554	1	two	
+S1873506113001116-978	1	MeasuredEntity	565	576	2	hiPSC lines	
+S1873506113001116-978	2	Quantity	790	801	3	10 passages	
+S1873506113001116-978	2	MeasuredProperty	749	757	4	cultured	
+S1873506113001116-978	2	MeasuredEntity	742	748	5	hiPSCs	

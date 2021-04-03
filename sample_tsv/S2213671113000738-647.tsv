@@ -1,0 +1,8 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S2213671113000738-647	1	Quantity	14	17	1	two	
+S2213671113000738-647	1	MeasuredEntity	18	25	2	animals	
+S2213671113000738-647	2	Quantity	170	173	3	two	
+S2213671113000738-647	2	MeasuredEntity	174	181	4	animals	
+S2213671113000738-647	3	Quantity	1066	1081	5	within 12 weeks	
+S2213671113000738-647	3	MeasuredProperty	982	1000	6	generate teratomas	
+S2213671113000738-647	3	MeasuredEntity	1008	1065	7	testes of a severe combined immunodeficiency (SCID) mouse	

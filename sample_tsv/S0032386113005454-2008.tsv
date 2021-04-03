@@ -1,0 +1,4 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0032386113005454-2008	1	Quantity	69	82	1	about −100 °C	
+S0032386113005454-2008	1	MeasuredProperty	33	42	2	toughened	
+S0032386113005454-2008	1	MeasuredEntity	4	13	3	particles	

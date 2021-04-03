@@ -1,0 +1,21 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0927024813003036-2011	1	Quantity	244	272	1	range 1013 cm−3 to 1016 cm−3	
+S0927024813003036-2011	1	MeasuredEntity	151	172	2	injection level range	
+S0927024813003036-2011	2	Quantity	555	561	3	10 min	
+S0927024813003036-2011	2	MeasuredProperty	562	572	5	pre-anneal	
+S0927024813003036-2011	2	MeasuredEntity	497	504	6	samples	
+S0927024813003036-2011	3	Quantity	576	582	4	200 °C	
+S0927024813003036-2011	4	Quantity	649	652	7	∼50	
+S0927024813003036-2011	4	MeasuredEntity	653	669	8	close-up flashes	
+S0927024813003036-2011	5	Quantity	920	927	9	<20  ms	
+S0927024813003036-2011	5	MeasuredProperty	812	840	10	aggregated illumination time	
+S0927024813003036-2011	5	MeasuredEntity	848	864	11	flashes of light	
+S0927024813003036-2011	6	Quantity	1051	1065	12	more than 24 h	
+S0927024813003036-2011	6	MeasuredEntity	1014	1041	13	second lifetime measurement	
+S0927024813003036-2011	7	Quantity	1144	1147	14	two	
+S0927024813003036-2011	7	MeasuredEntity	1148	1169	15	lifetime measurements	
+S0927024813003036-2011	8	Quantity	1910	1915	16	0.2p0	
+S0927024813003036-2011	8	MeasuredEntity	1885	1900	17	injection level	
+S0927024813003036-2011	9	Quantity	1990	2004	18	≤1.5×1012 cm−3	
+S0927024813003036-2011	9	MeasuredProperty	1921	1945	19	bulk iron concentrations	
+S0927024813003036-2011	9	MeasuredEntity	1953	1977	20	“uncontaminated” samples	

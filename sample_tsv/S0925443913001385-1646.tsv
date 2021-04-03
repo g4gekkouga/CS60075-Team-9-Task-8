@@ -1,0 +1,6 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0925443913001385-1646	1	Quantity	277	283	1	10–30%	
+S0925443913001385-1646	1	MeasuredEntity	247	275	2	isokinetic sucrose gradients	
+S0925443913001385-1646	2	Quantity	1438	1441	3	63%	
+S0925443913001385-1646	2	MeasuredProperty	1391	1419	4	levels in the subject sample	
+S0925443913001385-1646	2	MeasuredEntity	1445	1458	5	control value	

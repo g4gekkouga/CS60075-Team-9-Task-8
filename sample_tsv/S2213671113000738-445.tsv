@@ -1,0 +1,4 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S2213671113000738-445	1	Quantity	105	110	1	48 hr	
+S2213671113000738-445	1	MeasuredProperty	66	76	2	Incubation	
+S2213671113000738-445	1	MeasuredEntity	84	89	3	cells	

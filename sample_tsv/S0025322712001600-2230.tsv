@@ -1,0 +1,5 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0025322712001600-2230	1	Quantity	68	71	1	two	
+S0025322712001600-2230	1	MeasuredEntity	72	84	2	marine cores	
+S0025322712001600-2230	2	Quantity	286	300	3	last 200 years	
+S0025322712001600-2230	2	MeasuredEntity	265	278	4	sedimentation	

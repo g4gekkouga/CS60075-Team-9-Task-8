@@ -1,0 +1,6 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0960148113004989-3277	1	Quantity	130	134	1	12 h	
+S0960148113004989-3277	1	MeasuredProperty	160	175	3	time step of Δt	
+S0960148113004989-3277	1	MeasuredEntity	135	152	6	sinusoidal period	
+S0960148113004989-3277	2	Quantity	178	181	7	864	
+S0960148113004989-3277	3	Quantity	182	184	8	s.	

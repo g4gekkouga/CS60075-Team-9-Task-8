@@ -1,0 +1,18 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S175058361300203X-1542	1	Quantity	117	134	1	range of 34–38 °C	
+S175058361300203X-1542	1	MeasuredProperty	97	109	1	temperatures	
+S175058361300203X-1542	1	MeasuredEntity	26	96	1	seismic velocity in sandstones saturated with brine does not depend on	
+S175058361300203X-1542	2	Quantity	383	386	2	50%	
+S175058361300203X-1542	2	MeasuredEntity	387	401	2	CO2 saturation	
+S175058361300203X-1542	3	Quantity	459	472	3	less than 5 m	
+S175058361300203X-1542	3	MeasuredProperty	453	455	3	Vp	
+S175058361300203X-1542	3	MeasuredEntity	440	449	3	scenarios	
+S175058361300203X-1542	4	Quantity	472	475	4	/s.	
+S175058361300203X-1542	5	Quantity	512	515	5	±5%	
+S175058361300203X-1542	5	MeasuredProperty	516	521	5	error	
+S175058361300203X-1542	5	MeasuredEntity	548	573	5	petrophysical experiments	
+S175058361300203X-1542	6	Quantity	646	653	6	±70 m/s	
+S175058361300203X-1542	6	MeasuredProperty	657	659	6	Vp	
+S175058361300203X-1542	7	Quantity	776	788	7	34 and 38 °C	
+S175058361300203X-1542	7	MeasuredProperty	753	764	7	temperature	
+S175058361300203X-1542	7	MeasuredEntity	765	774	7	scenarios	

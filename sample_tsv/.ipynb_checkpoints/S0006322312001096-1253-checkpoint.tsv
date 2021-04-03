@@ -1,0 +1,4 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0006322312001096-1253	0	Quantity	320	328	0	65 years	
+S0006322312001096-1253	0	MeasuredProperty	302	316	0	before the age	
+S0006322312001096-1253	0	MeasuredEntity	263	301	0	increased onset of depressive symptoms	

@@ -1,0 +1,6 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0921818113002245-1752	1	Quantity	249	267	1	approximately 1 mm	
+S0921818113002245-1752	1	MeasuredProperty	268	273	3	thick	
+S0921818113002245-1752	1	MeasuredEntity	213	247	5	distinct layer of clastic sediment	
+S0921818113002245-1752	2	Quantity	321	328	2	5.16 m.	
+S0921818113002245-1752	2	MeasuredProperty	312	317	4	depth	

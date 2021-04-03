@@ -1,0 +1,17 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0006322312001096-1221	1	Quantity	279	282	1	95%	
+S0006322312001096-1221	1	MeasuredEntity	283	303	4	confidence intervals	
+S0006322312001096-1221	2	Quantity	308	311	2	10%	
+S0006322312001096-1221	2	MeasuredProperty	312	329	3	absolute increase	
+S0006322312001096-1221	2	MeasuredEntity	333	343	5	risk score	
+S0006322312001096-1221	3	Quantity	438	441	6	90%	
+S0006322312001096-1221	3	MeasuredEntity	442	447	10	power	
+S0006322312001096-1221	4	Quantity	475	478	7	.05	
+S0006322312001096-1221	4	MeasuredEntity	453	471	11	significance level	
+S0006322312001096-1221	5	Quantity	497	501	8	1.14	
+S0006322312001096-1221	5	MeasuredProperty	483	493	9	odds ratio	
+S0006322312001096-1221	5	MeasuredEntity	508	553	12	10% increase in the Framingham CVD risk score	
+S0006322312001096-1221	6	Quantity	662	666	13	1.40	
+S0006322312001096-1221	6	MeasuredProperty	645	656	15	odds ratios	
+S0006322312001096-1221	6	MeasuredEntity	600	625	17	antidepressant medication	
+S0006322312001096-1221	7	Quantity	671	675	14	1.24	

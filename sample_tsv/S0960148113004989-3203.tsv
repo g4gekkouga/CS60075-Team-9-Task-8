@@ -1,0 +1,8 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0960148113004989-3203	1	Quantity	438	444	1	10 min	
+S0960148113004989-3203	1	MeasuredProperty	434	435	3	P	
+S0960148113004989-3203	1	MeasuredEntity	403	415	5	tidal period	
+S0960148113004989-3203	2	Quantity	481	487	2	±12 m.	
+S0960148113004989-3203	2	MeasuredProperty	548	563	4	time step of Δt	
+S0960148113004989-3203	2	MeasuredEntity	492	507	7	simulation time	
+S0960148113004989-3203	3	Quantity	566	571	8	12 s.	

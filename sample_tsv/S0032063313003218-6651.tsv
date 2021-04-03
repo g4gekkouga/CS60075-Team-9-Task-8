@@ -1,0 +1,21 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0032063313003218-6651	1	Quantity	396	400	1	~1kR	
+S0032063313003218-6651	1	MeasuredEntity	360	394	2	limit of present HST detectability	
+S0032063313003218-6651	2	Quantity	527	540	3	~74° latitude	
+S0032063313003218-6651	2	MeasuredProperty	517	523	5	maxima	
+S0032063313003218-6651	2	MeasuredEntity	459	474	7	case ES with EF	
+S0032063313003218-6651	3	Quantity	604	608	4	~80°	
+S0032063313003218-6651	3	MeasuredProperty	614	681	6	boundary between open (region I) and closed field lines (region II)	
+S0032063313003218-6651	4	Quantity	742	747	8	~88kR	
+S0032063313003218-6651	4	MeasuredProperty	726	738	10	auroral oval	
+S0032063313003218-6651	5	Quantity	764	769	9	~79kR	
+S0032063313003218-6651	5	MeasuredEntity	774	781	12	case EF	
+S0032063313003218-6651	6	Quantity	820	831	13	(~7.85mWm−2	
+S0032063313003218-6651	6	MeasuredProperty	787	807	16	electron energy flux	
+S0032063313003218-6651	6	MeasuredEntity	812	819	17	case EF	
+S0032063313003218-6651	7	Quantity	836	840	14	~10%	
+S0032063313003218-6651	8	Quantity	863	872	15	~8.8mWm−2	
+S0032063313003218-6651	8	MeasuredEntity	854	861	18	case ES	
+S0032063313003218-6651	9	Quantity	1023	1028	19	~15kR	
+S0032063313003218-6651	9	MeasuredProperty	971	1019	20	observable polar emission (region II/I boundary)	
+S0032063313003218-6651	9	MeasuredEntity	932	951	21	model also predicts	

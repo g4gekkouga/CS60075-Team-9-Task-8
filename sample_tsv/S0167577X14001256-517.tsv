@@ -1,0 +1,15 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0167577X14001256-517	1	Quantity	355	365	1	0.5–0.6 nJ	
+S0167577X14001256-517	1	MeasuredProperty	339	351	6	laser energy	
+S0167577X14001256-517	1	MeasuredEntity	294	321	10	3DAP observation conditions	
+S0167577X14001256-517	2	Quantity	400	407	2	250 kHz	
+S0167577X14001256-517	2	MeasuredProperty	369	396	7	laser-pulse repetition rate	
+S0167577X14001256-517	3	Quantity	430	436	3	4–7 kV	
+S0167577X14001256-517	3	MeasuredProperty	411	426	8	DC bias voltage	
+S0167577X14001256-517	4	Quantity	468	473	4	55 K.	
+S0167577X14001256-517	4	MeasuredProperty	444	464	9	specimen temperature	
+S0167577X14001256-517	5	Quantity	557	561	5	0.4%	
+S0167577X14001256-517	5	MeasuredEntity	528	553	11	constant evaporation rate	
+S0167577X14001256-517	6	Quantity	724	740	12	range of 2–4 kV.	
+S0167577X14001256-517	6	MeasuredProperty	713	723	13	DC voltage	
+S0167577X14001256-517	6	MeasuredEntity	691	707	14	3DAP observation	

@@ -1,0 +1,9 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S030881461301604X-1001	1	Quantity	120	128	1	68 – 70%	
+S030881461301604X-1001	1	MeasuredEntity	107	118	5	nitric acid	
+S030881461301604X-1001	2	Quantity	150	153	2	30%	
+S030881461301604X-1001	2	MeasuredEntity	131	148	6	hydrochloric acid	
+S030881461301604X-1001	3	Quantity	204	207	3	30%	
+S030881461301604X-1001	3	MeasuredEntity	185	202	7	hydrogen peroxide	
+S030881461301604X-1001	4	Quantity	226	229	4	98%	
+S030881461301604X-1001	4	MeasuredEntity	213	224	8	formic acid	

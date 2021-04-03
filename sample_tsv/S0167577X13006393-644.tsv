@@ -1,0 +1,12 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0167577X13006393-644	1	Quantity	60	73	1	above 1000 °C	
+S0167577X13006393-644	1	MeasuredProperty	42	59	2	reported to occur	
+S0167577X13006393-644	1	MeasuredEntity	0	30	3	Sintering of pure HA particles	
+S0167577X13006393-644	2	Quantity	236	244	4	CaP=1.67	
+S0167577X13006393-644	2	MeasuredProperty	230	235	6	ratio	
+S0167577X13006393-644	2	MeasuredEntity	244	286	9	) is stable in an air and argon atmosphere	
+S0167577X13006393-644	3	Quantity	303	315	5	upto 1200 °C	
+S0167577X13006393-644	3	MeasuredProperty	290	302	7	temperatures	
+S0167577X13006393-644	4	Quantity	373	386	10	low as 800 °C	
+S0167577X13006393-644	4	MeasuredProperty	354	369	11	at temperatures	
+S0167577X13006393-644	4	MeasuredEntity	334	353	12	decomposition of HA	

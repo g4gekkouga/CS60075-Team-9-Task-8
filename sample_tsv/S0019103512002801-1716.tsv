@@ -1,0 +1,4 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103512002801-1716	1	Quantity	118	132	1	average 3–4 nT	
+S0019103512002801-1716	1	MeasuredProperty	133	141	2	stronger	
+S0019103512002801-1716	1	MeasuredEntity	107	110	3	∣B∣	

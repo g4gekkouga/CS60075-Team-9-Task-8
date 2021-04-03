@@ -1,0 +1,8 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103512003533-5300	1	Quantity	135	144	1	80 mV m−1	
+S0019103512003533-5300	2	Quantity	220	237	2	0.2 to 1.2 mW m−2	
+S0019103512003533-5300	3	Quantity	252	262	3	100 mV m−1	
+S0019103512003533-5300	4	Quantity	281	297	4	∼550 K to 850 K.	
+S0019103512003533-5300	5	Quantity	526	542	5	10 keV particles	
+S0019103512003533-5300	6	Quantity	613	619	6	500 eV	
+S0019103512003533-5300	6	MeasuredEntity	619	630	7	) electrons	

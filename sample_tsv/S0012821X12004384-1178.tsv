@@ -1,0 +1,17 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0012821X12004384-1178	1	Quantity	100	107	1	55.8 Ma	
+S0012821X12004384-1178	1	MeasuredEntity	4	8	4	PETM	
+S0012821X12004384-1178	2	Quantity	177	183	2	5–8 °C	
+S0012821X12004384-1178	2	MeasuredProperty	169	173	3	rise	
+S0012821X12004384-1178	2	MeasuredEntity	144	168	5	sea surface temperatures	
+S0012821X12004384-1178	3	Quantity	382	393	6	over <20 ka	
+S0012821X12004384-1178	3	MeasuredProperty	276	297	9	substantial injection	
+S0012821X12004384-1178	3	MeasuredEntity	301	321	12	δ13C-depleted carbon	
+S0012821X12004384-1178	4	Quantity	464	482	7	between −2 and −7‰	
+S0012821X12004384-1178	4	MeasuredProperty	424	447	10	negative carbon isotope	
+S0012821X12004384-1178	4	MeasuredEntity	486	518	14	marine and terrestrial sediments	
+S0012821X12004384-1178	5	Quantity	567	573	8	170 ka	
+S0012821X12004384-1178	5	MeasuredProperty	559	566	11	lasting	
+S0012821X12004384-1178	6	Quantity	952	959	15	of<−60‰	
+S0012821X12004384-1178	6	MeasuredProperty	947	951	16	δ13C	
+S0012821X12004384-1178	6	MeasuredEntity	902	945	17	marine hydrates containing biogenic methane	

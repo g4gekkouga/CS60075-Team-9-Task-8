@@ -1,0 +1,14 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103512004009-2821	1	Quantity	917	923	1	1 μbar	
+S0019103512004009-2821	1	MeasuredProperty	897	907	2	dissociate	
+S0019103512004009-2821	1	MeasuredEntity	887	896	3	molecules	
+S0019103512004009-2821	2	Quantity	1389	1407	4	up to at least 3Rp	
+S0019103512004009-2821	2	MeasuredProperty	1367	1388	5	remain mostly neutral	
+S0019103512004009-2821	2	MeasuredEntity	1359	1366	6	H and O	
+S0019103512004009-2821	3	Quantity	1691	1697	7	8000 K	
+S0019103512004009-2821	3	MeasuredEntity	1658	1672	13	models predict	
+S0019103512004009-2821	4	Quantity	1749	1752	8	3Rp	
+S0019103512004009-2821	4	MeasuredProperty	1706	1742	11	mean (pressure averaged) temperature	
+S0019103512004009-2821	5	Quantity	1778	1784	9	7000 K	
+S0019103512004009-2821	6	Quantity	1824	1832	10	0.047 AU	
+S0019103512004009-2821	6	MeasuredProperty	1798	1820	12	average solar XUV flux	

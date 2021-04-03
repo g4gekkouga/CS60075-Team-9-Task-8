@@ -1,0 +1,6 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S016412121300188X-5066	1	Quantity	461	476	1	from 78% to 95%	
+S016412121300188X-5066	1	MeasuredProperty	403	411	2	improves	
+S016412121300188X-5066	1	MeasuredEntity	419	446	3	precision of previous slice	
+S016412121300188X-5066	2	Quantity	624	626	4	30	
+S016412121300188X-5066	2	MeasuredEntity	627	646	5	production programs	

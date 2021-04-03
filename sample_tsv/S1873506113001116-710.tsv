@@ -1,0 +1,17 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S1873506113001116-710	1	Quantity	103	113	1	after 48 h	
+S1873506113001116-710	1	MeasuredProperty	66	88	2	Light microscope image	
+S1873506113001116-710	1	MeasuredEntity	92	102	3	aggregates	
+S1873506113001116-710	2	Quantity	273	284	4	13 passages	
+S1873506113001116-710	2	MeasuredProperty	231	268	7	expanded in static suspension culture	
+S1873506113001116-710	2	MeasuredEntity	198	229	9	BC1 cells cultured in E8 medium	
+S1873506113001116-710	3	Quantity	286	293	5	45 days	
+S1873506113001116-710	4	Quantity	299	300	6	3	
+S1873506113001116-710	4	MeasuredProperty	295	296	8	n	
+S1873506113001116-710	5	Quantity	333	334	10	3	
+S1873506113001116-710	5	MeasuredProperty	329	330	12	n	
+S1873506113001116-710	5	MeasuredEntity	307	327	13	Flow cytometry plots	
+S1873506113001116-710	6	Quantity	369	386	11	after 13 passages	
+S1873506113001116-710	6	MeasuredEntity	390	407	14	static suspension	
+S1873506113001116-710	7	Quantity	626	632	15	200 μm	
+S1873506113001116-710	7	MeasuredEntity	613	623	16	Scale bars	

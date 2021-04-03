@@ -1,0 +1,7 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S1550413113004920-1509	1	Quantity	13	16	1	147	
+S1550413113004920-1509	1	MeasuredEntity	17	55	6	patients from consanguineous pedigrees	
+S1550413113004920-1509	2	Quantity	168	183	2	before 6 months	
+S1550413113004920-1509	2	MeasuredProperty	134	167	4	diagnosed with permanent diabetes	
+S1550413113004920-1509	3	Quantity	233	248	3	before 9 months	
+S1550413113004920-1509	3	MeasuredProperty	199	232	5	diagnosed with permanent diabetes	

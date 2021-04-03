@@ -1,0 +1,4 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0925443913001385-849	1	Quantity	264	269	1	Three	
+S0925443913001385-849	1	MeasuredEntity	270	287	2	different amounts	
+S0925443913001385-849	2	Quantity	393	399	3	835 μg	

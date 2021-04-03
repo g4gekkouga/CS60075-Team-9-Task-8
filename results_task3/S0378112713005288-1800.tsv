@@ -1,0 +1,9 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0378112713005288-1800	1	Quantity	26	33	1	2 × 2 m	
+S0378112713005288-1800	2	Quantity	558	571	2	height >50 cm	
+S0378112713005288-1800	3	Quantity	714	718	3	<2 m	
+S0378112713005288-1800	3	MeasuredProperty	708	713	4	trees	
+S0378112713005288-1800	4	Quantity	960	965	5	250 m	
+S0378112713005288-1800	5	Quantity	1109	1110	6	2	
+S0378112713005288-1800	6	Quantity	1187	1201	7	more than 100%	
+S0378112713005288-1800	7	Quantity	1774	1795	9	more than a few years	

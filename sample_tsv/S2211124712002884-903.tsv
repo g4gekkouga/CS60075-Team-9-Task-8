@@ -1,0 +1,17 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S2211124712002884-903	1	Quantity	4	7	1	two	
+S2211124712002884-903	1	MeasuredEntity	8	20	2	FTD patients	
+S2211124712002884-903	2	Quantity	194	200	3	8-year	
+S2211124712002884-903	2	MeasuredProperty	201	252	4	history of behavioral changes and memory impairment	
+S2211124712002884-903	3	Quantity	317	325	5	67-year-	
+S2211124712002884-903	3	MeasuredProperty	325	328	6	old	
+S2211124712002884-903	3	MeasuredEntity	306	313	7	patient	
+S2211124712002884-903	4	Quantity	431	439	8	64-year-	
+S2211124712002884-903	4	MeasuredProperty	439	442	9	old	
+S2211124712002884-903	4	MeasuredEntity	414	427	10	other patient	
+S2211124712002884-903	5	Quantity	663	671	11	One year	
+S2211124712002884-903	5	MeasuredProperty	689	730	12	showed progression of atrophy and gliosis	
+S2211124712002884-903	5	MeasuredEntity	679	688	13	MRI scans	
+S2211124712002884-903	6	Quantity	1020	1027	14	64-year	
+S2211124712002884-903	6	MeasuredProperty	1028	1031	15	old	
+S2211124712002884-903	6	MeasuredEntity	979	998	16	age-matched subject	

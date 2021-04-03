@@ -1,0 +1,4 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0925443913003037-1397	1	Quantity	352	369	1	approximately 54%	
+S0925443913003037-1397	1	MeasuredProperty	387	392	2	level	
+S0925443913003037-1397	1	MeasuredEntity	396	406	3	mt-tRNAPhe	

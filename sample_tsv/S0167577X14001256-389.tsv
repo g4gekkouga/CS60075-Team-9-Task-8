@@ -1,0 +1,4 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0167577X14001256-389	1	Quantity	265	269	1	4 nm	
+S0167577X14001256-389	1	MeasuredProperty	270	275	2	width	
+S0167577X14001256-389	1	MeasuredEntity	256	261	3	arrow	

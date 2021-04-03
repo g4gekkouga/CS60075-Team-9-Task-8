@@ -1,0 +1,9 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0927024813002420-1032	1	Quantity	430	437	1	80 vol%	
+S0927024813002420-1032	1	MeasuredProperty	441	444	5	C60	
+S0927024813002420-1032	1	MeasuredEntity	421	424	7	BHJ	
+S0927024813002420-1032	2	Quantity	464	469	2	70 nm	
+S0927024813002420-1032	2	MeasuredProperty	451	460	6	thickness	
+S0927024813002420-1032	3	Quantity	570	584	3	Jsc∼2–3 mA/cm2	
+S0927024813002420-1032	3	MeasuredEntity	539	568	8	planar heterojunction devices	
+S0927024813002420-1032	4	Quantity	589	604	4	Voc∼0.40–0.45 V	
