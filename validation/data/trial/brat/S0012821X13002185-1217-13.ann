@@ -1,0 +1,6 @@
+T2814	Quantity 1052 1055	104
+#114	AnnotatorNotes T2814	n
+T2514	MeasuredEntity 884 891	Samples
+T1	MeasuredProperty 1050 1051	n
+R1	HasProperty Arg1:T2514 Arg2:T1	
+R2	HasQuantity Arg1:T1 Arg2:T2814	
