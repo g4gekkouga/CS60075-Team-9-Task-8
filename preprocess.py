@@ -39,5 +39,23 @@ def get_ent_quant_dfs(tsv_df):
     return entities_df, quantities_df
 
 ent_df, quant_df = get_ent_quant_dfs(train_tsv_dataframe)
-# print(ent_df)
-# print(quant_df)
+
+ent_quant_cross = []    # columns are docID  ent_text  quant_text  do_they_belong_to_same_sentence
+
+for i in range(len(ent_df)):
+    for j in range(len(quant_df)):
+        if ent_df['docId'][i] == quant_df['docId'][j]:
+            temp_list = []
+            temp_list.append(ent_df['docId'][i])
+            temp_list.append(ent_df['text'][i])
+            temp_list.append(quant_df['text'][j])
+            if ent_df['annotSet'][i] == quant_df['annotSet'][j]:
+                temp_list.append(1)                               # 1 implies they belong to the same sentence
+            else:
+                temp_list.append(0)
+            
+            ent_quant_cross.append(temp_list)
+            
+ent_quant_cross_df = pd.DataFrame(ent_quant_cross, columns = ['docID', 'ent_text', 'quant_text', 'same_sentence'])
+
+print(ent_quant_cross_df)
