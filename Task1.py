@@ -44,8 +44,8 @@ def raw_text_to_df(raw_files):
             # print(file.name.split('/')[2])
             doc_name = file.name.split("/")[2]
             doc_name = doc_name.split(".")[0]
-            file_data = file.read().encode(encoding="UTF-8")
-            file_content = lang_model(file_data)
+            # file_data = file.read().encode(encoding="UTF-8")
+            file_content = lang_model(file.read())
             for sentence in file_content.sents:
                 sentence_pos_tags = [word.tag_ for word in sentence]
                 documents_of_interest["document_name"].append(doc_name)
@@ -268,119 +268,123 @@ def write_predictions_to_tsv(text_dataframe, y_pred):
     result_df.to_csv("results/" + prev_file + ".tsv", sep="\t", index=False)
     return
 
+def main():
+    units_list = get_units()
 
-units_list = get_units()
+    train_text_dataframe = raw_text_to_df(train_raw_files)
+    # train_text_dataframe.to_csv("./CSV/train_text_dataframe.csv")
 
-train_text_dataframe = raw_text_to_df(train_raw_files)
-# train_text_dataframe.to_csv("./CSV/train_text_dataframe.csv")
+    each_file_df = []
+    for tsv_file in train_tsv_files:
+        each_file_df.append(pd.read_csv(tsv_file, sep="\t", header=0))
 
-each_file_df = []
-for tsv_file in train_tsv_files:
-    each_file_df.append(pd.read_csv(tsv_file, sep="\t", header=0))
+    train_tsv_dataframe = pd.concat(each_file_df)
+    # train_tsv_dataframe.to_csv("./CSV/train_tsv_dataframe.csv")
 
-train_tsv_dataframe = pd.concat(each_file_df)
-# train_tsv_dataframe.to_csv("./CSV/train_tsv_dataframe.csv")
+    test_text_dataframe = raw_text_to_df(test_raw_files)
+    # test_text_dataframe.to_csv("./CSV/test_text_dataframe.csv")
 
-test_text_dataframe = raw_text_to_df(test_raw_files)
-# test_text_dataframe.to_csv("./CSV/test_text_dataframe.csv")
+    # for analysis purposes
+    each_file_df = []
+    for tsv_file in gold_tsv_files:
+        each_file_df.append(pd.read_csv(tsv_file, sep="\t", header=0))
 
-# for analysis purposes
-each_file_df = []
-for tsv_file in gold_tsv_files:
-    each_file_df.append(pd.read_csv(tsv_file, sep="\t", header=0))
-
-gold_tsv_dataframe = pd.concat(each_file_df)
-
-
-X_train = []
-for _, row in train_text_dataframe.iterrows():
-    features = features_sentence(row["sentence"], row["entities"], row["np"])
-    X_train.append(features)
+    gold_tsv_dataframe = pd.concat(each_file_df)
 
 
-y_train = get_text_labels(train_text_dataframe, train_tsv_dataframe)
+    X_train = []
+    for _, row in train_text_dataframe.iterrows():
+        features = features_sentence(row["sentence"], row["entities"], row["np"])
+        X_train.append(features)
 
 
-X_test = []
-for _, row in test_text_dataframe.iterrows():
-    features = features_sentence(row["sentence"], row["entities"], row["np"])
-    X_test.append(features)
+    y_train = get_text_labels(train_text_dataframe, train_tsv_dataframe)
 
 
-# crf = sklearn_crfsuite.CRF(
-#     algorithm="lbfgs",
-#     c1=0.1,
-#     c2=0.1,
-#     max_iterations=100,
-#     all_possible_transitions=True,
-# )
-# crf.fit(X_train, y_train)
+    X_test = []
+    for _, row in test_text_dataframe.iterrows():
+        features = features_sentence(row["sentence"], row["entities"], row["np"])
+        X_test.append(features)
 
 
-# In[162]:
+    # crf = sklearn_crfsuite.CRF(
+    #     algorithm="lbfgs",
+    #     c1=0.1,
+    #     c2=0.1,
+    #     max_iterations=100,
+    #     all_possible_transitions=True,
+    # )
+    # crf.fit(X_train, y_train)
 
 
-# labels = list(crf.classes_)
-# labels.remove("O")
+    # In[162]:
 
 
-# In[163]:
+    # labels = list(crf.classes_)
+    # labels.remove("O")
 
 
-# y_pred = crf.predict(X_test)
-
-# sorted_labels = sorted(labels, key=lambda name: (name[1:], name[0]))
-
-# print("Here")
-
-# print(
-#     metrics.flat_classification_report(
-#         y_test, y_pred, labels=sorted_labels, digits=3
-#     )
-# )
-
-# Training the model
-
-crf = sklearn_crfsuite.CRF(
-    algorithm="lbfgs", max_iterations=100, all_possible_transitions=True
-)
-
-params_space = {
-    "c1": scipy.stats.expon(scale=0.5),
-    "c2": scipy.stats.expon(scale=0.05),
-}
-
-labels = ["QUANT"]
-sorted_labels = sorted(labels, key=lambda name: (name[1:], name[0]))
+    # In[163]:
 
 
-f1_scorer = make_scorer(
-    metrics.flat_f1_score, average="weighted", labels=labels
-)
+    # y_pred = crf.predict(X_test)
 
-rs = RandomizedSearchCV(
-    crf, params_space, cv=3, verbose=1, n_jobs=-1, n_iter=50, scoring=f1_scorer
-)
+    # sorted_labels = sorted(labels, key=lambda name: (name[1:], name[0]))
 
-rs.fit(X_train, y_train)
+    # print("Here")
 
-crf = rs.best_estimator_
-y_pred = crf.predict(X_test)
+    # print(
+    #     metrics.flat_classification_report(
+    #         y_test, y_pred, labels=sorted_labels, digits=3
+    #     )
+    # )
 
-documents_of_interest = {
-    "document_name": [],
-    "sentence": [],
-    "entities": [],
-    "np": [],
-}
+    # Training the model
 
-
-y_test = get_text_labels(test_text_dataframe, gold_tsv_dataframe)
-
-write_predictions_to_tsv(test_text_dataframe, y_pred)
-
-print(
-    metrics.flat_classification_report(
-        y_test, y_pred, labels=sorted_labels, digits=3
+    crf = sklearn_crfsuite.CRF(
+        algorithm="lbfgs", max_iterations=100, all_possible_transitions=True
     )
-)
+
+    params_space = {
+        "c1": scipy.stats.expon(scale=0.5),
+        "c2": scipy.stats.expon(scale=0.05),
+    }
+
+    labels = ["QUANT"]
+    sorted_labels = sorted(labels, key=lambda name: (name[1:], name[0]))
+
+
+    f1_scorer = make_scorer(
+        metrics.flat_f1_score, average="weighted", labels=labels
+    )
+
+    rs = RandomizedSearchCV(
+        crf, params_space, cv=3, verbose=1, n_jobs=-1, n_iter=50, scoring=f1_scorer
+    )
+
+    rs.fit(X_train, y_train)
+
+    crf = rs.best_estimator_
+    y_pred = crf.predict(X_test)
+
+    documents_of_interest = {
+        "document_name": [],
+        "sentence": [],
+        "entities": [],
+        "np": [],
+    }
+
+
+    y_test = get_text_labels(test_text_dataframe, gold_tsv_dataframe)
+
+    write_predictions_to_tsv(test_text_dataframe, y_pred)
+
+    print(
+        metrics.flat_classification_report(
+            y_test, y_pred, labels=sorted_labels, digits=3
+        )
+    )
+
+
+if __name__ == "__main__":
+    main()

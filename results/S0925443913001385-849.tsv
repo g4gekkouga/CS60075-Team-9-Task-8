@@ -1,4 +1,3 @@
 docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
 S0925443913001385-849	1	Quantity	264	269	1	Three	
-S0925443913001385-849	2	Quantity	292	303	2	5 and 10 μg	
-S0925443913001385-849	3	Quantity	393	399	3	835 μg	
+S0925443913001385-849	2	Quantity	393	399	2	835 μg	

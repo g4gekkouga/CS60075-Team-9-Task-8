@@ -71,24 +71,24 @@ def get_train_data(text_df, tsv_df):
             tokens = tokenizer.tokenize(word_info[0])
 
             #check for matching entities and store their start token number
-            if word_info[1][0] == entity_start[curr_ent_start][1]:
+            if (curr_ent_start < len(entity_start)) and (word_info[1][0] == entity_start[curr_ent_start][1]):
                 token_num = len(tokenized_text)
                 tokens = ['*'] + tokens
                 entity_start[curr_ent_start].append(token_num)
                 curr_ent_start += 1
 
-            if word_info[1][1] == entity_end[curr_ent_end][1]:
+            if (curr_ent_end < len(entity_end)) and (word_info[1][1] == entity_end[curr_ent_end][1]):
                 tokens = tokens + ['*']
                 curr_ent_end += 1
 
             #check for matching quantities and store their start token number
-            if word_info[1][0] == quantity_start[curr_quant_start][1]:
+            if (curr_quant_start < len(quantity_start)) and (word_info[1][0] == quantity_start[curr_quant_start][1]):
                 token_num = len(tokenized_text)
                 tokens = ['*'] + tokens
                 quantity_start[curr_quant_start].append(token_num)
                 curr_quant_start += 1
 
-            if word_info[1][1] == quantity_end[curr_quant_end][1]:
+            if (curr_quant_end < len(quantity_end)) and (word_info[1][1] == quantity_end[curr_quant_end][1]):
                 tokens = tokens + ['*']
                 curr_quant_end += 1
 
