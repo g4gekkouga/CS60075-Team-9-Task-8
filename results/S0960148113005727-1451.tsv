@@ -1,3 +1,5 @@
 docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
 S0960148113005727-1451	1	Quantity	355	363	1	from 12%	
-S0960148113005727-1451	2	Quantity	372	404	2	2% between the ages of 12 and 17	
+S0960148113005727-1451	2	Quantity	367	374	2	just 2%	
+S0960148113005727-1451	3	Quantity	395	404	3	12 and 17	
+S0960148113005727-1451	4	Quantity	445	449	4	nine	
