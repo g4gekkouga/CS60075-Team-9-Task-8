@@ -268,30 +268,36 @@ def write_predictions_to_tsv(text_dataframe, y_pred):
     result_df.to_csv("results/" + prev_file + ".tsv", sep="\t", index=False)
     return
 
+def main():
+    units_list = get_units()
 
-units_list = get_units()
+    train_text_dataframe = raw_text_to_df(train_raw_files)
+    # train_text_dataframe.to_csv("./CSV/train_text_dataframe.csv")
 
-train_text_dataframe = raw_text_to_df(train_raw_files)
-# train_text_dataframe.to_csv("./CSV/train_text_dataframe.csv")
+    each_file_df = []
+    for tsv_file in train_tsv_files:
+        each_file_df.append(pd.read_csv(tsv_file, sep="\t", header=0))
 
-each_file_df = []
-for tsv_file in train_tsv_files:
-    each_file_df.append(pd.read_csv(tsv_file, sep="\t", header=0))
+    train_tsv_dataframe = pd.concat(each_file_df)
+    # train_tsv_dataframe.to_csv("./CSV/train_tsv_dataframe.csv")
 
-train_tsv_dataframe = pd.concat(each_file_df)
-# train_tsv_dataframe.to_csv("./CSV/train_tsv_dataframe.csv")
+    test_text_dataframe = raw_text_to_df(test_raw_files)
+    # test_text_dataframe.to_csv("./CSV/test_text_dataframe.csv")
 
-test_text_dataframe = raw_text_to_df(test_raw_files)
-# test_text_dataframe.to_csv("./CSV/test_text_dataframe.csv")
+    # for analysis purposes
+    each_file_df = []
+    for tsv_file in gold_tsv_files:
+        each_file_df.append(pd.read_csv(tsv_file, sep="\t", header=0))
 
-# for analysis purposes
-each_file_df = []
-for tsv_file in gold_tsv_files:
-    each_file_df.append(pd.read_csv(tsv_file, sep="\t", header=0))
-
-gold_tsv_dataframe = pd.concat(each_file_df)
+    gold_tsv_dataframe = pd.concat(each_file_df)
 
 
+    X_train = []
+    for _, row in train_text_dataframe.iterrows():
+        features = features_sentence(row["sentence"], row["entities"], row["np"])
+        X_train.append(features)
+
+<<<<<<< HEAD
 def main():
     X_train = []
     for _, row in train_text_dataframe.iterrows():
@@ -311,6 +317,52 @@ def main():
 
     # Training the model
 
+=======
+
+    y_train = get_text_labels(train_text_dataframe, train_tsv_dataframe)
+
+
+    X_test = []
+    for _, row in test_text_dataframe.iterrows():
+        features = features_sentence(row["sentence"], row["entities"], row["np"])
+        X_test.append(features)
+
+
+    # crf = sklearn_crfsuite.CRF(
+    #     algorithm="lbfgs",
+    #     c1=0.1,
+    #     c2=0.1,
+    #     max_iterations=100,
+    #     all_possible_transitions=True,
+    # )
+    # crf.fit(X_train, y_train)
+
+
+    # In[162]:
+
+
+    # labels = list(crf.classes_)
+    # labels.remove("O")
+
+
+    # In[163]:
+
+
+    # y_pred = crf.predict(X_test)
+
+    # sorted_labels = sorted(labels, key=lambda name: (name[1:], name[0]))
+
+    # print("Here")
+
+    # print(
+    #     metrics.flat_classification_report(
+    #         y_test, y_pred, labels=sorted_labels, digits=3
+    #     )
+    # )
+
+    # Training the model
+
+>>>>>>> ba59d54a1f57933c3d6496eac6025fd7dda7528e
     crf = sklearn_crfsuite.CRF(
         algorithm="lbfgs", max_iterations=100, all_possible_transitions=True
     )
@@ -327,6 +379,7 @@ def main():
         metrics.flat_f1_score, average="weighted", labels=labels
     )
 
+<<<<<<< HEAD
     rs = RandomizedSearchCV(
         crf,
         params_space,
@@ -350,6 +403,42 @@ def main():
     }
 
     y_test = get_text_labels(test_text_dataframe, gold_tsv_dataframe)
+=======
+    f1_scorer = make_scorer(
+        metrics.flat_f1_score, average="weighted", labels=labels
+    )
+
+    rs = RandomizedSearchCV(
+        crf, params_space, cv=3, verbose=1, n_jobs=-1, n_iter=50, scoring=f1_scorer
+    )
+
+    rs.fit(X_train, y_train)
+
+    crf = rs.best_estimator_
+    y_pred = crf.predict(X_test)
+
+    documents_of_interest = {
+        "document_name": [],
+        "sentence": [],
+        "entities": [],
+        "np": [],
+    }
+>>>>>>> ba59d54a1f57933c3d6496eac6025fd7dda7528e
+
+    write_predictions_to_tsv(test_text_dataframe, y_pred)
+
+<<<<<<< HEAD
+    print(
+        metrics.flat_classification_report(
+            y_test, y_pred, labels=sorted_labels, digits=3
+        )
+    )
+
+
+if __name__ == "__main__":
+    main()
+=======
+    y_test = get_text_labels(test_text_dataframe, gold_tsv_dataframe)
 
     write_predictions_to_tsv(test_text_dataframe, y_pred)
 
@@ -362,3 +451,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+>>>>>>> ba59d54a1f57933c3d6496eac6025fd7dda7528e

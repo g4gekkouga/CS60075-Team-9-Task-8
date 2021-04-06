@@ -87,10 +87,15 @@ def get_train_data(text_df, tsv_df):
         for word_info in sentence_tag_placeholders:
             tokens = tokenizer.tokenize(word_info[0])
 
+<<<<<<< HEAD
             # check for matching entities and store their start token number
             if (curr_ent_start < len(entity_start)) and (
                 word_info[1][0] == entity_start[curr_ent_start][1]
             ):
+=======
+            #check for matching entities and store their start token number
+            if (curr_ent_start < len(entity_start)) and (word_info[1][0] == entity_start[curr_ent_start][1]):
+>>>>>>> ba59d54a1f57933c3d6496eac6025fd7dda7528e
                 token_num = len(tokenized_text)
                 tokens = ["*"] + tokens
                 # entity_start[curr_ent_start].append(token_num)
@@ -101,6 +106,7 @@ def get_train_data(text_df, tsv_df):
                     curr_ent_start += 1
                 curr_ent_start += 1
 
+<<<<<<< HEAD
             if (curr_ent_end < len(entity_end)) and (
                 word_info[1][1] == entity_end[curr_ent_end][1]
             ):
@@ -111,6 +117,14 @@ def get_train_data(text_df, tsv_df):
             if (curr_quant_start < len(quantity_start)) and (
                 word_info[1][0] == quantity_start[curr_quant_start][1]
             ):
+=======
+            if (curr_ent_end < len(entity_end)) and (word_info[1][1] == entity_end[curr_ent_end][1]):
+                tokens = tokens + ['*']
+                curr_ent_end += 1
+
+            #check for matching quantities and store their start token number
+            if (curr_quant_start < len(quantity_start)) and (word_info[1][0] == quantity_start[curr_quant_start][1]):
+>>>>>>> ba59d54a1f57933c3d6496eac6025fd7dda7528e
                 token_num = len(tokenized_text)
                 tokens = ["*"] + tokens
                 # quantity_start[curr_quant_start].append(token_num)
@@ -122,10 +136,15 @@ def get_train_data(text_df, tsv_df):
                     curr_quant_start += 1
                 curr_quant_start += 1
 
+<<<<<<< HEAD
             if (curr_quant_end < len(quantity_end)) and (
                 word_info[1][1] == quantity_end[curr_quant_end][1]
             ):
                 tokens = tokens + ["*"]
+=======
+            if (curr_quant_end < len(quantity_end)) and (word_info[1][1] == quantity_end[curr_quant_end][1]):
+                tokens = tokens + ['*']
+>>>>>>> ba59d54a1f57933c3d6496eac6025fd7dda7528e
                 curr_quant_end += 1
 
             tokenized_text.extend(tokens)
