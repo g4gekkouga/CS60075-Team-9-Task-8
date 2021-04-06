@@ -1,3 +1,4 @@
 docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
-S0019103512003995-2096	1	Quantity	817	823	1	1 μbar	
-S0019103512003995-2096	2	Quantity	1049	1069	2	approximately 8250 K	
+S0019103512003995-2096	1	Quantity	637	642	1	0.1–1	
+S0019103512003995-2096	2	Quantity	817	823	2	1 μbar	
+S0019103512003995-2096	3	Quantity	1049	1069	3	approximately 8250 K	

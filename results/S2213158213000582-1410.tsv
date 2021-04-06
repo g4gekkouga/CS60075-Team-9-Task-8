@@ -1,4 +1,3 @@
 docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
-S2213158213000582-1410	1	Quantity	506	511	1	50 ms	
-S2213158213000582-1410	2	Quantity	526	532	2	100 ms	
-S2213158213000582-1410	3	Quantity	603	621	3	both 50 and 100 ms	
+S2213158213000582-1410	1	Quantity	506	532	1	50 ms and bilateral 100 ms	
+S2213158213000582-1410	2	Quantity	603	621	2	both 50 and 100 ms	
