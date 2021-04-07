@@ -63,7 +63,10 @@ def raw_text_to_df(raw_files):
                 noun_phrases = []
 
                 for chunk in sentence.noun_chunks:
-                    noun_phrases.append((chunk.text, (chunk.start, chunk.end)))
+                    first_token = chunk.__getitem__(0)
+                    start = first_token.idx
+                    end = first_token.idx + len (chunk.text)
+                    noun_phrases.append((chunk.text, (start, end)))
                 documents_of_interest["np"].append(noun_phrases)
 
     dataframe = pd.DataFrame(

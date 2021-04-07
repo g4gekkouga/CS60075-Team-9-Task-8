@@ -1,2 +1,3 @@
 docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
-S0960148113002735-2182	1	Quantity	932	953	1	15 at 1050 and 1170 s	
+S0960148113002735-2182	1	Quantity	95	98	1	One	
+S0960148113002735-2182	2	Quantity	932	953	2	15 at 1050 and 1170 s	

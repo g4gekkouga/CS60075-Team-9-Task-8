@@ -64,14 +64,15 @@ def get_test_data(text_df, tsv_df):
                         [annot_row["annotType"], annot_row["endOffset"]]
                     )
 
-        for np_list in text_row["np"]:
-            for phrase in np_list:
-                start_offset = phrase[0].idx
-                end_offset = start_offset + len(phrase[0])
-                entity_start.append([entity_id_for_np, start_offset, document_name, phrase[0]])
-                entity_end.append([entity_id_for_np, end_offset])
+        for phrase in text_row["np"]:
+            start_offset = phrase[1][0]
+            end_offset = phrase[1][1]
+            entity_start.append(
+                [entity_id_for_np, start_offset, document_name, phrase[0]]
+            )
+            entity_end.append([entity_id_for_np, end_offset])
 
-                entity_id_for_np += 1
+            entity_id_for_np += 1
 
         # sort the entity and quantity lists according to their spans
         quantity_start = sorted(quantity_start, key=lambda v: v[1])
@@ -179,7 +180,14 @@ def get_test_data(text_df, tsv_df):
         )
         quantity_df = pd.DataFrame(
             quantity_start,
-            columns=["docId", "startOffset", "annotSet", "text", "annotId", "tokenNo"],
+            columns=[
+                "docId",
+                "startOffset",
+                "annotSet",
+                "text",
+                "annotId",
+                "tokenNo",
+            ],
         )
 
         # use BERT to get embeddings and attention
@@ -243,12 +251,23 @@ def get_test_data(text_df, tsv_df):
                         ent_row["annotId"],
                         ent_row["startOffset"],
                         ent_row["text"],
-                        input_vec
+                        input_vec,
                     ]
                 )
 
     test_data = pd.DataFrame(
-        test_data, columns=["docId", "quantId", "quantStartOffset", "quantText", "annotSet", "entId", "entStartOffset", "entText", "X"]
+        test_data,
+        columns=[
+            "docId",
+            "quantId",
+            "quantStartOffset",
+            "quantText",
+            "annotSet",
+            "entId",
+            "entStartOffset",
+            "entText",
+            "X",
+        ],
     )
     return test_data
 
@@ -545,6 +564,8 @@ if sys.argv[1] == "test":
     test_tsv_dataframe = pd.concat(each_file_df)
 
     test_text_dataframe = raw_text_to_df(test_raw_files)
+    # test_text_dataframe.to_csv("./test_text_dataframe.csv")
 
     test_data = get_test_data(test_text_dataframe, test_tsv_dataframe)
+
     torch.save(test_data, "test_data.pt")

@@ -1,4 +1,4 @@
 docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
 S0301010413004096-693	1	Quantity	575	579	1	77 K	
-S0301010413004096-693	2	Quantity	1067	1083	2	better materials	
-S0301010413004096-693	3	Quantity	1174	1184	3	below 10 K	
+S0301010413004096-693	2	Quantity	1174	1184	2	below 10 K	
+S0301010413004096-693	3	Quantity	1240	1255	3	D2 within a few	

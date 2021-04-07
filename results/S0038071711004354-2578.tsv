@@ -1,3 +1,4 @@
 docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
 S0038071711004354-2578	1	Quantity	85	90	1	30 cm	
 S0038071711004354-2578	2	Quantity	235	240	2	three	
+S0038071711004354-2578	3	Quantity	330	345	3	13CO2 abundance	
