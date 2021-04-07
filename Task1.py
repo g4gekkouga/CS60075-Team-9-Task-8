@@ -291,6 +291,7 @@ def main():
         each_file_df.append(pd.read_csv(tsv_file, sep="\t", header=0))
 
     gold_tsv_dataframe = pd.concat(each_file_df)
+    # for analysis purposes
 
     X_train = []
     for _, row in train_text_dataframe.iterrows():
@@ -347,7 +348,7 @@ def main():
         "entities": [],
         "np": [],
     }
-
+    # gold
     y_test = get_text_labels(test_text_dataframe, gold_tsv_dataframe)
 
     write_predictions_to_tsv(test_text_dataframe, y_pred)
