@@ -4,6 +4,7 @@ import pandas as pd
 import spacy
 import copy
 import torch
+import sys
 from transformers.tokenization_utils_base import (
     ENCODE_PLUS_ADDITIONAL_KWARGS_DOCSTRING,
 )
@@ -12,7 +13,7 @@ from transformers import BertTokenizer, BertModel
 
 
 def get_test_data(text_df, tsv_df):
-    train_data = []
+    test_data = []
     tokenizer = BertTokenizer.from_pretrained("bert-base-uncased")
 
     model = BertModel.from_pretrained(
@@ -53,8 +54,9 @@ def get_test_data(text_df, tsv_df):
                     quantity_start.append(
                         [
                             annot_row["docId"],
-                            # annot_row["annotSet"],
                             annot_row["startOffset"],
+                            annot_row["annotSet"],
+                            annot_row["text"],
                             annot_row["annotId"],
                         ]
                     )
@@ -66,8 +68,10 @@ def get_test_data(text_df, tsv_df):
             for phrase in np_list:
                 start_offset = phrase[0].idx
                 end_offset = start_offset + len(phrase[0])
-                entity_start.append([entity_id_for_np, start_offset, phrase[0]])
+                entity_start.append([entity_id_for_np, start_offset, document_name, phrase[0]])
                 entity_end.append([entity_id_for_np, end_offset])
+
+                entity_id_for_np += 1
 
         # sort the entity and quantity lists according to their spans
         quantity_start = sorted(quantity_start, key=lambda v: v[1])
@@ -168,13 +172,14 @@ def get_test_data(text_df, tsv_df):
             columns=[
                 "annotId",
                 "startOffset",
+                "docId",
                 "text",
                 "tokenNo",
             ],
         )
         quantity_df = pd.DataFrame(
             quantity_start,
-            columns=["annotSet", "startOffset", "annotId", "tokenNo"],
+            columns=["docId", "startOffset", "annotSet", "text", "annotId", "tokenNo"],
         )
 
         # use BERT to get embeddings and attention
@@ -228,43 +233,24 @@ def get_test_data(text_df, tsv_df):
 
                 input_vec = torch.cat((ent_emb, quant_emb, att))
 
-                if int(ent_row["annotSet"]) == quant_row["annotSet"]:
-                    if ent_row["annotType"] == "MeasuredEntity":
-                        train_data.append(
-                            [
-                                quant_row["annotId"],
-                                ent_row["annotId"],
-                                input_vec,
-                                1,
-                                0,
-                            ]
-                        )
+                test_data.append(
+                    [
+                        quant_row["docId"],
+                        quant_row["annotId"],
+                        quant_row["startOffset"],
+                        quant_row["text"],
+                        quant_row["annotSet"],
+                        ent_row["annotId"],
+                        ent_row["startOffset"],
+                        ent_row["text"],
+                        input_vec
+                    ]
+                )
 
-                    else:
-                        train_data.append(
-                            [
-                                quant_row["annotId"],
-                                ent_row["annotId"],
-                                input_vec,
-                                0,
-                                1,
-                            ]
-                        )
-                else:
-                    train_data.append(
-                        [
-                            quant_row["annotId"],
-                            ent_row["annotId"],
-                            input_vec,
-                            0,
-                            0,
-                        ]
-                    )
-
-    train_data = pd.DataFrame(
-        train_data, columns=["quantId", "entId", "X", "entLabel", "propLabel"]
+    test_data = pd.DataFrame(
+        test_data, columns=["docId", "quantId", "quantStartOffset", "quantText", "annotSet", "entId", "entStartOffset", "entText", "X"]
     )
-    return train_data
+    return test_data
 
 
 def get_train_data(text_df, tsv_df):
@@ -539,21 +525,26 @@ train_tsv_files = glob.glob("train/tsv/*.tsv")
 test_raw_files = glob.glob("test/text/*.txt")
 test_tsv_files = glob.glob("results/*.tsv")  # results folder predicted
 
-each_file_df = []
-for tsv_file in train_tsv_files:
-    each_file_df.append(pd.read_csv(tsv_file, sep="\t", header=0))
+if sys.argv[1] == "train":
+    each_file_df = []
+    for tsv_file in train_tsv_files:
+        each_file_df.append(pd.read_csv(tsv_file, sep="\t", header=0))
 
-train_tsv_dataframe = pd.concat(each_file_df)
+    train_tsv_dataframe = pd.concat(each_file_df)
 
-train_text_dataframe = raw_text_to_df(train_raw_files)
+    train_text_dataframe = raw_text_to_df(train_raw_files)
 
-test_text_dataframe = raw_text_to_df(test_raw_files)
+    train_data = get_train_data(train_text_dataframe, train_tsv_dataframe)
+    torch.save(train_data, "train_data.pt")
 
-each_file_df = []
-for tsv_file in test_tsv_files:
-    each_file_df.append(pd.read_csv(tsv_file, sep="\t", header=0))
+if sys.argv[1] == "test":
+    each_file_df = []
+    for tsv_file in test_tsv_files:
+        each_file_df.append(pd.read_csv(tsv_file, sep="\t", header=0))
 
-test_tsv_dataframe = pd.concat(each_file_df)
+    test_tsv_dataframe = pd.concat(each_file_df)
 
-train_data = get_train_data(train_text_dataframe, train_tsv_dataframe)
-torch.save(train_data, "train_data.pt")
+    test_text_dataframe = raw_text_to_df(test_raw_files)
+
+    test_data = get_test_data(test_text_dataframe, test_tsv_dataframe)
+    torch.save(test_data, "test_data.pt")
