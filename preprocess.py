@@ -50,7 +50,7 @@ def get_train_data(text_df, tsv_df):
 
                 if annot_row["annotType"] == "Quantity":
                     quantity_start.append(
-                        [annot_row["annotSet"], annot_row["startOffset"], annot_row["annotId"]]
+                        [annot_row["annotSet"], annot_row["startOffset"], annot_row["docId"]+annot_row["annotId"]]
                     )
                     quantity_end.append(
                         [annot_row["annotType"], annot_row["endOffset"]]
@@ -61,7 +61,7 @@ def get_train_data(text_df, tsv_df):
                     or annot_row["annotType"] == "MeasuredEntity"
                 ):
                     entity_start.append(
-                        [annot_row["annotSet"], annot_row["startOffset"], annot_row["annotType"], annot_row["annotId"]]
+                        [annot_row["annotSet"], annot_row["startOffset"], annot_row["annotType"], annot_row["docId"]+annot_row["annotId"]]
                     )
                     entity_end.append(
                         [annot_row["annotType"], annot_row["endOffset"]]
