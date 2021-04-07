@@ -50,7 +50,11 @@ def get_train_data(text_df, tsv_df):
 
                 if annot_row["annotType"] == "Quantity":
                     quantity_start.append(
-                        [annot_row["annotSet"], annot_row["startOffset"], annot_row["docId"]+annot_row["annotId"]]
+                        [
+                            annot_row["annotSet"],
+                            annot_row["startOffset"],
+                            annot_row["docId"] + "_" + annot_row["annotId"],
+                        ]
                     )
                     quantity_end.append(
                         [annot_row["annotType"], annot_row["endOffset"]]
@@ -61,7 +65,12 @@ def get_train_data(text_df, tsv_df):
                     or annot_row["annotType"] == "MeasuredEntity"
                 ):
                     entity_start.append(
-                        [annot_row["annotSet"], annot_row["startOffset"], annot_row["annotType"], annot_row["docId"]+annot_row["annotId"]]
+                        [
+                            annot_row["annotSet"],
+                            annot_row["startOffset"],
+                            annot_row["annotType"],
+                            annot_row["docId"] + "_" + annot_row["annotId"],
+                        ]
                     )
                     entity_end.append(
                         [annot_row["annotType"], annot_row["endOffset"]]
@@ -130,7 +139,6 @@ def get_train_data(text_df, tsv_df):
 
             tokenized_text.extend(tokens)
 
-
         pop_list = []
         for i in range(len(entity_start)):
             if entity_start[i][1] in entity_startoffset_token_mapper:
@@ -163,10 +171,18 @@ def get_train_data(text_df, tsv_df):
 
         # make dataframes for entity and quantity token numbers
         entity_df = pd.DataFrame(
-            entity_start, columns=["annotSet", "startOffset", "annotType", "annotId", "tokenNo"]
+            entity_start,
+            columns=[
+                "annotSet",
+                "startOffset",
+                "annotType",
+                "annotId",
+                "tokenNo",
+            ],
         )
         quantity_df = pd.DataFrame(
-            quantity_start, columns=["annotSet", "startOffset", "annotId", "tokenNo"]
+            quantity_start,
+            columns=["annotSet", "startOffset", "annotId", "tokenNo"],
         )
 
         # use BERT to get embeddings and attention
@@ -222,14 +238,40 @@ def get_train_data(text_df, tsv_df):
 
                 if int(ent_row["annotSet"]) == quant_row["annotSet"]:
                     if ent_row["annotType"] == "MeasuredEntity":
-                        train_data.append([quant_row["annotId"],ent_row["annotId"],input_vec, 1, 0])
-                    
-                    else:
-                        train_data.append([quant_row["annotId"],ent_row["annotId"],input_vec, 0, 1])
-                else:
-                    train_data.append([quant_row["annotId"],ent_row["annotId"],input_vec, 0, 0])
+                        train_data.append(
+                            [
+                                quant_row["annotId"],
+                                ent_row["annotId"],
+                                input_vec,
+                                1,
+                                0,
+                            ]
+                        )
 
-    train_data = pd.DataFrame(train_data, columns=["quantId","entId","X", "entLabel","propLabel"])
+                    else:
+                        train_data.append(
+                            [
+                                quant_row["annotId"],
+                                ent_row["annotId"],
+                                input_vec,
+                                0,
+                                1,
+                            ]
+                        )
+                else:
+                    train_data.append(
+                        [
+                            quant_row["annotId"],
+                            ent_row["annotId"],
+                            input_vec,
+                            0,
+                            0,
+                        ]
+                    )
+
+    train_data = pd.DataFrame(
+        train_data, columns=["quantId", "entId", "X", "entLabel", "propLabel"]
+    )
     return train_data
 
 
