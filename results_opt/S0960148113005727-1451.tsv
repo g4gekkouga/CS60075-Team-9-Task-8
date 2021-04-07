@@ -1,4 +1,10 @@
 docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+<<<<<<< HEAD:results_opt/S0960148113005727-1451.tsv
 S0960148113005727-1451	1	Quantity	355	363	1	from 12%	
 S0960148113005727-1451	2	Quantity	367	374	2	just 2%	
 S0960148113005727-1451	3	Quantity	445	449	3	nine	
+=======
+S0960148113005727-1451	1	Quantity	31	34	1	two	
+S0960148113005727-1451	2	Quantity	355	363	2	from 12%	
+S0960148113005727-1451	3	Quantity	372	404	3	2% between the ages of 12 and 17	
+>>>>>>> origin/task3_bert:results/S0960148113005727-1451.tsv

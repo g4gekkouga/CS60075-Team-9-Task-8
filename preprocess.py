@@ -50,7 +50,7 @@ def get_train_data(text_df, tsv_df):
 
                 if annot_row["annotType"] == "Quantity":
                     quantity_start.append(
-                        [annot_row["annotSet"], annot_row["startOffset"]]
+                        [annot_row["annotSet"], annot_row["startOffset"], annot_row["annotId"]]
                     )
                     quantity_end.append(
                         [annot_row["annotType"], annot_row["endOffset"]]
@@ -61,7 +61,7 @@ def get_train_data(text_df, tsv_df):
                     or annot_row["annotType"] == "MeasuredEntity"
                 ):
                     entity_start.append(
-                        [annot_row["annotSet"], annot_row["startOffset"]]
+                        [annot_row["annotSet"], annot_row["startOffset"], annot_row["annotType"], annot_row["annotId"]]
                     )
                     entity_end.append(
                         [annot_row["annotType"], annot_row["endOffset"]]
@@ -87,15 +87,10 @@ def get_train_data(text_df, tsv_df):
         for word_info in sentence_tag_placeholders:
             tokens = tokenizer.tokenize(word_info[0])
 
-<<<<<<< HEAD
             # check for matching entities and store their start token number
             if (curr_ent_start < len(entity_start)) and (
                 word_info[1][0] == entity_start[curr_ent_start][1]
             ):
-=======
-            #check for matching entities and store their start token number
-            if (curr_ent_start < len(entity_start)) and (word_info[1][0] == entity_start[curr_ent_start][1]):
->>>>>>> ba59d54a1f57933c3d6496eac6025fd7dda7528e
                 token_num = len(tokenized_text)
                 tokens = ["*"] + tokens
                 # entity_start[curr_ent_start].append(token_num)
@@ -106,7 +101,6 @@ def get_train_data(text_df, tsv_df):
                     curr_ent_start += 1
                 curr_ent_start += 1
 
-<<<<<<< HEAD
             if (curr_ent_end < len(entity_end)) and (
                 word_info[1][1] == entity_end[curr_ent_end][1]
             ):
@@ -117,14 +111,6 @@ def get_train_data(text_df, tsv_df):
             if (curr_quant_start < len(quantity_start)) and (
                 word_info[1][0] == quantity_start[curr_quant_start][1]
             ):
-=======
-            if (curr_ent_end < len(entity_end)) and (word_info[1][1] == entity_end[curr_ent_end][1]):
-                tokens = tokens + ['*']
-                curr_ent_end += 1
-
-            #check for matching quantities and store their start token number
-            if (curr_quant_start < len(quantity_start)) and (word_info[1][0] == quantity_start[curr_quant_start][1]):
->>>>>>> ba59d54a1f57933c3d6496eac6025fd7dda7528e
                 token_num = len(tokenized_text)
                 tokens = ["*"] + tokens
                 # quantity_start[curr_quant_start].append(token_num)
@@ -136,18 +122,15 @@ def get_train_data(text_df, tsv_df):
                     curr_quant_start += 1
                 curr_quant_start += 1
 
-<<<<<<< HEAD
             if (curr_quant_end < len(quantity_end)) and (
                 word_info[1][1] == quantity_end[curr_quant_end][1]
             ):
                 tokens = tokens + ["*"]
-=======
-            if (curr_quant_end < len(quantity_end)) and (word_info[1][1] == quantity_end[curr_quant_end][1]):
-                tokens = tokens + ['*']
->>>>>>> ba59d54a1f57933c3d6496eac6025fd7dda7528e
                 curr_quant_end += 1
 
             tokenized_text.extend(tokens)
+
+
         pop_list = []
         for i in range(len(entity_start)):
             if entity_start[i][1] in entity_startoffset_token_mapper:
@@ -180,10 +163,10 @@ def get_train_data(text_df, tsv_df):
 
         # make dataframes for entity and quantity token numbers
         entity_df = pd.DataFrame(
-            entity_start, columns=["annotSet", "startOffset", "tokenNo"]
+            entity_start, columns=["annotSet", "startOffset", "annotType", "annotId", "tokenNo"]
         )
         quantity_df = pd.DataFrame(
-            quantity_start, columns=["annotSet", "startOffset", "tokenNo"]
+            quantity_start, columns=["annotSet", "startOffset", "annotId", "tokenNo"]
         )
 
         # use BERT to get embeddings and attention
@@ -238,11 +221,15 @@ def get_train_data(text_df, tsv_df):
                 input_vec = torch.cat((ent_emb, quant_emb, att))
 
                 if int(ent_row["annotSet"]) == quant_row["annotSet"]:
-                    train_data.append([input_vec, 1])
+                    if ent_row["annotType"] == "MeasuredEntity":
+                        train_data.append([quant_row["annotId"],ent_row["annotId"],input_vec, 1, 0])
+                    
+                    else:
+                        train_data.append([quant_row["annotId"],ent_row["annotId"],input_vec, 0, 1])
                 else:
-                    train_data.append([input_vec, 0])
+                    train_data.append([quant_row["annotId"],ent_row["annotId"],input_vec, 0, 0])
 
-    train_data = pd.DataFrame(train_data, columns=["X", "label"])
+    train_data = pd.DataFrame(train_data, columns=["quantId","entId","X", "entLabel","propLabel"])
     return train_data
 
 
@@ -261,4 +248,4 @@ train_tsv_dataframe = pd.concat(each_file_df)
 train_text_dataframe = raw_text_to_df(train_raw_files)
 
 train_data = get_train_data(train_text_dataframe, train_tsv_dataframe)
-train_data.to_csv("./trial_train.csv", sep="\t")
+torch.save(train_data, "train_data.pt")
