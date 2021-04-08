@@ -9,13 +9,14 @@ import torch.nn as nn
 import torch.optim as optim
 import torch._autograd_functions
 import torch.autograd as autograd
-import torch.nn.functional as f
 
-device = "cpu"
-DIMS = 1824
+if torch.cuda.is_available():
+    device = torch.device("cuda")
+else:
+    device = "cpu"
+
 num_epochs = 100
 
-test_tensor = torch.rand(DIMS)
 train_data = torch.load("train_data.pt") 
 quantIdList = list(set(train_data["quantId"]))
 
@@ -31,12 +32,13 @@ class Classifier(nn.Module):
         self.relation = nn.Linear(256,256)
         
     def forward(self, x):
-        quant_rep = f.tanh(self.quant_hidden(x[:, 768:1536]) + self.quant_att(x[:, 1536:]) )
-        ent_rep = f.tanh( self.ent_hidden(x[:, :768]) + self.ent_att(x[:, 1536:]) )
+        quant_rep = torch.tanh(self.quant_hidden(x[:, 768:1536]) + self.quant_att(x[:, 1536:]) )
+        ent_rep = torch.tanh( self.ent_hidden(x[:, :768]) + self.ent_att(x[:, 1536:]) )
 
         ent = self.relation(ent_rep)
-        prob = f.sigmoid(torch.dot(quant_rep, ent))
+        prob = torch.sigmoid(torch.bmm(quant_rep.reshape(-1,1,256), ent.reshape(-1,256,1)).reshape(-1,1))
         return prob
+        #shape of prob is (batch_len, 1)
 
 def train_model(entityRelClassifier, propertyRelClassifier, thresholdRelClassifier, criterion = nn.BCELoss()):
     entityRelClassifier.train()
@@ -56,25 +58,22 @@ def train_model(entityRelClassifier, propertyRelClassifier, thresholdRelClassifi
             curr_batch = train_data.loc[train_data['quantId'] == each_quant]
             
             qId = list(curr_batch['quantId'])
-            eId = list(curr_batch['entId'])
-            x = list(curr_batch['X'])
-            entLabel = list(curr_batch['entLabel'])
-            propLabel = list(curr_batch['propLabel'])
+            eId = np.array(curr_batch['entId'])
 
-            temp_list = []
-            for lis in x:
-                temp_list.append(lis.tolist())
-            x = torch.tensor(temp_list)
-            print(x.shape)
+            x = list(curr_batch['X'])
+            x = torch.stack(x,dim=0)
+            
+            entLabel = torch.tensor(list(curr_batch['entLabel']), dtype=torch.int32)
+            propLabel = torch.tensor(list(curr_batch['propLabel']), dtype=torch.int32)
             
             optimizer1.zero_grad()
             #entity-quantity relation classifier
-            entityRelOutput = entityRelClassifier(torch.FloatTensor(x))
-            propertyRelOutput = propertyRelClassifier(torch.FloatTensor(x))
-            thresholdRelOutput = thresholdRelClassifier(torch.FloatTensor(x))
+            entityRelOutput = entityRelClassifier(x)
+            propertyRelOutput = propertyRelClassifier(x)
+            thresholdRelOutput = thresholdRelClassifier(x)
             #target label
             # positive samples: 
-            return
+            
             ent_label_tensor = torch.zeros(output.shape)
             if entLabel == 1:
                 ent_label_tensor = torch.ones(output.shape)
