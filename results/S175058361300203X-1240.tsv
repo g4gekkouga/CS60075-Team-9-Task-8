@@ -1,8 +1,8 @@
 docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
-S175058361300203X-1240	1	Quantity	482	503	1	approximately 6.2 MPa	
-S175058361300203X-1240	2	Quantity	508	513	2	34 °C	
-S175058361300203X-1240	3	Quantity	696	728	3	approximately 7.73 MPa and 38 °C	
-S175058361300203X-1240	4	Quantity	1105	1114	4	260 kg/m3	
-S175058361300203X-1240	5	Quantity	1139	1144	5	38 °C	
-S175058361300203X-1240	6	Quantity	1182	1191	6	320 kg/m3	
-S175058361300203X-1240	7	Quantity	1265	1270	7	34 °C	
+S175058361300203X-1240	2	Quantity	508	513	2-1	34 °C	"{""unit"": ""kg""}"
+S175058361300203X-1240	5	Quantity	1139	1144	5-1	38 °C	"{""unit"": ""kg""}"
+S175058361300203X-1240	3	Quantity	696	728	3-1	approximately 7.73 MPa and 38 °C	"{""unit"": ""kg""}"
+S175058361300203X-1240	1	Quantity	482	503	1-1	approximately 6.2 MPa	"{""unit"": ""kg""}"
+S175058361300203X-1240	6	Quantity	1182	1191	6-1	320 kg/m3	"{""unit"": ""kg""}"
+S175058361300203X-1240	4	Quantity	1105	1114	4-1	260 kg/m3	"{""unit"": ""kg""}"
+S175058361300203X-1240	7	Quantity	1265	1270	7-1	34 °C	"{""unit"": ""kg""}"

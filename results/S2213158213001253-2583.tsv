@@ -1,2 +1,4 @@
 docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
-S2213158213001253-2583	1	Quantity	2647	2659	1	4 × 4 × 5 mm	
+S2213158213001253-2583	1	Quantity	2647	2659	1-1	4 × 4 × 5 mm	"{""unit"": ""kg""}"
+S2213158213001253-2583	1	MeasuredEntity	2848	2874	1-2	brain stem auditory nuclei	"{""HasQuantity"": ""1-1""}"
+S2213158213001253-2583	1	MeasuredProperty	2736	2746	1-3	activation	"{""HasQuantity"": ""1-1""}"

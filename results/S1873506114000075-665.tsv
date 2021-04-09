@@ -1,4 +1,6 @@
 docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
-S1873506114000075-665	1	Quantity	100	106	1	100-mm	
-S1873506114000075-665	2	Quantity	419	435	2	50 μm and 100 μm	
-S1873506114000075-665	3	Quantity	586	592	3	100 μm	
+S1873506114000075-665	3	Quantity	586	592	3-1	100 μm	"{""unit"": ""kg""}"
+S1873506114000075-665	3	MeasuredEntity	575	584	3-2	Scale bar	"{""HasQuantity"": ""3-1""}"
+S1873506114000075-665	1	Quantity	100	106	1-1	100-mm	"{""unit"": ""kg""}"
+S1873506114000075-665	2	Quantity	419	435	2-1	50 μm and 100 μm	"{""unit"": ""kg""}"
+S1873506114000075-665	2	MeasuredEntity	408	417	2-2	Scale bar	"{""HasQuantity"": ""2-1""}"

@@ -1,2 +1,3 @@
 docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
-S1873506114000075-1104	1	Quantity	101	104	1	10%	
+S1873506114000075-1104	1	Quantity	101	104	1-1	10%	"{""unit"": ""kg""}"
+S1873506114000075-1104	1	MeasuredEntity	32	45	1-2	ALP substrate	"{""HasQuantity"": ""1-1""}"

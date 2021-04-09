@@ -1,3 +1,4 @@
 docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
-S2213158213000582-1041	1	Quantity	0	27	1	Bilateral 50 and 100 ms STG	
-S2213158213000582-1041	2	Quantity	92	105	2	50 and 100 ms	
+S2213158213000582-1041	2	Quantity	92	105	2-1	50 and 100 ms	"{""unit"": ""kg""}"
+S2213158213000582-1041	1	Quantity	0	27	1-1	Bilateral 50 and 100 ms STG	"{""unit"": ""kg""}"
+S2213158213000582-1041	1	MeasuredEntity	53	64	1-2	both groups	"{""HasQuantity"": ""1-1""}"

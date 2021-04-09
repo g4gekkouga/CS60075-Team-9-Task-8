@@ -1,7 +1,8 @@
 docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
-S0038071711004354-2389	1	Quantity	36	39	1	two	
-S0038071711004354-2389	2	Quantity	103	113	2	0.18 g CO2	
-S0038071711004354-2389	3	Quantity	160	163	3	56%	
-S0038071711004354-2389	4	Quantity	207	217	4	0.15 g CO2	
-S0038071711004354-2389	5	Quantity	253	256	5	44%	
-S0038071711004354-2389	6	Quantity	279	284	6	three	
+S0038071711004354-2389	2	Quantity	103	113	2-1	0.18 g CO2	"{""unit"": ""kg""}"
+S0038071711004354-2389	2	MeasuredEntity	0	16	2-2	The partitioning	"{""HasQuantity"": ""2-1""}"
+S0038071711004354-2389	3	Quantity	160	163	3-1	56%	"{""unit"": ""kg""}"
+S0038071711004354-2389	6	Quantity	279	284	6-1	three	"{""unit"": ""kg""}"
+S0038071711004354-2389	1	Quantity	36	39	1-1	two	"{""unit"": ""kg""}"
+S0038071711004354-2389	5	Quantity	253	256	5-1	44%	"{""unit"": ""kg""}"
+S0038071711004354-2389	4	Quantity	207	217	4-1	0.15 g CO2	"{""unit"": ""kg""}"

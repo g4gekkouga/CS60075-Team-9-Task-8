@@ -1,9 +1,10 @@
 docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
-S0378112713005288-1800	1	Quantity	26	33	1	2 × 2 m	
-S0378112713005288-1800	2	Quantity	388	401	2	1140 quadrats	
-S0378112713005288-1800	3	Quantity	565	571	3	>50 cm	
-S0378112713005288-1800	4	Quantity	715	718	4	2 m	
-S0378112713005288-1800	5	Quantity	960	965	5	250 m	
-S0378112713005288-1800	6	Quantity	1109	1110	6	2	
-S0378112713005288-1800	7	Quantity	1187	1201	7	more than 100%	
-S0378112713005288-1800	8	Quantity	1784	1795	8	a few years	
+S0378112713005288-1800	8	Quantity	1784	1795	8-1	a few years	"{""unit"": ""kg""}"
+S0378112713005288-1800	1	Quantity	26	33	1-1	2 × 2 m	"{""unit"": ""kg""}"
+S0378112713005288-1800	1	MeasuredEntity	0	5	1-2	Sites	"{""HasQuantity"": ""1-1""}"
+S0378112713005288-1800	3	Quantity	565	571	3-1	>50 cm	"{""unit"": ""kg""}"
+S0378112713005288-1800	5	Quantity	960	965	5-1	250 m	"{""unit"": ""kg""}"
+S0378112713005288-1800	6	Quantity	1109	1110	6-1	2	"{""unit"": ""kg""}"
+S0378112713005288-1800	7	Quantity	1187	1201	7-1	more than 100%	"{""unit"": ""kg""}"
+S0378112713005288-1800	2	Quantity	388	401	2-1	1140 quadrats	"{""unit"": ""kg""}"
+S0378112713005288-1800	4	Quantity	715	718	4-1	2 m	"{""unit"": ""kg""}"

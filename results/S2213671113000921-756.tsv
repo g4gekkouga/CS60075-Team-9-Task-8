@@ -1,2 +1,2 @@
 docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
-S2213671113000921-756	1	Quantity	69	75	1	200 μm	
+S2213671113000921-756	1	Quantity	69	75	1-1	200 μm	"{""unit"": ""kg""}"

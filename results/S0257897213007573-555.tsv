@@ -1,2 +1,3 @@
 docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
-S0257897213007573-555	1	Quantity	121	128	1	1000 °C	
+S0257897213007573-555	1	Quantity	121	128	1-1	1000 °C	"{""unit"": ""kg""}"
+S0257897213007573-555	1	MeasuredEntity	96	117	1-2	a silica tube furnace	"{""HasQuantity"": ""1-1""}"

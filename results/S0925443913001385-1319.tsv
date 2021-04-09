@@ -1,10 +1,16 @@
 docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
-S0925443913001385-1319	1	Quantity	89	93	1	five	
-S0925443913001385-1319	2	Quantity	122	147	2	approximately 80 proteins	
-S0925443913001385-1319	3	Quantity	564	572	3	80 genes	
-S0925443913001385-1319	4	Quantity	1403	1426	4	over a hundred proteins	
-S0925443913001385-1319	5	Quantity	2948	2951	5	one	
-S0925443913001385-1319	6	Quantity	3264	3277	6	four siblings	
-S0925443913001385-1319	7	Quantity	3431	3458	7	approximately 80 components	
-S0925443913001385-1319	8	Quantity	3828	3833	8	~ 70%	
-S0925443913001385-1319	9	Quantity	3875	3880	9	~ 70%	
+S0925443913001385-1319	6	Quantity	3264	3277	6-1	four siblings	"{""unit"": ""kg""}"
+S0925443913001385-1319	3	Quantity	564	572	3-1	80 genes	"{""unit"": ""kg""}"
+S0925443913001385-1319	5	Quantity	2948	2951	5-1	one	"{""unit"": ""kg""}"
+S0925443913001385-1319	5	MeasuredEntity	2976	2991	5-2	corpus callosum	"{""HasQuantity"": ""5-1""}"
+S0925443913001385-1319	1	Quantity	89	93	1-1	five	"{""unit"": ""kg""}"
+S0925443913001385-1319	1	MeasuredEntity	44	69	1-2	oxidative phosphorylation	"{""HasQuantity"": ""1-1""}"
+S0925443913001385-1319	7	Quantity	3431	3458	7-1	approximately 80 components	"{""unit"": ""kg""}"
+S0925443913001385-1319	9	Quantity	3875	3880	9-1	~ 70%	"{""unit"": ""kg""}"
+S0925443913001385-1319	9	MeasuredEntity	3847	3866	9-2	human mitoribosomes	"{""HasQuantity"": ""9-1""}"
+S0925443913001385-1319	9	MeasuredProperty	3877	3888	9-3	70% protein	"{""HasQuantity"": ""9-1""}"
+S0925443913001385-1319	4	Quantity	1403	1426	4-1	over a hundred proteins	"{""unit"": ""kg""}"
+S0925443913001385-1319	2	Quantity	122	147	2-1	approximately 80 proteins	"{""unit"": ""kg""}"
+S0925443913001385-1319	8	Quantity	3828	3833	8-1	~ 70%	"{""unit"": ""kg""}"
+S0925443913001385-1319	8	MeasuredEntity	3847	3866	8-2	human mitoribosomes	"{""HasQuantity"": ""8-1""}"
+S0925443913001385-1319	8	MeasuredProperty	3877	3888	8-3	70% protein	"{""HasQuantity"": ""8-1""}"

@@ -1,6 +1,7 @@
 docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
-S2213158213001253-2433	1	Quantity	319	332	1	0.90 and 0.89	
-S2213158213001253-2433	2	Quantity	555	559	2	100%	
-S2213158213001253-2433	3	Quantity	624	628	3	100%	
-S2213158213001253-2433	4	Quantity	708	710	4	0%	
-S2213158213001253-2433	5	Quantity	775	777	5	0%	
+S2213158213001253-2433	1	Quantity	319	332	1-1	0.90 and 0.89	"{""unit"": ""kg""}"
+S2213158213001253-2433	1	MeasuredEntity	264	287	1-2	The combined classifier	"{""HasQuantity"": ""1-1""}"
+S2213158213001253-2433	5	Quantity	775	777	5-1	0%	"{""unit"": ""kg""}"
+S2213158213001253-2433	2	Quantity	555	559	2-1	100%	"{""unit"": ""kg""}"
+S2213158213001253-2433	4	Quantity	708	710	4-1	0%	"{""unit"": ""kg""}"
+S2213158213001253-2433	3	Quantity	624	628	3-1	100%	"{""unit"": ""kg""}"

@@ -1,3 +1,2 @@
 docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
-S0022459611006116-987	1	Quantity	119	130	1	1323–1423 K	
-S0022459611006116-987	2	Quantity	609	626	2	between 5 and 300	
+S0022459611006116-987	1	Quantity	119	130	1-1	1323–1423 K	"{""unit"": ""kg""}"

@@ -1,2 +1,2 @@
 docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
-S0032386113005454-2876	1	Quantity	311	316	1	20 °C	
+S0032386113005454-2876	1	Quantity	311	316	1-1	20 °C	"{""unit"": ""kg""}"

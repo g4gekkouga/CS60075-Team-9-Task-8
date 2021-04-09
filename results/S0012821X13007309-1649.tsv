@@ -1,2 +1,2 @@
 docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
-S0012821X13007309-1649	1	Quantity	817	829	1	1035.75 mbsf	
+S0012821X13007309-1649	1	Quantity	817	829	1-1	1035.75 mbsf	"{""unit"": ""kg""}"

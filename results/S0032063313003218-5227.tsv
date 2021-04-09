@@ -1,3 +1,4 @@
 docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
-S0032063313003218-5227	1	Quantity	44	55	1	up to 700 K	
-S0032063313003218-5227	2	Quantity	244	257	2	over 40 years	
+S0032063313003218-5227	1	Quantity	44	55	1-1	up to 700 K	"{""unit"": ""kg""}"
+S0032063313003218-5227	1	MeasuredEntity	86	99	1-2	solar heating	"{""HasQuantity"": ""1-1""}"
+S0032063313003218-5227	2	Quantity	244	257	2-1	over 40 years	"{""unit"": ""kg""}"

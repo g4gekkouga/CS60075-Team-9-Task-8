@@ -1,4 +1,4 @@
 docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
-S0019103512003533-3908	1	Quantity	259	264	1	0.125	
-S0019103512003533-3908	2	Quantity	325	339	2	2 × 10−9 to k1	
-S0019103512003533-3908	3	Quantity	342	358	3	1 × 10−9 cm3 s−1	
+S0019103512003533-3908	3	Quantity	342	358	3-1	1 × 10−9 cm3 s−1	"{""unit"": ""kg""}"
+S0019103512003533-3908	2	Quantity	325	339	2-1	2 × 10−9 to k1	"{""unit"": ""kg""}"
+S0019103512003533-3908	1	Quantity	259	264	1-1	0.125	"{""unit"": ""kg""}"

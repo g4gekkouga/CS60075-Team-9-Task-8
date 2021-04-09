@@ -1,6 +1,5 @@
 docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
-S0019103512003533-5300	1	Quantity	135	144	1	80 mV m−1	
-S0019103512003533-5300	2	Quantity	220	233	2	0.2 to 1.2 mW	
-S0019103512003533-5300	3	Quantity	252	262	3	100 mV m−1	
-S0019103512003533-5300	4	Quantity	291	297	4	850 K.	
-S0019103512003533-5300	5	Quantity	613	619	5	500 eV	
+S0019103512003533-5300	5	Quantity	613	619	5-1	500 eV	"{""unit"": ""kg""}"
+S0019103512003533-5300	2	Quantity	220	233	2-1	0.2 to 1.2 mW	"{""unit"": ""kg""}"
+S0019103512003533-5300	3	Quantity	252	262	3-1	100 mV m−1	"{""unit"": ""kg""}"
+S0019103512003533-5300	1	Quantity	135	144	1-1	80 mV m−1	"{""unit"": ""kg""}"

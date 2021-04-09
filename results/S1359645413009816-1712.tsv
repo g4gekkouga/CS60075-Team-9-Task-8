@@ -1,2 +1,2 @@
 docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
-S1359645413009816-1712	1	Quantity	176	205	1	range from 1.25 to 50 K min-1	
+S1359645413009816-1712	1	Quantity	176	205	1-1	range from 1.25 to 50 K min-1	"{""unit"": ""kg""}"

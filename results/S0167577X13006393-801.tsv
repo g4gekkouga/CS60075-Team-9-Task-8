@@ -1,4 +1,7 @@
 docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
-S0167577X13006393-801	1	Quantity	237	252	1	less than 10 nm	
-S0167577X13006393-801	2	Quantity	1087	1100	2	below 1200 °C	
-S0167577X13006393-801	3	Quantity	1129	1139	3	0.4 to 0.5	
+S0167577X13006393-801	2	Quantity	1087	1100	2-1	below 1200 °C	"{""unit"": ""kg""}"
+S0167577X13006393-801	2	MeasuredEntity	1020	1027	2-2	pure HA	"{""HasQuantity"": ""2-1""}"
+S0167577X13006393-801	1	Quantity	237	252	1-1	less than 10 nm	"{""unit"": ""kg""}"
+S0167577X13006393-801	1	MeasuredEntity	316	326	1-2	the fibres	"{""HasQuantity"": ""1-1""}"
+S0167577X13006393-801	1	MeasuredProperty	301	312	1-3	the surface	"{""HasQuantity"": ""1-1""}"
+S0167577X13006393-801	3	Quantity	1129	1139	3-1	0.4 to 0.5	"{""unit"": ""kg""}"

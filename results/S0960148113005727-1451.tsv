@@ -1,5 +1,9 @@
 docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
-S0960148113005727-1451	1	Quantity	31	34	1	two	
-S0960148113005727-1451	2	Quantity	355	363	2	from 12%	
-S0960148113005727-1451	3	Quantity	372	404	3	2% between the ages of 12 and 17	
-S0960148113005727-1451	4	Quantity	445	449	4	nine	
+S0960148113005727-1451	4	Quantity	445	449	4-1	nine	"{""unit"": ""kg""}"
+S0960148113005727-1451	1	Quantity	31	34	1-1	two	"{""unit"": ""kg""}"
+S0960148113005727-1451	1	MeasuredEntity	19	42	1-2	these first two reasons	"{""HasQuantity"": ""1-1""}"
+S0960148113005727-1451	3	Quantity	372	404	3-1	2% between the ages of 12 and 17	"{""unit"": ""kg""}"
+S0960148113005727-1451	3	MeasuredEntity	317	326	3-2	the chart	"{""HasQuantity"": ""3-1""}"
+S0960148113005727-1451	2	Quantity	355	363	2-1	from 12%	"{""unit"": ""kg""}"
+S0960148113005727-1451	2	MeasuredEntity	317	326	2-2	the chart	"{""HasQuantity"": ""2-1""}"
+S0960148113005727-1451	2	MeasuredProperty	298	313	2-3	the lower-right	"{""HasQuantity"": ""2-1""}"

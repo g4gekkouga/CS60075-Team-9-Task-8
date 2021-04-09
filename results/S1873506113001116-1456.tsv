@@ -1,6 +1,9 @@
 docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
-S1873506113001116-1456	1	Quantity	90	93	1	two	
-S1873506113001116-1456	2	Quantity	164	170	2	100-ml	
-S1873506113001116-1456	3	Quantity	309	322	3	~ 20 passages	
-S1873506113001116-1456	4	Quantity	334	337	4	one	
-S1873506113001116-1456	5	Quantity	841	843	5	5%	
+S1873506113001116-1456	4	Quantity	334	337	4-1	one	"{""unit"": ""kg""}"
+S1873506113001116-1456	4	MeasuredEntity	374	384	4-2	TNC1 cells	"{""HasQuantity"": ""4-1""}"
+S1873506113001116-1456	5	Quantity	841	843	5-1	5%	"{""unit"": ""kg""}"
+S1873506113001116-1456	3	Quantity	309	322	3-1	~ 20 passages	"{""unit"": ""kg""}"
+S1873506113001116-1456	3	MeasuredEntity	184	193	3-2	The cells	"{""HasQuantity"": ""3-1""}"
+S1873506113001116-1456	3	MeasuredProperty	237	253	3-3	steady expansion	"{""HasQuantity"": ""3-1""}"
+S1873506113001116-1456	1	Quantity	90	93	1-1	two	"{""unit"": ""kg""}"
+S1873506113001116-1456	2	Quantity	164	170	2-1	100-ml	"{""unit"": ""kg""}"

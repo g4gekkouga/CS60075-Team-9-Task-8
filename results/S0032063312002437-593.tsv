@@ -1,4 +1,5 @@
 docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
-S0032063312002437-593	1	Quantity	0	42	1	Between August 2008 and October 2009 Venus	
-S0032063312002437-593	2	Quantity	93	97	2	86°N	
-S0032063312002437-593	3	Quantity	122	157	3	185 km and 215 km with about 10 min	
+S0032063312002437-593	1	Quantity	0	42	1-1	Between August 2008 and October 2009 Venus	"{""unit"": ""kg""}"
+S0032063312002437-593	3	Quantity	122	157	3-1	185 km and 215 km with about 10 min	"{""unit"": ""kg""}"
+S0032063312002437-593	2	Quantity	93	97	2-1	86°N	"{""unit"": ""kg""}"
+S0032063312002437-593	2	MeasuredEntity	78	87	2-2	periapsis	"{""HasQuantity"": ""2-1""}"
