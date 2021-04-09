@@ -1,6 +1,4 @@
 docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
-S0167610513001001-1618	1	Quantity	15	24	1	tan−1(w/U	
-S0167610513001001-1618	2	Quantity	92	106	2	midpoint=180 m	
-S0167610513001001-1618	3	Quantity	140	150	3	7.83 m s−1	
-S0167610513001001-1618	3	MeasuredProperty	131	136	4	speed	
-S0167610513001001-1618	3	MeasuredEntity	126	130	5	wind	
+S0167610513001001-1618	1	Quantity	140	146	2	7.83 m	"{""unit"": ""m""}"
+S0167610513001001-1618	1	MeasuredProperty	131	136	3	speed	"{""HasQuantity"": ""2""}"
+S0167610513001001-1618	0	MeasuredEntity	126	130	4	wind	"{""HasProperty"": ""3""}"

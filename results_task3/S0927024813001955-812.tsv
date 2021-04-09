@@ -1,5 +1,7 @@
 docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
-S0927024813001955-812	1	Quantity	194	206	1	41.73 mg/mL.	
-S0927024813001955-812	2	Quantity	233	257	2	2 h at 800 rpm and 60 °C	
-S0927024813001955-812	3	Quantity	275	278	3	two	
-S0927024813001955-812	3	MeasuredEntity	279	288	4	solutions	
+S0927024813001955-812	1	Quantity	194	206	1	41.73 mg/mL.	"{""unit"": ""mg""}"
+S0927024813001955-812	2	Quantity	233	236	2	2 h	"{""unit"": ""h""}"
+S0927024813001955-812	3	Quantity	240	247	3	800 rpm	"{""unit"": ""rpm""}"
+S0927024813001955-812	4	Quantity	252	257	4	60 °C	"{""unit"": ""C""}"
+S0927024813001955-812	5	Quantity	275	278	5	two	"{""unit"": ""two""}"
+S0927024813001955-812	5	MeasuredEntity	279	288	6	solutions	"{""HasQuantity"": ""5""}"

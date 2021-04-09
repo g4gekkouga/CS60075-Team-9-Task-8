@@ -1,2 +1,2 @@
 docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
-S0167610513001001-858	1	Quantity	109	115	1	60 min	
+S0167610513001001-858	1	Quantity	109	115	1	60 min	"{""unit"": ""min""}"

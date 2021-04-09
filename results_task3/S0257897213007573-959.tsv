@@ -1,7 +1,6 @@
 docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
-S0257897213007573-959	1	Quantity	195	197	1	4a	
-S0257897213007573-959	2	Quantity	329	336	2	0.22 nm	
-S0257897213007573-959	3	Quantity	865	877	3	up to 100 nm	
-S0257897213007573-959	4	Quantity	1058	1065	4	1.46 nm	
-S0257897213007573-959	5	Quantity	1540	1558	5	approximately 3 μm	
-S0257897213007573-959	6	Quantity	1628	1636	6	54.68 nm	
+S0257897213007573-959	1	Quantity	329	336	1	0.22 nm	"{""unit"": ""nm""}"
+S0257897213007573-959	2	Quantity	865	877	2	up to 100 nm	"{""unit"": ""nm""}"
+S0257897213007573-959	3	Quantity	1058	1065	3	1.46 nm	"{""unit"": ""nm""}"
+S0257897213007573-959	4	Quantity	1540	1558	4	approximately 3 μm	"{""unit"": ""μm""}"
+S0257897213007573-959	5	Quantity	1628	1636	5	54.68 nm	"{""unit"": ""nm""}"

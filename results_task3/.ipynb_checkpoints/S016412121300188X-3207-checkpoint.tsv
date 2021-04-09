@@ -1,0 +1,10 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S016412121300188X-3207	1	Quantity	343	346	1	89%	"{""unit"": ""%""}"
+S016412121300188X-3207	1	MeasuredEntity	327	333	4	C code	"{""HasQuantity"": ""1""}"
+S016412121300188X-3207	2	Quantity	425	428	2	10%	"{""unit"": ""%""}"
+S016412121300188X-3207	2	MeasuredProperty	413	421	3	composed	"{""HasQuantity"": ""2""}"
+S016412121300188X-3207	0	MeasuredEntity	394	412	5	dependence cluster	"{""HasProperty"": ""3""}"
+S016412121300188X-3207	3	Quantity	511	517	6	20KLoC	"{""unit"": ""20KLoC""}"
+S016412121300188X-3207	4	Quantity	540	553	7	more than 10%	"{""unit"": ""%""}"
+S016412121300188X-3207	5	Quantity	640	643	8	40%	"{""unit"": ""%""}"
+S016412121300188X-3207	5	MeasuredEntity	651	659	10	programs	"{""HasQuantity"": ""8""}"

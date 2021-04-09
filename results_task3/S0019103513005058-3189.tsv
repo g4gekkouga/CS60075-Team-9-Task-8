@@ -1,6 +1,6 @@
 docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
-S0019103513005058-3189	1	Quantity	796	802	1	−57 °C	
-S0019103513005058-3189	2	Quantity	858	864	2	−75 °C	
-S0019103513005058-3189	2	MeasuredEntity	845	854	3	Ca(ClO4)2	
-S0019103513005058-3189	3	Quantity	953	970	4	∼0.02 g H2O per g	
-S0019103513005058-3189	3	MeasuredEntity	971	975	5	soil	
+S0019103513005058-3189	1	Quantity	796	802	1	−57 °C	"{""unit"": ""C""}"
+S0019103513005058-3189	1	MeasuredEntity	783	792	3	Mg(ClO4)2	"{""HasQuantity"": ""1""}"
+S0019103513005058-3189	2	Quantity	858	864	2	−75 °C	"{""unit"": ""C""}"
+S0019103513005058-3189	2	MeasuredEntity	845	854	4	Ca(ClO4)2	"{""HasQuantity"": ""2""}"
+S0019103513005058-3189	3	Quantity	953	960	5	∼0.02 g	"{""unit"": ""g""}"

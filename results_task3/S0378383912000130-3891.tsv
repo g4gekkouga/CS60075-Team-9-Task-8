@@ -1,5 +1,6 @@
 docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
-S0378383912000130-3891	1	Quantity	132	149	1	1.5 mm and 8.5 mm	
-S0378383912000130-3891	1	MeasuredEntity	150	158	2	sediment	
-S0378383912000130-3891	2	Quantity	534	537	3	two	
-S0378383912000130-3891	2	MeasuredEntity	538	547	4	sediments	
+S0378383912000130-3891	1	Quantity	94	97	1	two	"{""unit"": ""two""}"
+S0378383912000130-3891	1	MeasuredEntity	98	130	3	permeable coarse-grained beaches	"{""HasQuantity"": ""1""}"
+S0378383912000130-3891	2	Quantity	132	158	2	1.5 mm and 8.5 mm sediment	"{""unit"": ""mm""}"
+S0378383912000130-3891	3	Quantity	534	537	4	two	"{""unit"": ""two""}"
+S0378383912000130-3891	3	MeasuredEntity	538	547	6	sediments	"{""HasQuantity"": ""4""}"

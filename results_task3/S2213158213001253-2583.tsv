@@ -1,2 +1,3 @@
 docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
-S2213158213001253-2583	1	Quantity	2647	2659	1	4 × 4 × 5 mm	
+S2213158213001253-2583	1	Quantity	2647	2659	1	4 × 4 × 5 mm	"{""unit"": ""mm""}"
+S2213158213001253-2583	1	MeasuredEntity	2635	2645	2	fMRI scans	"{""HasQuantity"": ""1""}"

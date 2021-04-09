@@ -1,2 +1,3 @@
 docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
-S2213158213000582-766	1	Quantity	27	33	1	100 ms	
+S2213158213000582-766	1	Quantity	27	33	1	100 ms	"{""unit"": ""ms""}"
+S2213158213000582-766	1	MeasuredEntity	7	22	2	-group analyses	"{""HasQuantity"": ""1""}"

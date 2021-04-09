@@ -1,4 +1,5 @@
 docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
-S0019103512002801-2075	1	Quantity	139	147	1	15–35 km	
-S0019103512002801-2075	2	Quantity	162	184	2	between 20 and 100 keV	
-S0019103512002801-2075	2	MeasuredEntity	152	161	3	electrons	
+S0019103512002801-2075	1	Quantity	139	147	1	15–35 km	"{""unit"": ""km""}"
+S0019103512002801-2075	1	MeasuredEntity	122	137	4	Rhea’s diameter	"{""HasQuantity"": ""1""}"
+S0019103512002801-2075	2	Quantity	162	184	2	between 20 and 100 keV	"{""unit"": ""keV""}"
+S0019103512002801-2075	2	MeasuredEntity	152	161	5	electrons	"{""HasQuantity"": ""2""}"

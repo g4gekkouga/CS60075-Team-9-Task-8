@@ -1,0 +1,4 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103512003995-2579	1	Quantity	673	679	2	6300 K	"{""unit"": ""m""}"
+S0019103512003995-2579	1	MeasuredProperty	653	669	3	mean temperature	
+S0019103512003995-2579	1	MeasuredEntity	617	625	4	C2 model	

@@ -1,3 +1,3 @@
 docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
-S0032063312002437-586	1	Quantity	369	375	1	400 km	
-S0032063312002437-586	2	Quantity	454	460	2	400 km	
+S0032063312002437-586	1	Quantity	369	375	1	400 km	"{""unit"": ""km""}"
+S0032063312002437-586	2	Quantity	454	460	2	400 km	"{""unit"": ""km""}"

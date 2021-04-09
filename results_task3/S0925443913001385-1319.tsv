@@ -1,12 +1,12 @@
 docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
-S0925443913001385-1319	1	Quantity	89	93	1	five	
-S0925443913001385-1319	1	MeasuredEntity	94	110	2	enzyme complexes	
-S0925443913001385-1319	2	Quantity	820	824	3	none	
-S0925443913001385-1319	3	Quantity	2637	2644	5	609204)	
-S0925443913001385-1319	4	Quantity	3264	3268	6	four	
-S0925443913001385-1319	4	MeasuredEntity	3269	3277	7	siblings	
-S0925443913001385-1319	5	Quantity	3431	3458	8	approximately 80 components	
-S0925443913001385-1319	5	MeasuredEntity	3476	3513	9	28S small (SSU) and 39S large subunit	
-S0925443913001385-1319	6	Quantity	3828	3833	10	~ 70%	
-S0925443913001385-1319	7	Quantity	3875	3880	11	~ 70%	
-S0925443913001385-1319	7	MeasuredProperty	3881	3888	12	protein	
+S0925443913001385-1319	1	Quantity	89	93	1	five	"{""unit"": ""five""}"
+S0925443913001385-1319	1	MeasuredEntity	94	110	2	enzyme complexes	"{""HasQuantity"": ""1""}"
+S0925443913001385-1319	2	Quantity	2449	2452	3	30]	"{""unit"": ""]""}"
+S0925443913001385-1319	2	MeasuredProperty	2455	2468	4	other factors	"{""HasQuantity"": ""3""}"
+S0925443913001385-1319	3	Quantity	3431	3458	5	approximately 80 components	"{""unit"": ""components""}"
+S0925443913001385-1319	4	Quantity	3828	3833	6	~ 70%	"{""unit"": ""%""}"
+S0925443913001385-1319	4	MeasuredProperty	3820	3827	8	contain	"{""HasQuantity"": ""6""}"
+S0925443913001385-1319	0	MeasuredEntity	3806	3819	10	80S particles	"{""HasProperty"": ""9""}"
+S0925443913001385-1319	5	Quantity	3875	3880	7	~ 70%	"{""unit"": ""%""}"
+S0925443913001385-1319	5	MeasuredProperty	3881	3888	9	protein	"{""HasQuantity"": ""7""}"
+S0925443913001385-1319	0	MeasuredEntity	3806	3819	10	80S particles	"{""HasProperty"": ""9""}"

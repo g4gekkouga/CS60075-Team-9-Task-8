@@ -1,4 +1,5 @@
 docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
-S2213158213000582-1410	1	Quantity	506	511	1	50 ms	
-S2213158213000582-1410	2	Quantity	526	532	2	100 ms	
-S2213158213000582-1410	3	Quantity	608	621	3	50 and 100 ms	
+S2213158213000582-1410	1	Quantity	506	511	1	50 ms	"{""unit"": ""ms""}"
+S2213158213000582-1410	2	Quantity	526	532	2	100 ms	"{""unit"": ""ms""}"
+S2213158213000582-1410	2	MeasuredEntity	533	554	4	STG group differences	"{""HasQuantity"": ""2""}"
+S2213158213000582-1410	3	Quantity	608	621	3	50 and 100 ms	"{""unit"": ""ms""}"

@@ -1,4 +1,7 @@
 docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
-S0022459611006116-1257	1	Quantity	64	71	1	1323 K.	
-S0022459611006116-1257	2	Quantity	1356	1362	7	1/2, 0	
-S0022459611006116-1257	3	Quantity	1585	1594	8	〈2θ〉=145°	
+S0022459611006116-1257	1	Quantity	64	71	1	1323 K.	"{""unit"": ""K.""}"
+S0022459611006116-1257	1	MeasuredProperty	72	98	3	Initial powder diffraction	"{""HasQuantity"": ""1""}"
+S0022459611006116-1257	2	Quantity	1321	1324	7	1/2	"{""unit"": ""1/2""}"
+S0022459611006116-1257	3	Quantity	1356	1359	8	1/2	"{""unit"": ""1/2""}"
+S0022459611006116-1257	4	Quantity	1361	1362	9	0	"{""unit"": ""0""}"
+S0022459611006116-1257	5	Quantity	1585	1594	11	〈2θ〉=145°	"{""unit"": ""°""}"

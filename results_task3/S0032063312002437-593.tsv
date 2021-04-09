@@ -1,5 +1,5 @@
 docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
-S0032063312002437-593	1	Quantity	0	36	1	Between August 2008 and October 2009	
-S0032063312002437-593	2	Quantity	93	97	2	86°N	
-S0032063312002437-593	3	Quantity	122	128	3	185 km	
-S0032063312002437-593	4	Quantity	133	157	4	215 km with about 10 min	
+S0032063312002437-593	1	Quantity	0	36	1	Between August 2008 and October 2009	"{""unit"": ""2009""}"
+S0032063312002437-593	1	MeasuredEntity	37	56	4	Venus Express (VEX)	"{""HasQuantity"": ""1""}"
+S0032063312002437-593	2	Quantity	93	97	2	86°N	"{""unit"": ""N""}"
+S0032063312002437-593	3	Quantity	105	157	3	altitude between 185 km and 215 km with about 10 min	"{""unit"": ""min""}"

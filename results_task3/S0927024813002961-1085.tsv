@@ -1,3 +1,4 @@
 docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
-S0927024813002961-1085	1	Quantity	324	329	1	25 °C	
-S0927024813002961-1085	2	Quantity	353	362	2	1000 W/m2	
+S0927024813002961-1085	1	Quantity	324	329	1	25 °C	"{""unit"": ""C""}"
+S0927024813002961-1085	1	MeasuredProperty	299	322	3	cold module temperature	"{""HasQuantity"": ""1""}"
+S0927024813002961-1085	2	Quantity	353	362	2	1000 W/m2	"{""unit"": ""m2""}"

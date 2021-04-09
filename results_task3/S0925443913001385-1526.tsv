@@ -1,4 +1,5 @@
 docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
-S0925443913001385-1526	1	Quantity	170	174	1	5 μg	
-S0925443913001385-1526	2	Quantity	205	209	2	1.2%	
-S0925443913001385-1526	3	Quantity	211	214	3	w/v	
+S0925443913001385-1526	1	Quantity	170	174	1	5 μg	"{""unit"": ""μg""}"
+S0925443913001385-1526	2	Quantity	205	209	2	1.2%	"{""unit"": ""%""}"
+S0925443913001385-1526	2	MeasuredProperty	181	196	4	electrophoresed	"{""HasQuantity"": ""2""}"
+S0925443913001385-1526	3	Quantity	211	214	3	w/v	"{""unit"": ""v""}"

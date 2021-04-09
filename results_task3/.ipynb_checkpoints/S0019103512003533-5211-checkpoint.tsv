@@ -1,0 +1,9 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103512003533-5211	1	Quantity	332	341	1	10−5 mbar	"{""unit"": ""10−5""}"
+S0019103512003533-5211	2	Quantity	347	364	2	latitude 78° from	"{""unit"": ""default""}"
+S0019103512003533-5211	2	MeasuredEntity	365	383	3	simulations R1–R18	
+S0019103512003533-5211	3	Quantity	451	457	4	10 keV	"{""unit"": ""default""}"
+S0019103512003533-5211	3	MeasuredProperty	458	478	6	electron energy flux	
+S0019103512003533-5211	4	Quantity	863	869	7	10 keV	"{""unit"": ""default""}"
+S0019103512003533-5211	4	MeasuredProperty	870	890	8	electron energy flux	
+S0019103512003533-5211	4	MeasuredEntity	1032	1050	10	simulations R1–R18	

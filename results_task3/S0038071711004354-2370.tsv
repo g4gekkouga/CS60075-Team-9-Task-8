@@ -1,7 +1,10 @@
 docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
-S0038071711004354-2370	1	Quantity	186	189	1	15%	
-S0038071711004354-2370	2	Quantity	203	209	2	14–75%	
-S0038071711004354-2370	2	MeasuredProperty	191	200	5	±t0.05,dƒ	
-S0038071711004354-2370	3	Quantity	246	248	3	5%	
-S0038071711004354-2370	4	Quantity	262	268	4	27–48%	
-S0038071711004354-2370	4	MeasuredProperty	250	259	6	±t0.05,dƒ	
+S0038071711004354-2370	1	Quantity	186	189	1	15%	"{""unit"": ""%""}"
+S0038071711004354-2370	2	Quantity	203	209	2	14–75%	"{""unit"": ""%""}"
+S0038071711004354-2370	2	MeasuredProperty	191	200	5	±t0.05,dƒ	"{""HasQuantity"": ""2""}"
+S0038071711004354-2370	3	MeasuredEntity	234	244	7	lowest SEs	"{""HasProperty"": ""6""}"
+S0038071711004354-2370	3	Quantity	246	248	3	5%	"{""unit"": ""%""}"
+S0038071711004354-2370	3	MeasuredEntity	234	244	7	lowest SEs	"{""HasProperty"": ""6""}"
+S0038071711004354-2370	4	Quantity	262	268	4	27–48%	"{""unit"": ""%""}"
+S0038071711004354-2370	4	MeasuredProperty	250	259	6	±t0.05,dƒ	"{""HasQuantity"": ""4""}"
+S0038071711004354-2370	3	MeasuredEntity	234	244	7	lowest SEs	"{""HasProperty"": ""6""}"

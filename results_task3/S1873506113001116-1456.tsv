@@ -1,6 +1,5 @@
 docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
-S1873506113001116-1456	1	Quantity	90	93	1	two	
-S1873506113001116-1456	1	MeasuredEntity	94	122	3	integration-free hiPSC lines	
-S1873506113001116-1456	2	Quantity	164	170	2	100-ml	
-S1873506113001116-1456	3	Quantity	309	322	4	~ 20 passages	
-S1873506113001116-1456	4	Quantity	841	843	6	5%	
+S1873506113001116-1456	1	Quantity	164	170	1	100-ml	"{""unit"": ""ml""}"
+S1873506113001116-1456	1	MeasuredEntity	137	160	2	defined xeno-free media	"{""HasQuantity"": ""1""}"
+S1873506113001116-1456	2	Quantity	309	322	3	~ 20 passages	"{""unit"": ""passages""}"
+S1873506113001116-1456	3	Quantity	841	843	6	5%	"{""unit"": ""%""}"

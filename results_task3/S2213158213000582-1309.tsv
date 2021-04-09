@@ -1,9 +1,10 @@
 docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
-S2213158213000582-1309	1	Quantity	372	378	1	500 ms	
-S2213158213000582-1309	1	MeasuredProperty	379	391	3	pre-stimulus	
-S2213158213000582-1309	2	Quantity	395	401	2	500 ms	
-S2213158213000582-1309	3	Quantity	502	521	4	average, 103 trials	
-S2213158213000582-1309	4	Quantity	628	632	5	0.30	
-S2213158213000582-1309	4	MeasuredProperty	620	625	7	t(39)	
-S2213158213000582-1309	5	Quantity	638	642	6	0.77	
-S2213158213000582-1309	5	MeasuredProperty	634	635	8	p	
+S2213158213000582-1309	1	Quantity	372	378	1	500 ms	"{""unit"": ""ms""}"
+S2213158213000582-1309	1	MeasuredProperty	379	391	3	pre-stimulus	"{""HasQuantity"": ""1""}"
+S2213158213000582-1309	2	Quantity	395	401	2	500 ms	"{""unit"": ""ms""}"
+S2213158213000582-1309	2	MeasuredProperty	402	415	4	post-stimulus	"{""HasQuantity"": ""2""}"
+S2213158213000582-1309	3	Quantity	502	521	5	average, 103 trials	"{""unit"": ""trials""}"
+S2213158213000582-1309	4	Quantity	628	632	6	0.30	"{""unit"": ""0.30""}"
+S2213158213000582-1309	4	MeasuredProperty	620	625	8	t(39)	"{""HasQuantity"": ""6""}"
+S2213158213000582-1309	5	Quantity	638	642	7	0.77	"{""unit"": ""0.77""}"
+S2213158213000582-1309	5	MeasuredProperty	634	635	9	p	"{""HasQuantity"": ""7""}"

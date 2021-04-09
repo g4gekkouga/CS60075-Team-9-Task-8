@@ -1,3 +1,2 @@
 docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
-S1359645413009816-1712	1	Quantity	187	205	1	1.25 to 50 K min-1	
-S1359645413009816-1712	1	MeasuredProperty	41	67	2	maximum length change rate	
+S1359645413009816-1712	1	Quantity	187	205	1	1.25 to 50 K min-1	"{""unit"": ""to""}"

@@ -1,4 +1,4 @@
 docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
-S0960148113005727-1451	1	Quantity	355	363	1	from 12%	
-S0960148113005727-1451	1	MeasuredProperty	334	354	3	load factor declined	
-S0960148113005727-1451	2	Quantity	372	374	2	2%	
+S0960148113005727-1451	1	Quantity	31	34	1	two	"{""unit"": ""two""}"
+S0960148113005727-1451	1	MeasuredEntity	35	42	2	reasons	"{""HasQuantity"": ""1""}"
+S0960148113005727-1451	2	Quantity	360	374	3	12% to just 2%	"{""unit"": ""%""}"

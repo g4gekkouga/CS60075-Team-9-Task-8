@@ -1,12 +1,13 @@
 docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
-S0019103512003533-5318	1	Quantity	130	136	1	10 keV	
-S0019103512003533-5318	1	MeasuredProperty	137	157	2	electron energy flux	
-S0019103512003533-5318	2	Quantity	276	285	3	400–650 K	
-S0019103512003533-5318	2	MeasuredProperty	243	264	4	observed temperatures	
-S0019103512003533-5318	2	MeasuredEntity	268	274	5	Saturn	
-S0019103512003533-5318	3	Quantity	649	656	6	∼100 mV	
-S0019103512003533-5318	4	Quantity	717	723	7	10 keV	
-S0019103512003533-5318	4	MeasuredProperty	724	737	10	electron flux	
-S0019103512003533-5318	5	Quantity	741	745	8	1 mW	
-S0019103512003533-5318	5	MeasuredEntity	746	784	11	m−2 generate thermosphere temperatures	
-S0019103512003533-5318	6	Quantity	788	794	9	∼800 K	
+S0019103512003533-5318	1	Quantity	130	136	1	10 keV	"{""unit"": ""keV""}"
+S0019103512003533-5318	1	MeasuredProperty	137	157	2	electron energy flux	"{""HasQuantity"": ""1""}"
+S0019103512003533-5318	2	Quantity	276	285	3	400–650 K	"{""unit"": ""K""}"
+S0019103512003533-5318	2	MeasuredProperty	243	264	4	observed temperatures	"{""HasQuantity"": ""3""}"
+S0019103512003533-5318	0	MeasuredEntity	268	274	5	Saturn	"{""HasProperty"": ""4""}"
+S0019103512003533-5318	3	Quantity	649	656	6	∼100 mV	"{""unit"": ""mV""}"
+S0019103512003533-5318	4	Quantity	717	723	7	10 keV	"{""unit"": ""keV""}"
+S0019103512003533-5318	4	MeasuredProperty	724	737	10	electron flux	"{""HasQuantity"": ""7""}"
+S0019103512003533-5318	5	MeasuredEntity	746	784	11	m−2 generate thermosphere temperatures	"{""HasQuantity"": ""8""}"
+S0019103512003533-5318	5	Quantity	741	745	8	1 mW	"{""unit"": ""mW""}"
+S0019103512003533-5318	5	MeasuredEntity	746	784	11	m−2 generate thermosphere temperatures	"{""HasQuantity"": ""8""}"
+S0019103512003533-5318	6	Quantity	788	794	9	∼800 K	"{""unit"": ""K""}"

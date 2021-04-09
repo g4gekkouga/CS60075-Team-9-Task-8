@@ -1,3 +1,3 @@
 docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
-S0168945213001805-4574	1	Quantity	454	457	1	50%	
-S0168945213001805-4574	1	MeasuredProperty	458	472	2	mortality rate	
+S0168945213001805-4574	1	Quantity	454	457	2	50%	"{""unit"": ""%""}"
+S0168945213001805-4574	1	MeasuredProperty	458	472	3	mortality rate	"{""HasQuantity"": ""2""}"

@@ -1,5 +1,8 @@
 docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
-S0167577X13006393-801	1	Quantity	237	252	2	less than 10 nm	
-S0167577X13006393-801	2	Quantity	1093	1100	3	1200 °C	
-S0167577X13006393-801	2	MeasuredEntity	1020	1027	5	pure HA	
-S0167577X13006393-801	3	Quantity	1129	1139	4	0.4 to 0.5	
+S0167577X13006393-801	1	Quantity	247	252	1	10 nm	"{""unit"": ""nm""}"
+S0167577X13006393-801	2	Quantity	1087	1100	2	below 1200 °C	"{""unit"": ""C""}"
+S0167577X13006393-801	2	MeasuredProperty	1064	1086	4	sintering temperatures	"{""HasQuantity"": ""2""}"
+S0167577X13006393-801	0	MeasuredEntity	1020	1027	6	pure HA	"{""HasProperty"": ""5""}"
+S0167577X13006393-801	3	Quantity	1129	1139	3	0.4 to 0.5	"{""unit"": ""to""}"
+S0167577X13006393-801	3	MeasuredProperty	1108	1125	5	conversion degree	"{""HasQuantity"": ""3""}"
+S0167577X13006393-801	0	MeasuredEntity	1020	1027	6	pure HA	"{""HasProperty"": ""5""}"
