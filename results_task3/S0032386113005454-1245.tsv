@@ -1,6 +1,5 @@
 docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
 S0032386113005454-1245	1	Quantity	79	85	1	10 wt%	"{""unit"": ""wt%""}"
-S0032386113005454-1245	1	MeasuredEntity	46	60	4	epoxy polymers	"{""HasQuantity"": ""1""}"
 S0032386113005454-1245	2	Quantity	95	101	2	20 wt%	"{""unit"": ""wt%""}"
 S0032386113005454-1245	3	Quantity	124	129	3	20 °C	"{""unit"": ""C""}"
-S0032386113005454-1245	3	MeasuredEntity	105	120	5	S-CSR particles	"{""HasQuantity"": ""3""}"
+S0032386113005454-1245	3	MeasuredEntity	105	120	4	S-CSR particles	"{""HasQuantity"": ""3""}"

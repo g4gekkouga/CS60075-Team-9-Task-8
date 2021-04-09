@@ -7,5 +7,5 @@ S0016236113008041-3257	4	MeasuredEntity	416	423	8	samples	"{""HasQuantity"": ""4
 S0016236113008041-3257	5	Quantity	466	471	5	3.98%	"{""unit"": ""%""}"
 S0016236113008041-3257	6	Quantity	476	481	6	13 kg	"{""unit"": ""kg""}"
 S0016236113008041-3257	6	MeasuredProperty	482	488	7	sample	"{""HasQuantity"": ""6""}"
-S0016236113008041-3257	0	MeasuredEntity	492	499	9	sorbent	"{""HasProperty"": ""7""}"
+S0016236113008041-3257	6	MeasuredEntity	492	499	9	sorbent	"{""HasQuantity"": ""6""}"
 S0016236113008041-3257	7	Quantity	869	885	11	Ca between tests	"{""unit"": ""tests""}"

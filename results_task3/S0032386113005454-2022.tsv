@@ -1,4 +1,5 @@
 docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
 S0032386113005454-2022	1	Quantity	871	879	1	0.1–5 μm	"{""unit"": ""μm""}"
+S0032386113005454-2022	1	MeasuredProperty	880	891	3	in diameter	"{""HasQuantity"": ""1""}"
 S0032386113005454-2022	2	Quantity	918	929	2	about 5–20%	"{""unit"": ""%""}"
-S0032386113005454-2022	2	MeasuredProperty	899	914	3	volume fraction	"{""HasQuantity"": ""2""}"
+S0032386113005454-2022	2	MeasuredProperty	899	914	4	volume fraction	"{""HasQuantity"": ""2""}"

@@ -1,7 +1,6 @@
 docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
 S0038071711004354-2389	1	Quantity	103	113	1	0.18 g CO2	"{""unit"": ""g""}"
 S0038071711004354-2389	1	MeasuredProperty	83	99	5	autotrophic flux	"{""HasQuantity"": ""1""}"
-S0038071711004354-2389	0	MeasuredEntity	175	203	6	heterotrophic component flux	"{""HasProperty"": ""5""}"
 S0038071711004354-2389	2	Quantity	160	163	2	56%	"{""unit"": ""%""}"
 S0038071711004354-2389	3	Quantity	207	213	3	0.15 g	"{""unit"": ""g""}"
 S0038071711004354-2389	3	MeasuredEntity	214	217	7	CO2	"{""HasQuantity"": ""3""}"
