@@ -1,5 +1,5 @@
 docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
 S0301010413004096-693	1	Quantity	575	579	1	77 K	"{""unit"": ""K""}"
 S0301010413004096-693	1	MeasuredProperty	538	560	2	cryogenic temperatures	"{""HasQuantity"": ""1""}"
-S0301010413004096-693	1	MeasuredEntity	502	526	3	H2 adsorption capacities	"{""HasQuantity"": ""1""}"
-S0301010413004096-693	2	Quantity	1174	1184	5	below 10 K	"{""unit"": ""K""}"
+S0301010413004096-693	2	Quantity	1174	1184	3	below 10 K	"{""unit"": ""K""}"
+S0301010413004096-693	2	MeasuredEntity	1133	1169	4	situ neutron powder diffraction (NPD	"{""HasQuantity"": ""3""}"

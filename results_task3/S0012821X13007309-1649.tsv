@@ -1,8 +1,8 @@
 docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
 S0012821X13007309-1649	1	Quantity	510	512	1	4‰	"{""unit"": ""4‰""}"
-S0012821X13007309-1649	1	MeasuredProperty	513	531	3	positive excursion	"{""HasQuantity"": ""1""}"
-S0012821X13007309-1649	1	MeasuredEntity	334	348	4	δ13Corg record	"{""HasQuantity"": ""1""}"
-S0012821X13007309-1649	2	Quantity	533	548	2	−27.7 to −23.7‰	"{""unit"": ""to""}"
+S0012821X13007309-1649	1	MeasuredProperty	513	531	2	positive excursion	"{""HasQuantity"": ""1""}"
+S0012821X13007309-1649	1	MeasuredEntity	334	348	3	δ13Corg record	"{""HasQuantity"": ""1""}"
+S0012821X13007309-1649	2	Quantity	533	548	4	−27.7 to −23.7‰	"{""unit"": ""to""}"
 S0012821X13007309-1649	3	Quantity	650	654	5	∼2 m	"{""unit"": ""m""}"
 S0012821X13007309-1649	3	MeasuredEntity	619	649	6	characteristic excursion spans	"{""HasQuantity"": ""5""}"
 S0012821X13007309-1649	4	Quantity	817	829	7	1035.75 mbsf	"{""unit"": ""mbsf""}"

@@ -1,7 +1,9 @@
 docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
 S0378383913001567-7073	1	Quantity	158	163	1	0.2 m	"{""unit"": ""m""}"
-S0378383913001567-7073	1	MeasuredProperty	164	169	4	and i	"{""HasQuantity"": ""1""}"
-S0378383913001567-7073	2	Quantity	172	176	2	1,2,	"{""unit"": ""1,2,""}"
+S0378383913001567-7073	1	MeasuredProperty	153	155	2	∆t	"{""HasQuantity"": ""1""}"
+S0378383913001567-7073	1	MeasuredProperty	164	169	3	and i	"{""HasQuantity"": ""1""}"
+S0378383913001567-7073	2	Quantity	172	176	4	1,2,	"{""unit"": ""1,2,""}"
 S0378383913001567-7073	3	Quantity	225	230	5	0.2 m	"{""unit"": ""m""}"
-S0378383913001567-7073	3	MeasuredProperty	220	222	6	∆x	"{""HasQuantity"": ""5""}"
+S0378383913001567-7073	3	MeasuredProperty	208	222	6	constant at ∆x	"{""HasQuantity"": ""5""}"
 S0378383913001567-7073	4	Quantity	332	336	7	2.33	"{""unit"": ""2.33""}"
+S0378383913001567-7073	4	MeasuredProperty	308	319	8	average Rij	"{""HasQuantity"": ""7""}"

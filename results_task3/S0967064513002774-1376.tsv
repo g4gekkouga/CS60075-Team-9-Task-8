@@ -1,6 +1,8 @@
 docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
-S0967064513002774-1376	1	Quantity	75	81	1	220 mL	"{""unit"": ""mL""}"
-S0967064513002774-1376	1	MeasuredEntity	82	101	2	incubation chambers	"{""HasQuantity"": ""1""}"
-S0967064513002774-1376	2	Quantity	755	761	3	40-min	"{""unit"": ""min""}"
-S0967064513002774-1376	3	Quantity	832	841	4	below 80%	"{""unit"": ""%""}"
-S0967064513002774-1376	4	Quantity	919	925	5	−20 °C	"{""unit"": ""C""}"
+S0967064513002774-1376	1	Quantity	75	101	1	220 mL incubation chambers	"{""unit"": ""chambers""}"
+S0967064513002774-1376	2	Quantity	411	428	2	2 h. Ten chambers	"{""unit"": ""chambers""}"
+S0967064513002774-1376	2	MeasuredEntity	443	452	3	treatment	"{""HasQuantity"": ""2""}"
+S0967064513002774-1376	3	Quantity	755	761	4	40-min	"{""unit"": ""min""}"
+S0967064513002774-1376	3	MeasuredProperty	762	768	5	period	"{""HasQuantity"": ""4""}"
+S0967064513002774-1376	4	Quantity	832	841	6	below 80%	"{""unit"": ""%""}"
+S0967064513002774-1376	5	Quantity	919	925	7	−20 °C	"{""unit"": ""C""}"

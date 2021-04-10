@@ -1,4 +1,4 @@
 docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
 S0032063313003218-7389	1	Quantity	206	209	1	two	"{""unit"": ""two""}"
-S0032063313003218-7389	1	MeasuredEntity	210	219	2	scenarios	"{""HasQuantity"": ""1""}"
-S0032063313003218-7389	2	Quantity	341	345	3	3 h.	"{""unit"": ""h.""}"
+S0032063313003218-7389	1	MeasuredEntity	227	254	3	transient compression event	"{""HasQuantity"": ""1""}"
+S0032063313003218-7389	2	Quantity	341	345	4	3 h.	"{""unit"": ""h.""}"

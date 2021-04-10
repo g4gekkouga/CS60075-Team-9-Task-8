@@ -1,4 +1,4 @@
 docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
-S0032386113005454-2886	1	Quantity	1126	1132	4	−55 °C	"{""unit"": ""C""}"
-S0032386113005454-2886	1	MeasuredEntity	966	981	6	S-CSR particles	"{""HasQuantity"": ""4""}"
-S0032386113005454-2886	2	Quantity	1137	1144	5	−109 °C	"{""unit"": ""C""}"
+S0032386113005454-2886	1	Quantity	1126	1144	1	−55 °C and −109 °C	"{""unit"": ""C""}"
+S0032386113005454-2886	1	MeasuredProperty	985	1001	2	low temperatures	"{""HasQuantity"": ""1""}"
+S0032386113005454-2886	1	MeasuredEntity	966	981	3	S-CSR particles	"{""HasQuantity"": ""1""}"

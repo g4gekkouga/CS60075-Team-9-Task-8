@@ -1,5 +1,4 @@
 docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
-S0021979713004438-2004	1	Quantity	570	575	1	5 and	"{""unit"": ""and""}"
-S0021979713004438-2004	1	MeasuredProperty	576	587	2	mean values	"{""HasQuantity"": ""1""}"
-S0021979713004438-2004	2	Quantity	1145	1151	3	38 MPa	"{""unit"": ""MPa""}"
-S0021979713004438-2004	3	Quantity	1155	1162	4	185 MPa	"{""unit"": ""MPa""}"
+S0021979713004438-2004	1	Quantity	1140	1162	1	from 38 MPa to 185 MPa	"{""unit"": ""to""}"
+S0021979713004438-2004	1	MeasuredProperty	1117	1124	2	modulus	"{""HasQuantity"": ""1""}"
+S0021979713004438-2004	1	MeasuredProperty	1126	1139	3	average value	"{""HasQuantity"": ""1""}"

@@ -1,5 +1,6 @@
 docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
-S0950705113001895-23682	1	Quantity	564	566	2	5%	"{""unit"": ""%""}"
+S0950705113001895-23682	1	Quantity	564	566	1	5%	"{""unit"": ""%""}"
+S0950705113001895-23682	1	MeasuredEntity	537	551	2	updating ratio	"{""HasQuantity"": ""1""}"
 S0950705113001895-23682	2	Quantity	657	660	3	two	"{""unit"": ""two""}"
 S0950705113001895-23682	2	MeasuredEntity	661	671	4	algorithms	"{""HasQuantity"": ""3""}"
 S0950705113001895-23682	3	Quantity	787	790	5	two	"{""unit"": ""two""}"

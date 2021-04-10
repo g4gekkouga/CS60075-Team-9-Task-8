@@ -1,8 +1,6 @@
 docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
-S0032063313003218-5269	1	Quantity	115	143	1	from September 8 to 11, 1998	"{""unit"": ""to""}"
-S0032063313003218-5269	2	Quantity	255	265	2	940–1065 K	"{""unit"": ""K""}"
-S0032063313003218-5269	3	Quantity	341	346	3	67 mW	"{""unit"": ""mW""}"
-S0032063313003218-5269	3	MeasuredProperty	347	350	6	m−2	"{""HasQuantity"": ""3""}"
-S0032063313003218-5269	4	Quantity	355	381	4	September 8) to 277 mW m−2	"{""unit"": ""to""}"
-S0032063313003218-5269	5	Quantity	386	398	5	September 11	"{""unit"": ""11""}"
-S0032063313003218-5269	6	Quantity	680	684	7	~20%	"{""unit"": ""%""}"
+S0032063313003218-5269	1	Quantity	120	137	1	September 8 to 11	"{""unit"": ""to""}"
+S0032063313003218-5269	2	Quantity	341	346	2	67 mW	"{""unit"": ""mW""}"
+S0032063313003218-5269	2	MeasuredProperty	347	350	3	m−2	"{""HasQuantity"": ""2""}"
+S0032063313003218-5269	3	Quantity	365	381	4	8) to 277 mW m−2	"{""unit"": ""to""}"
+S0032063313003218-5269	4	Quantity	680	684	5	~20%	"{""unit"": ""%""}"

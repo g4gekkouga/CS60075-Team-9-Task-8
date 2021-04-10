@@ -1,9 +1,7 @@
 docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
 S0019103512003533-5211	1	Quantity	332	341	1	10−5 mbar	"{""unit"": ""mbar""}"
-S0019103512003533-5211	2	Quantity	347	364	2	latitude 78° from	"{""unit"": ""from""}"
-S0019103512003533-5211	2	MeasuredEntity	365	383	3	simulations R1–R18	"{""HasQuantity"": ""2""}"
+S0019103512003533-5211	2	Quantity	356	359	2	78°	"{""unit"": ""°""}"
+S0019103512003533-5211	2	MeasuredProperty	347	355	3	latitude	"{""HasQuantity"": ""2""}"
 S0019103512003533-5211	3	Quantity	451	457	4	10 keV	"{""unit"": ""keV""}"
-S0019103512003533-5211	3	MeasuredProperty	458	478	6	electron energy flux	"{""HasQuantity"": ""4""}"
-S0019103512003533-5211	4	Quantity	863	869	7	10 keV	"{""unit"": ""keV""}"
-S0019103512003533-5211	4	MeasuredProperty	870	890	8	electron energy flux	"{""HasQuantity"": ""7""}"
-S0019103512003533-5211	4	MeasuredEntity	1032	1050	10	simulations R1–R18	"{""HasQuantity"": ""7""}"
+S0019103512003533-5211	3	MeasuredProperty	439	447	5	function	"{""HasQuantity"": ""4""}"
+S0019103512003533-5211	4	Quantity	863	869	6	10 keV	"{""unit"": ""keV""}"

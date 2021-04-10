@@ -1,4 +1,5 @@
 docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
-S0257897213007573-899	1	Quantity	141	153	1	~ 1354 cm− 1	"{""unit"": ""1""}"
+S0257897213007573-899	1	Quantity	141	154	1	~ 1354 cm− 1.	"{""unit"": "".""}"
+S0257897213007573-899	1	MeasuredEntity	26	35	2	CVD layer	"{""HasQuantity"": ""1""}"
 S0257897213007573-899	2	Quantity	712	716	3	1.32	"{""unit"": ""1.32""}"
 S0257897213007573-899	3	Quantity	754	761	4	3.75 nm	"{""unit"": ""nm""}"

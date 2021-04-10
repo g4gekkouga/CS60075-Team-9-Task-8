@@ -1,4 +1,6 @@
 docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
-S0167610513001001-1618	1	Quantity	140	146	2	7.83 m	"{""unit"": ""m""}"
-S0167610513001001-1618	1	MeasuredProperty	155	166	4	variability	"{""HasQuantity"": ""2""}"
-S0167610513001001-1618	1	MeasuredEntity	126	130	5	wind	"{""HasQuantity"": ""2""}"
+S0167610513001001-1618	1	Quantity	92	106	1	midpoint=180 m	"{""unit"": ""m""}"
+S0167610513001001-1618	1	MeasuredEntity	82	90	2	BT Tower	"{""HasQuantity"": ""1""}"
+S0167610513001001-1618	2	Quantity	140	146	3	7.83 m	"{""unit"": ""m""}"
+S0167610513001001-1618	2	MeasuredProperty	131	136	4	speed	"{""HasQuantity"": ""3""}"
+S0167610513001001-1618	2	MeasuredEntity	126	130	5	wind	"{""HasQuantity"": ""3""}"

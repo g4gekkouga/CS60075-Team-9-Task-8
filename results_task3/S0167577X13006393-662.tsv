@@ -1,4 +1,5 @@
 docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
 S0167577X13006393-662	1	Quantity	59	71	1	1 ml or 5 ml	"{""unit"": ""ml""}"
 S0167577X13006393-662	2	Quantity	212	218	2	1 ml/h	"{""unit"": ""h""}"
-S0167577X13006393-662	3	Quantity	246	254	3	12.2 kV.	"{""unit"": ""kV.""}"
+S0167577X13006393-662	2	MeasuredProperty	204	208	3	rate	"{""HasQuantity"": ""2""}"
+S0167577X13006393-662	3	Quantity	246	254	4	12.2 kV.	"{""unit"": ""kV.""}"

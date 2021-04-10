@@ -1,4 +1,6 @@
 docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
-S0019103512003995-2579	1	Quantity	673	679	2	6300 K	"{""unit"": ""K""}"
-S0019103512003995-2579	1	MeasuredProperty	653	669	3	mean temperature	"{""HasQuantity"": ""2""}"
-S0019103512003995-2579	1	MeasuredEntity	617	625	4	C2 model	"{""HasQuantity"": ""2""}"
+S0019103512003995-2579	1	Quantity	562	571	1	below 3Rp	"{""unit"": ""3Rp""}"
+S0019103512003995-2579	1	MeasuredProperty	538	561	2	hydrostatic equilibrium	"{""HasQuantity"": ""1""}"
+S0019103512003995-2579	2	Quantity	673	679	3	6300 K	"{""unit"": ""K""}"
+S0019103512003995-2579	2	MeasuredProperty	653	669	4	mean temperature	"{""HasQuantity"": ""3""}"
+S0019103512003995-2579	2	MeasuredEntity	617	625	5	C2 model	"{""HasQuantity"": ""3""}"

@@ -1,7 +1,8 @@
 docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
 S0032063313003218-7156	1	Quantity	389	400	1	three times	"{""unit"": ""times""}"
-S0032063313003218-7156	2	Quantity	663	667	2	~75%	"{""unit"": ""%""}"
-S0032063313003218-7156	2	MeasuredProperty	668	676	3	decrease	"{""HasQuantity"": ""2""}"
-S0032063313003218-7156	2	MeasuredEntity	568	575	4	case EF	"{""HasQuantity"": ""2""}"
-S0032063313003218-7156	3	Quantity	1151	1159	5	only 30%	"{""unit"": ""%""}"
-S0032063313003218-7156	3	MeasuredEntity	1168	1175	7	case ES	"{""HasQuantity"": ""5""}"
+S0032063313003218-7156	1	MeasuredEntity	358	379	2	hemisphere of ~2600TW	"{""HasQuantity"": ""1""}"
+S0032063313003218-7156	2	Quantity	663	667	3	~75%	"{""unit"": ""%""}"
+S0032063313003218-7156	2	MeasuredProperty	668	676	4	decrease	"{""HasQuantity"": ""3""}"
+S0032063313003218-7156	2	MeasuredEntity	568	575	5	case EF	"{""HasQuantity"": ""3""}"
+S0032063313003218-7156	3	Quantity	1151	1159	6	only 30%	"{""unit"": ""%""}"
+S0032063313003218-7156	3	MeasuredEntity	1168	1175	8	case ES	"{""HasQuantity"": ""6""}"

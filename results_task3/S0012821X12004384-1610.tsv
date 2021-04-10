@@ -1,3 +1,6 @@
 docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
 S0012821X12004384-1610	1	Quantity	90	98	1	2617.4 m	"{""unit"": ""m""}"
-S0012821X12004384-1610	2	Quantity	669	688	4	2619.6 and 2614.7 m	"{""unit"": ""m""}"
+S0012821X12004384-1610	1	MeasuredProperty	4	14	2	brief peak	"{""HasQuantity"": ""1""}"
+S0012821X12004384-1610	1	MeasuredProperty	40	73	3	low salinity dinoflagellate cysts	"{""HasQuantity"": ""1""}"
+S0012821X12004384-1610	2	Quantity	669	675	4	2619.6	"{""unit"": ""2619.6""}"
+S0012821X12004384-1610	3	Quantity	680	688	5	2614.7 m	"{""unit"": ""m""}"

@@ -1,6 +1,7 @@
 docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
-S0016236113008041-3127	1	Quantity	938	944	2	600 °C	"{""unit"": ""C""}"
-S0016236113008041-3127	1	MeasuredProperty	922	934	6	temperatures	"{""HasQuantity"": ""2""}"
-S0016236113008041-3127	2	Quantity	946	958	3	up to 750 °C	"{""unit"": ""to""}"
-S0016236113008041-3127	3	Quantity	979	986	4	1000 °C	"{""unit"": ""C""}"
-S0016236113008041-3127	4	Quantity	1016	1021	5	20 °C	"{""unit"": ""C""}"
+S0016236113008041-3127	1	Quantity	938	944	1	600 °C	"{""unit"": ""C""}"
+S0016236113008041-3127	1	MeasuredProperty	889	909	2	complete temperature	"{""HasQuantity"": ""1""}"
+S0016236113008041-3127	1	MeasuredProperty	922	934	3	temperatures	"{""HasQuantity"": ""1""}"
+S0016236113008041-3127	2	Quantity	952	958	4	750 °C	"{""unit"": ""C""}"
+S0016236113008041-3127	3	Quantity	979	986	5	1000 °C	"{""unit"": ""C""}"
+S0016236113008041-3127	4	Quantity	1016	1021	6	20 °C	"{""unit"": ""C""}"
