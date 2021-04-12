@@ -1,7 +1,7 @@
 # CS60075-Team-9-Task-8
 
-python >= 3.7
-`pip install -r requirements.txt`
+python >= 3.7\
+`pip install -r requirements.txt`\
 `python -m spacy download en_core_web_sm`
 
 ## Preprocessing
