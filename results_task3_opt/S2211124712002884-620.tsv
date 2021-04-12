@@ -1,0 +1,6 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S2211124712002884-620	1	Quantity	100	101	1	9	"{""unit"": ""9""}"
+S2211124712002884-620	1	MeasuredEntity	59	99	2	control iPSC line 20, sporadic iPSC line	"{""HasQuantity"": ""1""}"
+S2211124712002884-620	2	Quantity	128	130	3	26	"{""unit"": ""26""}"
+S2211124712002884-620	3	Quantity	233	238	4	50 μm	"{""unit"": ""μm""}"
+S2211124712002884-620	3	MeasuredEntity	222	231	5	Scale bar	"{""HasQuantity"": ""4""}"

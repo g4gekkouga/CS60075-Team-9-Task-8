@@ -1,0 +1,4 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S2213158213000582-1469	1	Quantity	318	324	1	100 ms	"{""unit"": ""ms""}"
+S2213158213000582-1469	1	MeasuredProperty	325	338	2	abnormalities	"{""HasQuantity"": ""1""}"
+S2213158213000582-1469	2	Quantity	545	551	3	100 ms	"{""unit"": ""ms""}"

@@ -1,0 +1,7 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S2213158213000582-1041	1	Quantity	0	20	1	Bilateral 50 and 100	"{""unit"": ""100""}"
+S2213158213000582-1041	1	MeasuredEntity	21	36	2	ms STG activity	"{""HasQuantity"": ""1""}"
+S2213158213000582-1041	2	Quantity	92	105	3	50 and 100 ms	"{""unit"": ""ms""}"
+S2213158213000582-1041	2	MeasuredProperty	69	91	4	had stronger bilateral	"{""HasQuantity"": ""3""}"
+S2213158213000582-1041	2	MeasuredProperty	106	118	5	STG activity	"{""HasQuantity"": ""3""}"
+S2213158213000582-1041	2	MeasuredEntity	66	68	6	HC	"{""HasQuantity"": ""3""}"

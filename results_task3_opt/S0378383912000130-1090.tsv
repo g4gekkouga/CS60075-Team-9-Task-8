@@ -1,0 +1,3 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0378383912000130-1090	1	Quantity	205	211	1	8.5 mm	"{""unit"": ""mm""}"
+S0378383912000130-1090	1	MeasuredEntity	212	217	2	beach	"{""HasQuantity"": ""1""}"

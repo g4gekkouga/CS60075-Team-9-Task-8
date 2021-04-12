@@ -1,0 +1,6 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0038071711004354-755	1	Quantity	596	615	1	approximately 2.5 h	"{""unit"": ""h""}"
+S0038071711004354-755	1	MeasuredProperty	579	595	2	stabilised after	"{""HasQuantity"": ""1""}"
+S0038071711004354-755	1	MeasuredEntity	575	578	3	CO2	"{""HasQuantity"": ""1""}"
+S0038071711004354-755	2	Quantity	619	632	4	−28.5 ± 0.33‰	"{""unit"": ""0.33‰""}"
+S0038071711004354-755	3	Quantity	649	651	5	60	"{""unit"": ""60""}"

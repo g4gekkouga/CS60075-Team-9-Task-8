@@ -1,0 +1,7 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0378383911001669-2205	1	Quantity	196	203	1	0.772 m	"{""unit"": ""m""}"
+S0378383911001669-2205	1	MeasuredEntity	192	193	2	x	"{""HasQuantity"": ""1""}"
+S0378383911001669-2205	2	Quantity	211	228	3	1.3 mm sand-rough	"{""unit"": ""mm""}"
+S0378383911001669-2205	3	Quantity	233	239	4	5.4 mm	"{""unit"": ""mm""}"
+S0378383911001669-2205	4	Quantity	283	289	5	1.3 mm	"{""unit"": ""mm""}"
+S0378383911001669-2205	5	Quantity	671	681	6	up to 1 s.	"{""unit"": ""to""}"

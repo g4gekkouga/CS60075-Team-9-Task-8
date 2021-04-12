@@ -1,0 +1,10 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103512002801-1781	1	Quantity	96	102	1	90 keV	"{""unit"": ""keV""}"
+S0019103512002801-1781	2	Quantity	123	129	2	≈ 170°	"{""unit"": ""°""}"
+S0019103512002801-1781	2	MeasuredProperty	109	122	3	pitch angle α	"{""HasQuantity"": ""2""}"
+S0019103512002801-1781	2	MeasuredProperty	130	156	4	before they encounter Rhea	"{""HasQuantity"": ""2""}"
+S0019103512002801-1781	3	Quantity	398	402	5	170°	"{""unit"": ""°""}"
+S0019103512002801-1781	3	MeasuredProperty	387	393	6	bounce	"{""HasQuantity"": ""5""}"
+S0019103512002801-1781	4	Quantity	431	442	7	about 15 s.	"{""unit"": ""s.""}"
+S0019103512002801-1781	4	MeasuredProperty	403	430	8	pitch angle electrons takes	"{""HasQuantity"": ""7""}"
+S0019103512002801-1781	5	Quantity	535	543	9	α ≈ 170°	"{""unit"": ""°""}"

@@ -1,0 +1,13 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0168945213001805-5396	1	Quantity	520	527	1	10-year	"{""unit"": ""year""}"
+S0168945213001805-5396	1	MeasuredEntity	527	545	2	-old Populus trees	"{""HasQuantity"": ""1""}"
+S0168945213001805-5396	2	Quantity	599	609	3	three-year	"{""unit"": ""year""}"
+S0168945213001805-5396	3	Quantity	690	697	4	10-year	"{""unit"": ""year""}"
+S0168945213001805-5396	3	MeasuredProperty	697	701	5	-old	"{""HasQuantity"": ""4""}"
+S0168945213001805-5396	3	MeasuredEntity	682	690	6	older (>	"{""HasQuantity"": ""4""}"
+S0168945213001805-5396	4	Quantity	771	782	7	two decades	"{""unit"": ""decades""}"
+S0168945213001805-5396	5	Quantity	1418	1425	8	19-year	"{""unit"": ""year""}"
+S0168945213001805-5396	5	MeasuredEntity	1425	1445	9	-old tissue cultures	"{""HasQuantity"": ""8""}"
+S0168945213001805-5396	6	Quantity	1450	1457	10	18-year	"{""unit"": ""year""}"
+S0168945213001805-5396	7	Quantity	1925	1928	11	40%	"{""unit"": ""%""}"
+S0168945213001805-5396	8	Quantity	3622	3623	12	1	"{""unit"": ""1""}"

@@ -1,0 +1,5 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0032063313003218-5381	1	Quantity	332	335	1	two	"{""unit"": ""two""}"
+S0032063313003218-5381	1	MeasuredEntity	336	345	2	scenarios	"{""HasQuantity"": ""1""}"
+S0032063313003218-5381	2	Quantity	409	439	3	order of a few tens of minutes	"{""unit"": ""a""}"
+S0032063313003218-5381	3	Quantity	542	548	4	2 days	"{""unit"": ""days""}"

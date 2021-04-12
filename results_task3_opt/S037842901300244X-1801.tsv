@@ -1,0 +1,6 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S037842901300244X-1801	1	Quantity	414	425	1	three weeks	"{""unit"": ""weeks""}"
+S037842901300244X-1801	1	MeasuredEntity	392	404	2	S1 progenies	"{""HasQuantity"": ""1""}"
+S037842901300244X-1801	2	Quantity	575	580	3	484 g	"{""unit"": ""g""}"
+S037842901300244X-1801	3	Quantity	647	651	4	2009	"{""unit"": ""2009""}"
+S037842901300244X-1801	3	MeasuredEntity	652	675	5	rainy season conditions	"{""HasQuantity"": ""4""}"

@@ -1,0 +1,5 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0167577X13006393-801	1	Quantity	237	252	1	less than 10 nm	"{""unit"": ""nm""}"
+S0167577X13006393-801	2	Quantity	1087	1100	2	below 1200 °C	"{""unit"": ""C""}"
+S0167577X13006393-801	2	MeasuredProperty	1064	1086	3	sintering temperatures	"{""HasQuantity"": ""2""}"
+S0167577X13006393-801	3	Quantity	1129	1139	4	0.4 to 0.5	"{""unit"": ""to""}"

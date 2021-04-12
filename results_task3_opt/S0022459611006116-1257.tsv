@@ -1,0 +1,4 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0022459611006116-1257	1	Quantity	64	71	1	1323 K.	"{""unit"": ""K.""}"
+S0022459611006116-1257	2	Quantity	316	323	2	4.216 Å	"{""unit"": ""Å""}"
+S0022459611006116-1257	3	Quantity	1585	1594	3	〈2θ〉=145°	"{""unit"": ""°""}"

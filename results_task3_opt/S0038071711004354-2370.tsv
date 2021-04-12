@@ -1,0 +1,7 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0038071711004354-2370	1	Quantity	186	189	1	15%	"{""unit"": ""%""}"
+S0038071711004354-2370	2	Quantity	203	209	2	14–75%	"{""unit"": ""%""}"
+S0038071711004354-2370	2	MeasuredProperty	191	200	3	±t0.05,dƒ	"{""HasQuantity"": ""2""}"
+S0038071711004354-2370	3	Quantity	246	248	4	5%	"{""unit"": ""%""}"
+S0038071711004354-2370	4	Quantity	262	268	5	27–48%	"{""unit"": ""%""}"
+S0038071711004354-2370	4	MeasuredProperty	250	259	6	±t0.05,dƒ	"{""HasQuantity"": ""5""}"

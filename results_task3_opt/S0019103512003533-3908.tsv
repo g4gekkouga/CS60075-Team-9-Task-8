@@ -1,0 +1,6 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103512003533-3908	1	Quantity	259	264	1	0.125	"{""unit"": ""0.125""}"
+S0019103512003533-3908	2	Quantity	325	358	2	2 × 10−9 to k1 = 1 × 10−9 cm3 s−1	"{""unit"": ""to""}"
+S0019103512003533-3908	2	MeasuredProperty	320	322	3	k1	"{""HasQuantity"": ""2""}"
+S0019103512003533-3908	2	MeasuredProperty	445	450	4	ratio	"{""HasQuantity"": ""2""}"
+S0019103512003533-3908	2	MeasuredEntity	423	444	5	assumed volume mixing	"{""HasQuantity"": ""2""}"

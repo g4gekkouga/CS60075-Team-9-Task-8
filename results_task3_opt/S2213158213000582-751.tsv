@@ -1,0 +1,6 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S2213158213000582-751	1	Quantity	27	32	1	50 ms	"{""unit"": ""ms""}"
+S2213158213000582-751	1	MeasuredProperty	33	41	2	activity	"{""HasQuantity"": ""1""}"
+S2213158213000582-751	2	Quantity	99	105	3	< 0.05	"{""unit"": ""0.05""}"
+S2213158213000582-751	2	MeasuredProperty	93	98	4	FDR q	"{""HasQuantity"": ""3""}"
+S2213158213000582-751	3	Quantity	197	203	5	< 0.05	"{""unit"": ""0.05""}"

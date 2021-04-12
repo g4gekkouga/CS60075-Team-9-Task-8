@@ -1,0 +1,4 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S1750583613004192-1689	1	Quantity	521	539	1	hundreds of meters	"{""unit"": ""meters""}"
+S1750583613004192-1689	2	Quantity	631	637	2	10 MPa	"{""unit"": ""MPa""}"
+S1750583613004192-1689	3	Quantity	843	857	3	thousand years	"{""unit"": ""years""}"
