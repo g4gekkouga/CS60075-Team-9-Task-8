@@ -1,6 +1,7 @@
 #  CS60075-Team-9-Task-8
 
-#directory structure
+## Directory structure
+
 We have implemented two models, CRF based for subtask 1, 3 and BERT based for Subtask 3 which makes use of results given by CRF for subtask 1.
 
 Navigate to CRF_model/ and BERT/ for respective instructions on how to run the models.
