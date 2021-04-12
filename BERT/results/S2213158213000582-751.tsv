@@ -1,0 +1,7 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S2213158213000582-751	1	Quantity	27	32	1-1	50 ms	"{""unit"": ""kg""}"
+S2213158213000582-751	1	MeasuredEntity	0	13	1-2	Between-group	"{""HasQuantity"": ""1-1""}"
+S2213158213000582-751	3	Quantity	197	203	3-1	< 0.05	"{""unit"": ""kg""}"
+S2213158213000582-751	3	MeasuredEntity	155	174	3-2	Activation clusters	"{""HasQuantity"": ""3-1""}"
+S2213158213000582-751	2	Quantity	93	105	2-1	FDR q < 0.05	"{""unit"": ""kg""}"
+S2213158213000582-751	2	MeasuredEntity	43	62	2-2	Activation clusters	"{""HasQuantity"": ""2-1""}"

@@ -1,0 +1,5 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103512002801-1781	4	Quantity	537	554	4-1	≈ 170° throughout	"{""unit"": ""kg""}"
+S0019103512002801-1781	3	Quantity	431	442	3-1	about 15 s.	"{""unit"": ""kg""}"
+S0019103512002801-1781	1	Quantity	123	141	1-1	≈ 170° before they	"{""unit"": ""kg""}"
+S0019103512002801-1781	2	Quantity	398	408	2-1	170° pitch	"{""unit"": ""kg""}"

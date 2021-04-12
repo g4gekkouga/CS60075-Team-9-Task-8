@@ -1,0 +1,4 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0012821X12004384-1610	2	Quantity	669	688	2-1	2619.6 and 2614.7 m	"{""unit"": ""kg""}"
+S0012821X12004384-1610	2	MeasuredEntity	603	616	2-2	This scenario	"{""HasQuantity"": ""2-1""}"
+S0012821X12004384-1610	1	Quantity	90	98	1-1	2617.4 m	"{""unit"": ""kg""}"

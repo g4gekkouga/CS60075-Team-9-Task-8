@@ -1,0 +1,6 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0257897213007573-899	3	Quantity	754	761	3-1	3.75 nm	"{""unit"": ""kg""}"
+S0257897213007573-899	3	MeasuredEntity	774	783	3-2	CDC layer	"{""HasQuantity"": ""3-1""}"
+S0257897213007573-899	3	MeasuredProperty	735	750	3-3	an increased La	"{""HasQuantity"": ""3-1""}"
+S0257897213007573-899	2	Quantity	712	716	2-1	1.32	"{""unit"": ""kg""}"
+S0257897213007573-899	2	MeasuredEntity	774	783	2-2	CDC layer	"{""HasQuantity"": ""2-1""}"

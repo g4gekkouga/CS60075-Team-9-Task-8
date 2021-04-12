@@ -1,0 +1,4 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0032063313003218-5381	2	Quantity	418	439	2-1	a few tens of minutes	"{""unit"": ""kg""}"
+S0032063313003218-5381	1	Quantity	332	335	1-1	two	"{""unit"": ""kg""}"
+S0032063313003218-5381	3	Quantity	542	548	3-1	2 days	"{""unit"": ""kg""}"

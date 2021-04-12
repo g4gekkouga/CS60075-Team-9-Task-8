@@ -1,0 +1,4 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103512003533-5211	2	Quantity	837	839	2-1	12	"{""unit"": ""kg""}"
+S0019103512003533-5211	1	Quantity	347	364	1-1	latitude 78° from	"{""unit"": ""kg""}"
+S0019103512003533-5211	1	MeasuredEntity	426	429	1-2	Fig	"{""HasQuantity"": ""1-1""}"

@@ -1,0 +1,6 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0925443913001385-1683	1	Quantity	431	434	1-1	two	"{""unit"": ""kg""}"
+S0925443913001385-1683	1	MeasuredEntity	335	345	1-2	eubacteria	"{""HasQuantity"": ""1-1""}"
+S0925443913001385-1683	3	Quantity	1549	1554	3-1	~ 58%	"{""unit"": ""kg""}"
+S0925443913001385-1683	2	Quantity	1376	1381	2-1	~ 49%	"{""unit"": ""kg""}"
+S0925443913001385-1683	2	MeasuredEntity	1312	1342	2-2	The densitometric measurements	"{""HasQuantity"": ""2-1""}"

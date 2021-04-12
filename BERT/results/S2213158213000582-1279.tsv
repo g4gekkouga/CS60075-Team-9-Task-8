@@ -1,0 +1,10 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S2213158213000582-1279	6	Quantity	462	486	6-1	approximately 25 minutes	"{""unit"": ""kg""}"
+S2213158213000582-1279	1	Quantity	81	85	1-1	3 ms	"{""unit"": ""kg""}"
+S2213158213000582-1279	5	Quantity	358	363	5-1	35 dB	"{""unit"": ""kg""}"
+S2213158213000582-1279	5	MeasuredEntity	370	402	5-2	each subject's hearing threshold	"{""HasQuantity"": ""5-1""}"
+S2213158213000582-1279	3	Quantity	225	229	3-1	11 s	"{""unit"": ""kg""}"
+S2213158213000582-1279	2	Quantity	143	149	2-1	500 ms	"{""unit"": ""kg""}"
+S2213158213000582-1279	4	Quantity	241	245	4-1	9 s.	"{""unit"": ""kg""}"
+S2213158213000582-1279	7	Quantity	556	569	7-1	50 and 100 ms	"{""unit"": ""kg""}"
+S2213158213000582-1279	7	MeasuredEntity	509	526	7-2	the present study	"{""HasQuantity"": ""7-1""}"

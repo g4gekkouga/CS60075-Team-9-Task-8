@@ -1,0 +1,4 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S037842901300244X-1801	2	Quantity	575	584	2-1	484 g m−2	"{""unit"": ""kg""}"
+S037842901300244X-1801	1	Quantity	414	425	1-1	three weeks	"{""unit"": ""kg""}"
+S037842901300244X-1801	1	MeasuredEntity	373	390	1-2	the C0 evaluation	"{""HasQuantity"": ""1-1""}"

@@ -1,0 +1,4 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S2213158213000582-1469	2	Quantity	545	551	2-1	100 ms	"{""unit"": ""kg""}"
+S2213158213000582-1469	2	MeasuredEntity	569	582	2-2	Rosburg et al	"{""HasQuantity"": ""2-1""}"
+S2213158213000582-1469	1	Quantity	318	324	1-1	100 ms	"{""unit"": ""kg""}"

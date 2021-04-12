@@ -1,0 +1,7 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0012821X12004384-990	6	Quantity	586	587	6-1	4	"{""unit"": ""kg""}"
+S0012821X12004384-990	3	Quantity	218	223	3-1	1=31%	"{""unit"": ""kg""}"
+S0012821X12004384-990	5	Quantity	552	575	5-1	2619.60 m and 2614.71 m	"{""unit"": ""kg""}"
+S0012821X12004384-990	1	Quantity	105	110	1-1	1=39%	"{""unit"": ""kg""}"
+S0012821X12004384-990	4	Quantity	248	253	4-1	2=11%	"{""unit"": ""kg""}"
+S0012821X12004384-990	2	Quantity	135	140	2-1	2=17%	"{""unit"": ""kg""}"

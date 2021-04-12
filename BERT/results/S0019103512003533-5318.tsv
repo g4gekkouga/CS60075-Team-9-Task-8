@@ -1,0 +1,6 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103512003533-5318	1	Quantity	276	285	1-1	400–650 K	"{""unit"": ""kg""}"
+S0019103512003533-5318	1	MeasuredEntity	243	264	1-2	observed temperatures	"{""HasQuantity"": ""1-1""}"
+S0019103512003533-5318	2	Quantity	403	406	2-1	two	"{""unit"": ""kg""}"
+S0019103512003533-5318	4	Quantity	741	745	4-1	1 mW	"{""unit"": ""kg""}"
+S0019103512003533-5318	3	Quantity	717	723	3-1	10 keV	"{""unit"": ""kg""}"

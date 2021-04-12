@@ -1,0 +1,8 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0167610513001001-1769	7	Quantity	699	709	7-1	0.86 m s−1	"{""unit"": ""kg""}"
+S0167610513001001-1769	4	Quantity	397	415	4-1	less than 20 m s−1	"{""unit"": ""kg""}"
+S0167610513001001-1769	1	Quantity	139	142	1-1	two	"{""unit"": ""kg""}"
+S0167610513001001-1769	3	Quantity	289	292	3-1	two	"{""unit"": ""kg""}"
+S0167610513001001-1769	2	Quantity	211	222	2-1	over 60 min	"{""unit"": ""kg""}"
+S0167610513001001-1769	6	Quantity	660	670	6-1	1.05 m s−1	"{""unit"": ""kg""}"
+S0167610513001001-1769	5	Quantity	624	634	5-1	0.36 m s−1	"{""unit"": ""kg""}"

@@ -1,0 +1,8 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0032063313003218-5269	2	Quantity	341	346	2-1	67 mW	"{""unit"": ""kg""}"
+S0032063313003218-5269	3	Quantity	355	381	3-1	September 8) to 277 mW m−2	"{""unit"": ""kg""}"
+S0032063313003218-5269	4	Quantity	386	398	4-1	September 11	"{""unit"": ""kg""}"
+S0032063313003218-5269	5	Quantity	680	684	5-1	~20%	"{""unit"": ""kg""}"
+S0032063313003218-5269	5	MeasuredEntity	658	667	5-2	the event	"{""HasQuantity"": ""5-1""}"
+S0032063313003218-5269	5	MeasuredProperty	595	600	5-3	rates	"{""HasQuantity"": ""5-1""}"
+S0032063313003218-5269	1	Quantity	115	143	1-1	from September 8 to 11, 1998	"{""unit"": ""kg""}"

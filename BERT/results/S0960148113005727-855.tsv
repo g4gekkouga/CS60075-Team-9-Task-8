@@ -1,0 +1,6 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0960148113005727-855	1	Quantity	174	184	1-1	1.6 ± 0.2%	"{""unit"": ""kg""}"
+S0960148113005727-855	4	Quantity	439	470	4-1	12% over a twenty year lifetime	"{""unit"": ""kg""}"
+S0960148113005727-855	5	Quantity	520	522	5-1	9%	"{""unit"": ""kg""}"
+S0960148113005727-855	3	Quantity	270	273	3-1	21%	"{""unit"": ""kg""}"
+S0960148113005727-855	2	Quantity	252	257	2-1	28.5%	"{""unit"": ""kg""}"

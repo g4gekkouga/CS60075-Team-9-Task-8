@@ -1,0 +1,4 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0032386113005454-1245	1	Quantity	79	85	1-1	10 wt%	"{""unit"": ""kg""}"
+S0032386113005454-1245	3	Quantity	124	129	3-1	20 °C	"{""unit"": ""kg""}"
+S0032386113005454-1245	2	Quantity	95	101	2-1	20 wt%	"{""unit"": ""kg""}"

@@ -1,0 +1,9 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0168945213001805-5396	1	Quantity	520	528	1-1	10-year-	"{""unit"": ""kg""}"
+S0168945213001805-5396	7	Quantity	1925	1928	7-1	40%	"{""unit"": ""kg""}"
+S0168945213001805-5396	7	MeasuredEntity	1906	1919	7-2	XYLOGLUCANASE	"{""HasQuantity"": ""7-1""}"
+S0168945213001805-5396	4	Quantity	771	774	4-1	two	"{""unit"": ""kg""}"
+S0168945213001805-5396	2	Quantity	599	610	2-1	three-year-	"{""unit"": ""kg""}"
+S0168945213001805-5396	3	Quantity	689	701	3-1	>10-year-old	"{""unit"": ""kg""}"
+S0168945213001805-5396	6	Quantity	1450	1461	6-1	18-year-old	"{""unit"": ""kg""}"
+S0168945213001805-5396	5	Quantity	1418	1426	5-1	19-year-	"{""unit"": ""kg""}"

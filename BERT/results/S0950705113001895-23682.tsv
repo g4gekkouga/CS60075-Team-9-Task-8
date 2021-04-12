@@ -1,0 +1,9 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0950705113001895-23682	1	Quantity	300	303	1-1	two	"{""unit"": ""kg""}"
+S0950705113001895-23682	6	Quantity	950	953	6-1	two	"{""unit"": ""kg""}"
+S0950705113001895-23682	6	MeasuredEntity	993	1002	6-2	data sets	"{""HasQuantity"": ""6-1""}"
+S0950705113001895-23682	5	Quantity	787	790	5-1	two	"{""unit"": ""kg""}"
+S0950705113001895-23682	4	Quantity	657	660	4-1	two	"{""unit"": ""kg""}"
+S0950705113001895-23682	4	MeasuredEntity	700	709	4-2	data sets	"{""HasQuantity"": ""4-1""}"
+S0950705113001895-23682	3	Quantity	564	566	3-1	5%	"{""unit"": ""kg""}"
+S0950705113001895-23682	2	Quantity	358	361	2-1	six	"{""unit"": ""kg""}"

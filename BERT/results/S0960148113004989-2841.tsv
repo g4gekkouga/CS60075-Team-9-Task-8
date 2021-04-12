@@ -1,0 +1,8 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0960148113004989-2841	3	Quantity	251	259	3-1	3 m2 s−1	"{""unit"": ""kg""}"
+S0960148113004989-2841	4	Quantity	266	267	4-1	0	"{""unit"": ""kg""}"
+S0960148113004989-2841	2	Quantity	241	245	2-1	50 m	"{""unit"": ""kg""}"
+S0960148113004989-2841	1	Quantity	232	235	1-1	2 m	"{""unit"": ""kg""}"
+S0960148113004989-2841	5	Quantity	274	280	5-1	0.0025	"{""unit"": ""kg""}"
+S0960148113004989-2841	7	Quantity	437	451	7-1	640 m × 320 m.	"{""unit"": ""kg""}"
+S0960148113004989-2841	6	Quantity	286	292	6-1	9.81 m	"{""unit"": ""kg""}"

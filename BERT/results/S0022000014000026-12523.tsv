@@ -1,0 +1,3 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0022000014000026-12523	2	Quantity	1231	1246	2-1	1 at time tE(tR	"{""unit"": ""kg""}"
+S0022000014000026-12523	1	Quantity	689	696	1-1	state s	"{""unit"": ""kg""}"

@@ -1,0 +1,9 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S2213158213000582-1390	4	Quantity	348	353	4-1	50 ms	"{""unit"": ""kg""}"
+S2213158213000582-1390	4	MeasuredEntity	348	362	4-2	50 ms activity	"{""HasQuantity"": ""4-1""}"
+S2213158213000582-1390	2	Quantity	95	103	2-1	q < 0.05	"{""unit"": ""kg""}"
+S2213158213000582-1390	2	MeasuredEntity	66	89	2-2	STG and non-STG regions	"{""HasQuantity"": ""2-1""}"
+S2213158213000582-1390	1	Quantity	23	28	1-1	50 ms	"{""unit"": ""kg""}"
+S2213158213000582-1390	1	MeasuredEntity	0	19	1-2	Group contrast maps	"{""HasQuantity"": ""1-1""}"
+S2213158213000582-1390	3	Quantity	234	239	3-1	50-ms	"{""unit"": ""kg""}"
+S2213158213000582-1390	3	MeasuredEntity	234	248	3-2	50-ms activity	"{""HasQuantity"": ""3-1""}"

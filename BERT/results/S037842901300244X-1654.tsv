@@ -1,0 +1,6 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S037842901300244X-1654	1	Quantity	248	251	1-1	50%	"{""unit"": ""kg""}"
+S037842901300244X-1654	2	Quantity	767	786	2-1	67, 101 and 121 das	"{""unit"": ""kg""}"
+S037842901300244X-1654	2	MeasuredEntity	741	750	2-2	each plot	"{""HasQuantity"": ""2-1""}"
+S037842901300244X-1654	2	MeasuredProperty	701	711	2-3	the number	"{""HasQuantity"": ""2-1""}"
+S037842901300244X-1654	3	Quantity	1111	1112	3-1	0	"{""unit"": ""kg""}"

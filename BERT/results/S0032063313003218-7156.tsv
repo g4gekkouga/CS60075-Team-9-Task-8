@@ -1,0 +1,6 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0032063313003218-7156	1	Quantity	389	394	1-1	three	"{""unit"": ""kg""}"
+S0032063313003218-7156	1	MeasuredEntity	449	461	1-2	Cowley et al	"{""HasQuantity"": ""1-1""}"
+S0032063313003218-7156	2	Quantity	663	667	2-1	~75%	"{""unit"": ""kg""}"
+S0032063313003218-7156	3	Quantity	1151	1159	3-1	only 30%	"{""unit"": ""kg""}"
+S0032063313003218-7156	3	MeasuredEntity	1168	1175	3-2	case ES	"{""HasQuantity"": ""3-1""}"

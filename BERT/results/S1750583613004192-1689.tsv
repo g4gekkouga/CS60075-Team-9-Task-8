@@ -1,0 +1,4 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S1750583613004192-1689	3	Quantity	1048	1051	3-1	one	"{""unit"": ""kg""}"
+S1750583613004192-1689	1	Quantity	631	637	1-1	10 MPa	"{""unit"": ""kg""}"
+S1750583613004192-1689	2	Quantity	827	857	2-1	less than a few thousand years	"{""unit"": ""kg""}"

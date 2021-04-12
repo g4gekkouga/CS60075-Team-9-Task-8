@@ -1,0 +1,10 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S1750583613004192-1126	7	Quantity	839	843	7-1	nine	"{""unit"": ""kg""}"
+S1750583613004192-1126	8	Quantity	1668	1686	8-1	approximately 1 km	"{""unit"": ""kg""}"
+S1750583613004192-1126	8	MeasuredEntity	1606	1625	8-2	regional ice sheets	"{""HasQuantity"": ""8-1""}"
+S1750583613004192-1126	4	Quantity	595	600	4-1	eight	"{""unit"": ""kg""}"
+S1750583613004192-1126	5	Quantity	665	686	5-1	less than three years	"{""unit"": ""kg""}"
+S1750583613004192-1126	6	Quantity	731	736	6-1	eight	"{""unit"": ""kg""}"
+S1750583613004192-1126	2	Quantity	418	429	2-1	200 km from	"{""unit"": ""kg""}"
+S1750583613004192-1126	1	Quantity	377	395	1-1	approximately 1 km	"{""unit"": ""kg""}"
+S1750583613004192-1126	3	Quantity	483	497	3-1	almost 1 Mt/yr	"{""unit"": ""kg""}"

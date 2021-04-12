@@ -1,0 +1,7 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S2213158213000582-1398	3	Quantity	125	137	3-1	FDR q < 0.05	"{""unit"": ""kg""}"
+S2213158213000582-1398	3	MeasuredEntity	100	123	3-2	STG and non-STG regions	"{""HasQuantity"": ""3-1""}"
+S2213158213000582-1398	5	Quantity	363	369	5-1	100 ms	"{""unit"": ""kg""}"
+S2213158213000582-1398	4	Quantity	257	263	4-1	100 ms	"{""unit"": ""kg""}"
+S2213158213000582-1398	2	Quantity	56	62	2-1	100 ms	"{""unit"": ""kg""}"
+S2213158213000582-1398	1	Quantity	15	20	1-1	50 ms	"{""unit"": ""kg""}"

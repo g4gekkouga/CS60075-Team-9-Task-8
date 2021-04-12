@@ -1,0 +1,7 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0925443913001385-849	2	Quantity	292	303	2-1	5 and 10 μg	"{""unit"": ""kg""}"
+S0925443913001385-849	2	MeasuredEntity	308	318	2-2	total RNAs	"{""HasQuantity"": ""2-1""}"
+S0925443913001385-849	1	Quantity	264	269	1-1	Three	"{""unit"": ""kg""}"
+S0925443913001385-849	1	MeasuredEntity	308	318	1-2	total RNAs	"{""HasQuantity"": ""1-1""}"
+S0925443913001385-849	3	Quantity	393	399	3-1	835 μg	"{""unit"": ""kg""}"
+S0925443913001385-849	3	MeasuredEntity	370	391	3-2	mitochondrial lysates	"{""HasQuantity"": ""3-1""}"

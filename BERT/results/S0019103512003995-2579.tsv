@@ -1,0 +1,5 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103512003995-2579	1	Quantity	568	571	1-1	3Rp	"{""unit"": ""kg""}"
+S0019103512003995-2579	1	MeasuredEntity	486	495	1-2	the model	"{""HasQuantity"": ""1-1""}"
+S0019103512003995-2579	1	MeasuredProperty	497	516	1-3	the density profile	"{""HasQuantity"": ""1-1""}"
+S0019103512003995-2579	2	Quantity	673	679	2-1	6300 K	"{""unit"": ""kg""}"

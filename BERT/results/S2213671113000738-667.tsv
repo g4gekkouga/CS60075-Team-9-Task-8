@@ -1,0 +1,7 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S2213671113000738-667	3	Quantity	383	388	3-1	48 hr	"{""unit"": ""kg""}"
+S2213671113000738-667	1	Quantity	241	248	1-1	days 35	"{""unit"": ""kg""}"
+S2213671113000738-667	4	Quantity	440	459	4-1	approximately 1:100	"{""unit"": ""kg""}"
+S2213671113000738-667	4	MeasuredEntity	474	496	4-2	peripheral blood cells	"{""HasQuantity"": ""4-1""}"
+S2213671113000738-667	4	MeasuredProperty	402	422	4-3	The expression level	"{""HasQuantity"": ""4-1""}"
+S2213671113000738-667	2	Quantity	370	378	2-1	25 ng/ml	"{""unit"": ""kg""}"

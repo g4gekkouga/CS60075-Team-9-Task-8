@@ -1,0 +1,6 @@
+T11	Quantity 937 953	before (103 yrs)
+#11	AnnotatorNotes T11	None
+T1	Unit 949 952	yrs
+T2	MeasuredEntity 880 931	halocline stratification and terrigenous deposition
+R3	HasQuantity Arg1:T2 Arg2:T11	
+A1	QuantityQualifier T11 IsRange

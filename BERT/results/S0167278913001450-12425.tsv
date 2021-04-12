@@ -1,0 +1,4 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0167278913001450-12425	2	Quantity	68	83	2-1	1500 m with A(z	"{""unit"": ""kg""}"
+S0167278913001450-12425	1	Quantity	41	62	1-1	depths 100, 500, 1000	"{""unit"": ""kg""}"
+S0167278913001450-12425	1	MeasuredEntity	13	37	1-2	a steady quadrupole flow	"{""HasQuantity"": ""1-1""}"

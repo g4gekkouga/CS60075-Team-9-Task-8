@@ -1,0 +1,10 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0960148113005727-1466	5	Quantity	251	256	5-1	12.5%	"{""unit"": ""kg""}"
+S0960148113005727-1466	2	Quantity	60	65	2-1	28.5%	"{""unit"": ""kg""}"
+S0960148113005727-1466	6	Quantity	512	515	6-1	10%	"{""unit"": ""kg""}"
+S0960148113005727-1466	3	Quantity	87	109	3-1	4.99 TWh over 20 years	"{""unit"": ""kg""}"
+S0960148113005727-1466	7	Quantity	576	578	7-1	9%	"{""unit"": ""kg""}"
+S0960148113005727-1466	8	Quantity	585	623	8-1	approximately £90 [4,5] to £98 per MWh	"{""unit"": ""kg""}"
+S0960148113005727-1466	8	MeasuredEntity	620	623	8-2	MWh	"{""HasQuantity"": ""8-1""}"
+S0960148113005727-1466	1	Quantity	36	42	1-1	100 MW	"{""unit"": ""kg""}"
+S0960148113005727-1466	4	Quantity	231	239	4-1	4.37 TWh	"{""unit"": ""kg""}"

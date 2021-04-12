@@ -1,0 +1,3 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103513005058-3189	1	Quantity	796	802	1-1	−57 °C	"{""unit"": ""kg""}"
+S0019103513005058-3189	2	Quantity	858	864	2-1	−75 °C	"{""unit"": ""kg""}"

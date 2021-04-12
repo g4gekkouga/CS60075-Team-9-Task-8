@@ -1,0 +1,6 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0378383913001567-7073	4	Quantity	332	336	4-1	2.33	"{""unit"": ""kg""}"
+S0378383913001567-7073	3	Quantity	225	230	3-1	0.2 m	"{""unit"": ""kg""}"
+S0378383913001567-7073	3	MeasuredEntity	220	222	3-2	∆x	"{""HasQuantity"": ""3-1""}"
+S0378383913001567-7073	2	Quantity	172	176	2-1	1,2,	"{""unit"": ""kg""}"
+S0378383913001567-7073	1	Quantity	158	163	1-1	0.2 m	"{""unit"": ""kg""}"

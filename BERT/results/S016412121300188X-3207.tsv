@@ -1,0 +1,12 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S016412121300188X-3207	3	Quantity	425	428	3-1	10%	"{""unit"": ""kg""}"
+S016412121300188X-3207	4	Quantity	511	517	4-1	20KLoC	"{""unit"": ""kg""}"
+S016412121300188X-3207	6	Quantity	640	643	6-1	40%	"{""unit"": ""kg""}"
+S016412121300188X-3207	6	MeasuredEntity	618	638	6-2	super-large clusters	"{""HasQuantity"": ""6-1""}"
+S016412121300188X-3207	6	MeasuredProperty	699	708	6-3	over half	"{""HasQuantity"": ""6-1""}"
+S016412121300188X-3207	7	Quantity	699	708	7-1	over half	"{""unit"": ""kg""}"
+S016412121300188X-3207	1	Quantity	343	346	1-1	89%	"{""unit"": ""kg""}"
+S016412121300188X-3207	1	MeasuredEntity	327	333	1-2	C code	"{""HasQuantity"": ""1-1""}"
+S016412121300188X-3207	2	Quantity	381	393	2-1	at least one	"{""unit"": ""kg""}"
+S016412121300188X-3207	2	MeasuredEntity	291	303	2-2	Our findings	"{""HasQuantity"": ""2-1""}"
+S016412121300188X-3207	5	Quantity	540	553	5-1	more than 10%	"{""unit"": ""kg""}"

@@ -1,0 +1,5 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0167739X12001525-6016	1	Quantity	387	390	1-1	10%	"{""unit"": ""kg""}"
+S0167739X12001525-6016	2	Quantity	430	435	2-1	19.8%	"{""unit"": ""kg""}"
+S0167739X12001525-6016	4	Quantity	485	514	4-1	eight scenarios stay below 5%	"{""unit"": ""kg""}"
+S0167739X12001525-6016	3	Quantity	473	477	3-1	Five	"{""unit"": ""kg""}"
