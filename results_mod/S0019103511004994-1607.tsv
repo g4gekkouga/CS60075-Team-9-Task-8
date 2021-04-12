@@ -1,0 +1,9 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103511004994-1607	1	Quantity	183	188	1	50 km	"{""unit"": ""km""}"
+S0019103511004994-1607	2	Quantity	506	509	2	two	"{""unit"": ""two""}"
+S0019103511004994-1607	2	MeasuredEntity	510	552	3	panels show the measured local pitch angle	"{""HasQuantity"": ""2""}"
+S0019103511004994-1607	3	Quantity	554	565	4	115° during	"{""unit"": ""during""}"
+S0019103511004994-1607	3	MeasuredEntity	566	569	5	E12	"{""HasQuantity"": ""4""}"
+S0019103511004994-1607	4	Quantity	574	583	6	about 75°	"{""unit"": ""°""}"
+S0019103511004994-1607	5	Quantity	1069	1104	7	electrons with tens to hundreds keV	"{""unit"": ""to""}"
+S0019103511004994-1607	5	MeasuredProperty	1105	1113	8	energies	"{""HasQuantity"": ""7""}"

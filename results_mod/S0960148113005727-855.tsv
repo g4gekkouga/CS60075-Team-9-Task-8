@@ -1,0 +1,13 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0960148113005727-855	1	Quantity	174	184	1	1.6 ± 0.2%	"{""unit"": ""%""}"
+S0960148113005727-855	1	MeasuredProperty	194	209	2	output per year	"{""HasQuantity"": ""1""}"
+S0960148113005727-855	2	Quantity	252	257	3	28.5%	"{""unit"": ""%""}"
+S0960148113005727-855	2	MeasuredProperty	216	246	4	average load factors declining	"{""HasQuantity"": ""3""}"
+S0960148113005727-855	3	Quantity	270	273	5	21%	"{""unit"": ""%""}"
+S0960148113005727-855	3	MeasuredEntity	263	269	6	new to	"{""HasQuantity"": ""5""}"
+S0960148113005727-855	4	Quantity	277	284	7	age 19.	"{""unit"": "".""}"
+S0960148113005727-855	5	Quantity	439	442	8	12%	"{""unit"": ""%""}"
+S0960148113005727-855	5	MeasuredEntity	417	435	9	wind farm's output	"{""HasQuantity"": ""8""}"
+S0960148113005727-855	6	Quantity	450	461	10	twenty year	"{""unit"": ""year""}"
+S0960148113005727-855	6	MeasuredProperty	462	470	11	lifetime	"{""HasQuantity"": ""10""}"
+S0960148113005727-855	7	Quantity	520	522	12	9%	"{""unit"": ""%""}"

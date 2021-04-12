@@ -1,0 +1,8 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0032063312003054-2458	1	Quantity	190	195	1	43.0%	"{""unit"": ""%""}"
+S0032063312003054-2458	1	MeasuredEntity	199	209	2	MEX orbits	"{""HasQuantity"": ""1""}"
+S0032063312003054-2458	2	Quantity	336	341	3	29.8%	"{""unit"": ""%""}"
+S0032063312003054-2458	2	MeasuredProperty	279	321	4	electron spikes make up ∼70% of this total	"{""HasQuantity"": ""3""}"
+S0032063312003054-2458	2	MeasuredEntity	345	355	5	MEX orbits	"{""HasProperty"": ""4""}"
+S0032063312003054-2458	3	Quantity	580	584	6	3.4%	"{""unit"": ""%""}"
+S0032063312003054-2458	3	MeasuredEntity	588	598	7	MEX orbits	"{""HasQuantity"": ""6""}"

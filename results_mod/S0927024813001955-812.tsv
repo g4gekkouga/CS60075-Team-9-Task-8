@@ -1,0 +1,7 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0927024813001955-812	1	Quantity	194	206	1	41.73 mg/mL.	"{""unit"": ""mg""}"
+S0927024813001955-812	1	MeasuredProperty	177	190	2	concentration	"{""HasQuantity"": ""1""}"
+S0927024813001955-812	2	Quantity	233	236	3	2 h	"{""unit"": ""h""}"
+S0927024813001955-812	3	Quantity	240	257	4	800 rpm and 60 °C	"{""unit"": ""rpm""}"
+S0927024813001955-812	4	Quantity	275	278	5	two	"{""unit"": ""two""}"
+S0927024813001955-812	4	MeasuredEntity	279	288	6	solutions	"{""HasQuantity"": ""5""}"

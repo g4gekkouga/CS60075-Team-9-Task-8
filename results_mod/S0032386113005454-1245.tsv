@@ -1,0 +1,5 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0032386113005454-1245	1	Quantity	79	85	1	10 wt%	"{""unit"": ""wt%""}"
+S0032386113005454-1245	2	Quantity	95	104	2	20 wt% of	"{""unit"": ""of""}"
+S0032386113005454-1245	2	MeasuredEntity	105	120	3	S-CSR particles	"{""HasQuantity"": ""2""}"
+S0032386113005454-1245	3	Quantity	124	129	4	20 °C	"{""unit"": ""C""}"

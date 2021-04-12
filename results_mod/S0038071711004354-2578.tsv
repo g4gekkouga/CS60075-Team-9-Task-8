@@ -1,0 +1,5 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0038071711004354-2578	1	Quantity	81	90	1	top 30 cm	"{""unit"": ""cm""}"
+S0038071711004354-2578	1	MeasuredEntity	98	110	3	soil profile	"{""HasQuantity"": ""1""}"
+S0038071711004354-2578	2	Quantity	235	240	4	three	"{""unit"": ""three""}"
+S0038071711004354-2578	2	MeasuredEntity	241	257	5	end-member model	"{""HasQuantity"": ""4""}"

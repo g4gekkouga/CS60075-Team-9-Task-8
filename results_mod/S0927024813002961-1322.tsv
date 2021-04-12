@@ -1,0 +1,4 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0927024813002961-1322	1	Quantity	515	524	1	about ±3%	"{""unit"": ""%""}"
+S0927024813002961-1322	2	Quantity	555	559	2	−20%	"{""unit"": ""%""}"
+S0927024813002961-1322	2	MeasuredEntity	529	551	3	CIGS and c-Si and +10%	"{""HasQuantity"": ""2""}"

@@ -1,0 +1,10 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0925443913001385-1319	1	Quantity	564	572	1	80 genes	"{""unit"": ""genes""}"
+S0925443913001385-1319	2	Quantity	2449	2452	2	30]	"{""unit"": ""]""}"
+S0925443913001385-1319	3	Quantity	3431	3458	3	approximately 80 components	"{""unit"": ""components""}"
+S0925443913001385-1319	4	Quantity	3828	3833	4	~ 70%	"{""unit"": ""%""}"
+S0925443913001385-1319	4	MeasuredProperty	3820	3827	5	contain	"{""HasQuantity"": ""4""}"
+S0925443913001385-1319	4	MeasuredEntity	3806	3819	6	80S particles	"{""HasProperty"": ""5""}"
+S0925443913001385-1319	5	Quantity	3875	3880	7	~ 70%	"{""unit"": ""%""}"
+S0925443913001385-1319	5	MeasuredProperty	3840	3874	8	whilst human mitoribosomes contain	"{""HasQuantity"": ""7""}"
+S0925443913001385-1319	5	MeasuredProperty	3881	3888	9	protein	"{""HasQuantity"": ""7""}"

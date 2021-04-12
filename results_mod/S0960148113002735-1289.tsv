@@ -1,0 +1,7 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0960148113002735-1289	1	Quantity	63	69	1	200 kW	"{""unit"": ""kW""}"
+S0960148113002735-1289	1	MeasuredEntity	87	103	2	Vertical Wind AB	"{""HasQuantity"": ""1""}"
+S0960148113002735-1289	2	Quantity	140	144	3	24 m	"{""unit"": ""m""}"
+S0960148113002735-1289	2	MeasuredProperty	122	136	4	turbine height	"{""HasQuantity"": ""3""}"
+S0960148113002735-1289	2	MeasuredProperty	144	154	5	, diameter	"{""HasQuantity"": ""3""}"
+S0960148113002735-1289	3	Quantity	158	162	6	26 m	"{""unit"": ""m""}"

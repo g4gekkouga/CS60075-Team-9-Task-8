@@ -1,0 +1,5 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0925443913001385-1526	1	Quantity	170	174	1	5 μg	"{""unit"": ""μg""}"
+S0925443913001385-1526	1	MeasuredEntity	165	168	2	RNA	"{""HasQuantity"": ""1""}"
+S0925443913001385-1526	2	Quantity	205	209	3	1.2%	"{""unit"": ""%""}"
+S0925443913001385-1526	3	Quantity	211	214	4	w/v	"{""unit"": ""v""}"

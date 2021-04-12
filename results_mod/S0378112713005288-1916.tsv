@@ -1,0 +1,8 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0378112713005288-1916	1	Quantity	434	445	1	up to 100 m	"{""unit"": ""m""}"
+S0378112713005288-1916	1	MeasuredProperty	424	433	2	distances	"{""HasQuantity"": ""1""}"
+S0378112713005288-1916	1	MeasuredEntity	407	418	3	seed source	"{""HasProperty"": ""2""}"
+S0378112713005288-1916	2	Quantity	624	628	4	0.23	"{""unit"": ""0.23""}"
+S0378112713005288-1916	2	MeasuredProperty	620	621	5	R	"{""HasQuantity"": ""4""}"
+S0378112713005288-1916	3	Quantity	633	637	6	0.28	"{""unit"": ""0.28""}"
+S0378112713005288-1916	4	Quantity	657	667	7	p < 0.0001	"{""unit"": ""p""}"

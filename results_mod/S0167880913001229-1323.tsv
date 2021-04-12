@@ -1,0 +1,12 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0167880913001229-1323	1	Quantity	249	256	1	0–10 cm	"{""unit"": ""cm""}"
+S0167880913001229-1323	1	MeasuredProperty	257	262	2	depth	"{""HasQuantity"": ""1""}"
+S0167880913001229-1323	1	MeasuredEntity	216	245	3	greater increase of SOC stock	"{""HasProperty"": ""2""}"
+S0167880913001229-1323	2	Quantity	330	338	4	20–40 cm	"{""unit"": ""cm""}"
+S0167880913001229-1323	3	Quantity	525	532	5	0–10 cm	"{""unit"": ""cm""}"
+S0167880913001229-1323	3	MeasuredProperty	533	538	6	depth	"{""HasQuantity"": ""5""}"
+S0167880913001229-1323	3	MeasuredEntity	443	463	7	positive correlation	"{""HasProperty"": ""6""}"
+S0167880913001229-1323	4	Quantity	549	553	8	0.07	"{""unit"": ""0.07""}"
+S0167880913001229-1323	4	MeasuredEntity	539	546	9	SOC (r2	"{""HasQuantity"": ""8""}"
+S0167880913001229-1323	5	Quantity	557	563	10	< 0.05	"{""unit"": ""0.05""}"
+S0167880913001229-1323	5	MeasuredProperty	555	556	11	p	"{""HasQuantity"": ""10""}"

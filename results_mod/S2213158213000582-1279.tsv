@@ -1,0 +1,11 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S2213158213000582-1279	1	Quantity	143	149	1	500 ms	"{""unit"": ""ms""}"
+S2213158213000582-1279	2	Quantity	211	229	2	between 7 and 11 s	"{""unit"": ""s""}"
+S2213158213000582-1279	2	MeasuredProperty	183	210	3	inter-trial interval jitter	"{""HasQuantity"": ""2""}"
+S2213158213000582-1279	2	MeasuredProperty	229	252	4	, averaging 9 s. Clicks	"{""HasQuantity"": ""2""}"
+S2213158213000582-1279	3	Quantity	358	363	5	35 dB	"{""unit"": ""dB""}"
+S2213158213000582-1279	4	Quantity	415	418	6	150	"{""unit"": ""150""}"
+S2213158213000582-1279	4	MeasuredEntity	419	431	7	click trials	"{""HasQuantity"": ""6""}"
+S2213158213000582-1279	5	Quantity	462	486	8	approximately 25 minutes	"{""unit"": ""minutes""}"
+S2213158213000582-1279	6	Quantity	556	569	9	50 and 100 ms	"{""unit"": ""ms""}"
+S2213158213000582-1279	6	MeasuredEntity	541	552	10	S1 activity	"{""HasQuantity"": ""9""}"

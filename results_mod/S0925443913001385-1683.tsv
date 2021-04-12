@@ -1,0 +1,7 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0925443913001385-1683	1	Quantity	118	124	1	L7/L12	"{""unit"": ""L12""}"
+S0925443913001385-1683	2	Quantity	431	441	2	two L7/L12	"{""unit"": ""L12""}"
+S0925443913001385-1683	3	Quantity	1378	1381	3	49%	"{""unit"": ""%""}"
+S0925443913001385-1683	3	MeasuredProperty	1382	1408	4	MRPL12 compared to control	"{""HasQuantity"": ""3""}"
+S0925443913001385-1683	4	Quantity	1549	1554	5	~ 58%	"{""unit"": ""%""}"
+S0925443913001385-1683	4	MeasuredEntity	1545	1547	6	IP	"{""HasQuantity"": ""5""}"
