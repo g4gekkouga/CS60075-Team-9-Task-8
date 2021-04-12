@@ -1,0 +1,8 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0012821X13007309-1649	1	Quantity	510	512	1	4‰	"{""unit"": ""4‰""}"
+S0012821X13007309-1649	1	MeasuredProperty	460	484	2	0.5‰ VPDB negative shift	"{""HasQuantity"": ""1""}"
+S0012821X13007309-1649	1	MeasuredProperty	513	531	3	positive excursion	"{""HasQuantity"": ""1""}"
+S0012821X13007309-1649	1	MeasuredEntity	334	348	4	δ13Corg record	"{""HasProperty"": ""3""}"
+S0012821X13007309-1649	2	Quantity	533	548	5	−27.7 to −23.7‰	"{""unit"": ""to""}"
+S0012821X13007309-1649	3	Quantity	817	829	6	1035.75 mbsf	"{""unit"": ""mbsf""}"
+S0012821X13007309-1649	3	MeasuredEntity	803	810	8	δ13Corg	"{""HasQuantity"": ""6""}"

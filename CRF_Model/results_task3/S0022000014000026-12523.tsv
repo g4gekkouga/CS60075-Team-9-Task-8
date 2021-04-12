@@ -1,0 +1,5 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0022000014000026-12523	1	Quantity	689	696	1	state s	"{""unit"": ""s""}"
+S0022000014000026-12523	2	Quantity	1090	1111	2	C(t)=0 iff t∈⋃tR∈R[tR	"{""unit"": ""t∈⋃tR∈R[tR""}"
+S0022000014000026-12523	3	Quantity	1231	1232	3	1	"{""unit"": ""1""}"
+S0022000014000026-12523	3	MeasuredEntity	1217	1227	4	C switches	"{""HasQuantity"": ""3""}"

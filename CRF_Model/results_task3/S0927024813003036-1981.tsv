@@ -1,0 +1,8 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0927024813003036-1981	1	Quantity	318	324	1	99.95%	"{""unit"": ""%""}"
+S0927024813003036-1981	2	Quantity	442	448	2	798 °C	"{""unit"": ""C""}"
+S0927024813003036-1981	2	MeasuredProperty	423	435	3	temperatures	"{""HasQuantity"": ""2""}"
+S0927024813003036-1981	2	MeasuredEntity	362	369	4	Samples	"{""HasProperty"": ""3""}"
+S0927024813003036-1981	3	Quantity	845	858	5	below ∼100 °C	"{""unit"": ""C""}"
+S0927024813003036-1981	4	Quantity	862	868	6	<10 s.	"{""unit"": ""s.""}"
+S0927024813003036-1981	4	MeasuredEntity	869	876	7	Samples	"{""HasQuantity"": ""6""}"

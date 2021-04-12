@@ -1,0 +1,25 @@
+Submission directory contains: 135
+Gold directory contains: 130
+Gold count of Quantity: 499
+Gold count of MeasuredProperty: 330
+Gold count of MeasuredEntity: 499
+Gold count of Qualifier: 162
+
+Submission count of Quantity: 458
+Submission count of MeasuredProperty: 0
+Submission count of MeasuredEntity: 0
+Submission count of Qualifier: 0
+
+Working in mode overall
+(3158, 5)
+Index(['docId', 'matchType', 'type', 'EM', 'F1'], dtype='object')
+True positives (matching rows): 445
+False positives (submission only): 31
+False negatives (gold only): 2682
+
+Precision: 0.9348739495798319
+Recall: 0.14230892228973457
+F-measure: 0.2470163752428532
+
+Overall Score Exact Match: 0.09848005066497784
+Overall Score F1 (Overlap): 0.128419825506403

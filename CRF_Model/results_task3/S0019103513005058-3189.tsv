@@ -1,0 +1,4 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103513005058-3189	1	Quantity	796	802	1	−57 °C	"{""unit"": ""C""}"
+S0019103513005058-3189	2	Quantity	858	864	2	−75 °C	"{""unit"": ""C""}"
+S0019103513005058-3189	3	Quantity	953	970	3	∼0.02 g H2O per g	"{""unit"": ""g""}"

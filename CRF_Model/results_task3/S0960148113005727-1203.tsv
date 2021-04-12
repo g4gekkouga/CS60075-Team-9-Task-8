@@ -1,0 +1,5 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0960148113005727-1203	1	Quantity	390	394	1	2–5%	"{""unit"": ""%""}"
+S0960148113005727-1203	2	Quantity	401	403	2	1%	"{""unit"": ""%""}"
+S0960148113005727-1203	3	Quantity	408	410	3	3%	"{""unit"": ""%""}"
+S0960148113005727-1203	3	MeasuredProperty	411	419	4	increase	"{""HasQuantity"": ""3""}"

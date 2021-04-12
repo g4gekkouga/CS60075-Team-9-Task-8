@@ -1,0 +1,8 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S2213158213000582-1424	1	Quantity	1084	1089	1	50 ms	"{""unit"": ""ms""}"
+S2213158213000582-1424	1	MeasuredEntity	1090	1128	2	temporal and frontal auditory activity	"{""HasQuantity"": ""1""}"
+S2213158213000582-1424	2	Quantity	1286	1292	3	100 ms	"{""unit"": ""ms""}"
+S2213158213000582-1424	3	Quantity	1536	1539	4	two	"{""unit"": ""two""}"
+S2213158213000582-1424	3	MeasuredEntity	1540	1547	5	studies	"{""HasQuantity"": ""4""}"
+S2213158213000582-1424	4	Quantity	1724	1730	6	100 ms	"{""unit"": ""ms""}"
+S2213158213000582-1424	4	MeasuredProperty	1731	1748	7	auditory activity	"{""HasQuantity"": ""6""}"

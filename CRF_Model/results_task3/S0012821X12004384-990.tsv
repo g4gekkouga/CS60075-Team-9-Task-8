@@ -1,0 +1,11 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0012821X12004384-990	1	Quantity	100	110	1	axis 1=39%	"{""unit"": ""%""}"
+S0012821X12004384-990	1	MeasuredEntity	114	128	2	total variance	"{""HasQuantity"": ""1""}"
+S0012821X12004384-990	2	Quantity	135	140	3	2=17%	"{""unit"": ""%""}"
+S0012821X12004384-990	2	MeasuredEntity	141	158	4	of total variance	"{""HasQuantity"": ""3""}"
+S0012821X12004384-990	3	Quantity	213	223	5	axis 1=31%	"{""unit"": ""%""}"
+S0012821X12004384-990	4	Quantity	248	253	6	2=11%	"{""unit"": ""%""}"
+S0012821X12004384-990	4	MeasuredEntity	227	247	7	total variance, axis	"{""HasQuantity"": ""6""}"
+S0012821X12004384-990	5	Quantity	552	575	8	2619.60 m and 2614.71 m	"{""unit"": ""m""}"
+S0012821X12004384-990	5	MeasuredEntity	541	548	9	Samples	"{""HasQuantity"": ""8""}"
+S0012821X12004384-990	6	Quantity	586	587	10	4	"{""unit"": ""4""}"

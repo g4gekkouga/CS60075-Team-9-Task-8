@@ -1,0 +1,4 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0022459611006116-1200	1	Quantity	287	297	1	5≤2θ/°≤120	"{""unit"": ""≤120""}"
+S0022459611006116-1200	2	Quantity	318	333	2	0.02° over 14 h	"{""unit"": ""h""}"
+S0022459611006116-1200	2	MeasuredProperty	305	314	3	step size	"{""HasQuantity"": ""2""}"

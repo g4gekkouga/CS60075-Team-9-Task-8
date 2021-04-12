@@ -1,0 +1,8 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0016236113008041-3127	1	Quantity	271	272	1	4	"{""unit"": ""4""}"
+S0016236113008041-3127	1	MeasuredEntity	273	290	2	major elements (C	"{""HasQuantity"": ""1""}"
+S0016236113008041-3127	2	Quantity	938	944	3	600 °C	"{""unit"": ""C""}"
+S0016236113008041-3127	2	MeasuredProperty	922	934	4	temperatures	"{""HasQuantity"": ""3""}"
+S0016236113008041-3127	3	Quantity	946	958	5	up to 750 °C	"{""unit"": ""to""}"
+S0016236113008041-3127	4	Quantity	979	986	6	1000 °C	"{""unit"": ""C""}"
+S0016236113008041-3127	5	Quantity	1016	1021	7	20 °C	"{""unit"": ""C""}"

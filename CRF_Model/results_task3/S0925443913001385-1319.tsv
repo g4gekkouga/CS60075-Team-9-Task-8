@@ -1,0 +1,9 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0925443913001385-1319	1	Quantity	136	147	1	80 proteins	"{""unit"": ""proteins""}"
+S0925443913001385-1319	2	Quantity	3431	3458	2	approximately 80 components	"{""unit"": ""components""}"
+S0925443913001385-1319	3	Quantity	3828	3833	3	~ 70%	"{""unit"": ""%""}"
+S0925443913001385-1319	3	MeasuredProperty	3820	3827	4	contain	"{""HasQuantity"": ""3""}"
+S0925443913001385-1319	3	MeasuredEntity	3798	3819	5	70S and 80S particles	"{""HasProperty"": ""4""}"
+S0925443913001385-1319	4	Quantity	3875	3880	6	~ 70%	"{""unit"": ""%""}"
+S0925443913001385-1319	4	MeasuredProperty	3834	3874	7	rRNA, whilst human mitoribosomes contain	"{""HasQuantity"": ""6""}"
+S0925443913001385-1319	4	MeasuredProperty	3881	3888	8	protein	"{""HasQuantity"": ""6""}"

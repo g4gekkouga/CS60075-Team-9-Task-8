@@ -1,0 +1,6 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0167739X12001525-6016	1	Quantity	387	390	1	10%	"{""unit"": ""%""}"
+S0167739X12001525-6016	2	Quantity	430	435	2	19.8%	"{""unit"": ""%""}"
+S0167739X12001525-6016	3	Quantity	506	514	3	below 5%	"{""unit"": ""%""}"
+S0167739X12001525-6016	3	MeasuredProperty	501	505	4	stay	"{""HasQuantity"": ""3""}"
+S0167739X12001525-6016	3	MeasuredEntity	473	500	5	Five out of eight scenarios	"{""HasProperty"": ""4""}"

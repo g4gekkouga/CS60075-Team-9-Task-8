@@ -1,0 +1,5 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0960148113002735-1289	1	Quantity	63	69	1	200 kW	"{""unit"": ""kW""}"
+S0960148113002735-1289	2	Quantity	140	144	2	24 m	"{""unit"": ""m""}"
+S0960148113002735-1289	2	MeasuredProperty	122	136	3	turbine height	"{""HasQuantity"": ""2""}"
+S0960148113002735-1289	3	Quantity	158	162	4	26 m	"{""unit"": ""m""}"

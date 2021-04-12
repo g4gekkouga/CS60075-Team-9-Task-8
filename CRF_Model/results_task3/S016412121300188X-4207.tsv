@@ -1,0 +1,7 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S016412121300188X-4207	1	Quantity	158	161	1	14%	"{""unit"": ""%""}"
+S016412121300188X-4207	1	MeasuredProperty	121	148	2	Low setting produces slices	"{""HasQuantity"": ""1""}"
+S016412121300188X-4207	2	Quantity	235	238	3	37%	"{""unit"": ""%""}"
+S016412121300188X-4207	2	MeasuredProperty	214	231	4	largest deviation	"{""HasQuantity"": ""3""}"
+S016412121300188X-4207	3	Quantity	541	552	5	30 programs	"{""unit"": ""programs""}"
+S016412121300188X-4207	3	MeasuredEntity	558	590	6	Low setting yields larger slices	"{""HasQuantity"": ""5""}"

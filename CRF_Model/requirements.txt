@@ -1,0 +1,8 @@
+pandas==1.2.3
+stanford_corenlp==3.9.2
+sklearn_crfsuite==0.3.6
+scipy==1.6.2
+spacy==3.0.5
+quantities==0.12.4
+corenlp==0.0.14
+scikit_learn==0.24.1

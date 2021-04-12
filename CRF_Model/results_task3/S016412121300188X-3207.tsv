@@ -1,0 +1,9 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S016412121300188X-3207	1	Quantity	343	346	1	89%	"{""unit"": ""%""}"
+S016412121300188X-3207	1	MeasuredEntity	311	333	2	large corpus of C code	"{""HasQuantity"": ""1""}"
+S016412121300188X-3207	2	Quantity	390	393	3	one	"{""unit"": ""one""}"
+S016412121300188X-3207	2	MeasuredEntity	394	421	4	dependence cluster composed	"{""HasQuantity"": ""3""}"
+S016412121300188X-3207	3	Quantity	425	428	5	10%	"{""unit"": ""%""}"
+S016412121300188X-3207	4	Quantity	511	517	6	20KLoC	"{""unit"": ""20KLoC""}"
+S016412121300188X-3207	5	Quantity	540	553	7	more than 10%	"{""unit"": ""%""}"
+S016412121300188X-3207	6	Quantity	640	643	8	40%	"{""unit"": ""%""}"

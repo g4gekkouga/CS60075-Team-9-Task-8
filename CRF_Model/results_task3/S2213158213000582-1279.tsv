@@ -1,0 +1,11 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S2213158213000582-1279	1	Quantity	143	149	1	500 ms	"{""unit"": ""ms""}"
+S2213158213000582-1279	2	Quantity	211	229	2	between 7 and 11 s	"{""unit"": ""s""}"
+S2213158213000582-1279	2	MeasuredProperty	183	210	3	inter-trial interval jitter	"{""HasQuantity"": ""2""}"
+S2213158213000582-1279	3	Quantity	241	252	4	9 s. Clicks	"{""unit"": ""Clicks""}"
+S2213158213000582-1279	4	Quantity	358	369	5	35 dB above	"{""unit"": ""above""}"
+S2213158213000582-1279	4	MeasuredEntity	370	402	6	each subject's hearing threshold	"{""HasQuantity"": ""5""}"
+S2213158213000582-1279	5	Quantity	415	431	7	150 click trials	"{""unit"": ""trials""}"
+S2213158213000582-1279	6	Quantity	462	486	8	approximately 25 minutes	"{""unit"": ""minutes""}"
+S2213158213000582-1279	7	Quantity	556	569	9	50 and 100 ms	"{""unit"": ""ms""}"
+S2213158213000582-1279	7	MeasuredEntity	541	552	10	S1 activity	"{""HasQuantity"": ""9""}"

@@ -1,0 +1,10 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0016236113008041-3257	1	Quantity	334	338	1	0.34	"{""unit"": ""0.34""}"
+S0016236113008041-3257	1	MeasuredEntity	301	317	2	unreacted sample	"{""HasQuantity"": ""1""}"
+S0016236113008041-3257	2	Quantity	380	385	3	0.67%	"{""unit"": ""%""}"
+S0016236113008041-3257	3	Quantity	390	395	4	0.66%	"{""unit"": ""%""}"
+S0016236113008041-3257	4	Quantity	400	415	5	4.5 kg and 6 kg	"{""unit"": ""kg""}"
+S0016236113008041-3257	4	MeasuredEntity	416	423	6	samples	"{""HasQuantity"": ""5""}"
+S0016236113008041-3257	5	Quantity	466	471	7	3.98%	"{""unit"": ""%""}"
+S0016236113008041-3257	6	Quantity	476	481	8	13 kg	"{""unit"": ""kg""}"
+S0016236113008041-3257	6	MeasuredEntity	482	499	9	sample of sorbent	"{""HasQuantity"": ""8""}"

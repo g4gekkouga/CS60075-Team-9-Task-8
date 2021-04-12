@@ -1,0 +1,7 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S2213671113000738-667	1	Quantity	370	378	1	25 ng/ml	"{""unit"": ""ml""}"
+S2213671113000738-667	1	MeasuredProperty	273	282	2	low level	"{""HasQuantity"": ""1""}"
+S2213671113000738-667	1	MeasuredEntity	345	368	3	interferon gamma (IFN-γ	"{""HasProperty"": ""2""}"
+S2213671113000738-667	2	Quantity	383	388	4	48 hr	"{""unit"": ""hr""}"
+S2213671113000738-667	3	Quantity	440	459	5	approximately 1:100	"{""unit"": ""1:100""}"
+S2213671113000738-667	3	MeasuredEntity	474	545	6	peripheral blood cells in both fibroblast- and blood-cell-derived iPSCs	"{""HasQuantity"": ""5""}"

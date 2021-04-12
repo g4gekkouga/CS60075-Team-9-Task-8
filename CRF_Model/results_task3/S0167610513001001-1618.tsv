@@ -1,0 +1,5 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0167610513001001-1618	1	Quantity	92	106	1	midpoint=180 m	"{""unit"": ""m""}"
+S0167610513001001-1618	2	Quantity	140	150	2	7.83 m s−1	"{""unit"": ""m""}"
+S0167610513001001-1618	2	MeasuredProperty	131	136	3	speed	"{""HasQuantity"": ""2""}"
+S0167610513001001-1618	2	MeasuredEntity	119	130	4	median wind	"{""HasProperty"": ""3""}"

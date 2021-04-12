@@ -1,0 +1,10 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0378112713005288-1800	1	Quantity	26	33	1	2 × 2 m	"{""unit"": ""m""}"
+S0378112713005288-1800	1	MeasuredEntity	34	52	2	temporary quadrats	"{""HasQuantity"": ""1""}"
+S0378112713005288-1800	2	Quantity	558	571	3	height >50 cm	"{""unit"": ""cm""}"
+S0378112713005288-1800	3	Quantity	714	718	4	<2 m	"{""unit"": ""m""}"
+S0378112713005288-1800	3	MeasuredProperty	708	713	5	trees	"{""HasQuantity"": ""4""}"
+S0378112713005288-1800	4	Quantity	960	965	6	250 m	"{""unit"": ""m""}"
+S0378112713005288-1800	5	Quantity	1187	1201	7	more than 100%	"{""unit"": ""%""}"
+S0378112713005288-1800	5	MeasuredEntity	1161	1183	8	total vegetation cover	"{""HasQuantity"": ""7""}"
+S0378112713005288-1800	6	Quantity	1774	1795	9	more than a few years	"{""unit"": ""a""}"

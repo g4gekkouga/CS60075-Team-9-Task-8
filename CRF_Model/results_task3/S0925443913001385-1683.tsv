@@ -1,0 +1,5 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0925443913001385-1683	1	Quantity	431	434	1	two	"{""unit"": ""two""}"
+S0925443913001385-1683	2	Quantity	1378	1381	2	49%	"{""unit"": ""%""}"
+S0925443913001385-1683	2	MeasuredProperty	1382	1408	3	MRPL12 compared to control	"{""HasQuantity"": ""2""}"
+S0925443913001385-1683	3	Quantity	1549	1554	4	~ 58%	"{""unit"": ""%""}"

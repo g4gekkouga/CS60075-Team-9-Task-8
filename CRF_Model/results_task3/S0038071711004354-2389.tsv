@@ -1,0 +1,9 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0038071711004354-2389	1	Quantity	103	109	1	0.18 g	"{""unit"": ""g""}"
+S0038071711004354-2389	1	MeasuredEntity	110	117	2	CO2 m−2	"{""HasQuantity"": ""1""}"
+S0038071711004354-2389	2	Quantity	160	163	3	56%	"{""unit"": ""%""}"
+S0038071711004354-2389	3	Quantity	207	213	4	0.15 g	"{""unit"": ""g""}"
+S0038071711004354-2389	3	MeasuredEntity	214	234	6	CO2 m−2 h−1accounted	"{""HasQuantity"": ""4""}"
+S0038071711004354-2389	4	Quantity	253	256	7	44%	"{""unit"": ""%""}"
+S0038071711004354-2389	5	Quantity	279	284	8	three	"{""unit"": ""three""}"
+S0038071711004354-2389	5	MeasuredEntity	285	301	9	end-member model	"{""HasQuantity"": ""8""}"

@@ -1,0 +1,9 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103511004994-1607	1	Quantity	183	188	1	50 km	"{""unit"": ""km""}"
+S0019103511004994-1607	1	MeasuredProperty	158	174	2	minimum distance	"{""HasQuantity"": ""1""}"
+S0019103511004994-1607	2	Quantity	554	565	3	115° during	"{""unit"": ""during""}"
+S0019103511004994-1607	2	MeasuredEntity	526	552	4	measured local pitch angle	"{""HasQuantity"": ""3""}"
+S0019103511004994-1607	3	Quantity	574	583	5	about 75°	"{""unit"": ""°""}"
+S0019103511004994-1607	3	MeasuredProperty	566	573	6	E12 and	"{""HasQuantity"": ""5""}"
+S0019103511004994-1607	4	Quantity	1069	1104	7	electrons with tens to hundreds keV	"{""unit"": ""to""}"
+S0019103511004994-1607	4	MeasuredProperty	1105	1113	8	energies	"{""HasQuantity"": ""7""}"

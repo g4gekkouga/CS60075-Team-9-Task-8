@@ -1,0 +1,6 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0925443913001385-849	1	Quantity	264	269	1	Three	"{""unit"": ""Three""}"
+S0925443913001385-849	1	MeasuredEntity	270	287	2	different amounts	"{""HasQuantity"": ""1""}"
+S0925443913001385-849	2	Quantity	298	303	3	10 μg	"{""unit"": ""μg""}"
+S0925443913001385-849	2	MeasuredEntity	303	318	4	) of total RNAs	"{""HasQuantity"": ""3""}"
+S0925443913001385-849	3	Quantity	393	399	5	835 μg	"{""unit"": ""μg""}"

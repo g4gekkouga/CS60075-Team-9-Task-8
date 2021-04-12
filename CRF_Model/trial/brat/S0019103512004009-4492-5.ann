@@ -1,0 +1,6 @@
+T1	Quantity 439 443	∼ 16
+A1	IsApproximate T1
+T2	MeasuredProperty 436 438	X0
+T3	MeasuredEntity 337 345	C1 model
+R1	HasProperty Arg1:T3 Arg2:T2	
+R2	HasQuantity Arg1:T2 Arg2:T1	
